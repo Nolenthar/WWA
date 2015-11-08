@@ -8,9 +8,9 @@ class CModPreparationsConfig
 	//allow meditation near fire sources (campfires are not fire sources)
 	const var allowFireSource : bool;			default allowFireSource = true;
 	//allow meditation near any light source (campfires and fire sources are also light sources)
-	const var allowLightSource : bool;			default allowLightSource = false;
+	const var allowLightSource : bool;			default allowLightSource = true;
 	//disallows meditating in interior
-	const var disallowInterior : bool;			default disallowInterior = false;
+	const var disallowInterior : bool;			default disallowInterior = true;
 	//disallows meditating in settlements (can still meditate in interior if disallowInterior = false)
 	const var disallowSettlement : bool;		default disallowSettlement = false;
 	//disallows meditating near non-allied NPCs
@@ -44,18 +44,18 @@ class CModPreparationsConfig
 	//time in seconds to upgrade an item
 	const var timeToUpgradeItemSec : int;		default timeToUpgradeItemSec = 3600;
 	//time in seconds to buy skill
-	const var timeToBuySkillSec : int;			default timeToBuySkillSec = 7200;
+	const var timeToBuySkillSec : int;			default timeToBuySkillSec = 3600;
 	//time in seconds to equip skill (unequip/swap takes no time)
-	const var timeToEquipSkillSec : int;		default timeToEquipSkillSec = 900;
+	const var timeToEquipSkillSec : int;		default timeToEquipSkillSec = 0;
 	//time in seconds to equip mutagen (unequipping takes no time)
-	const var timeToEquipMutagenSec : int;		default timeToEquipMutagenSec = 7200;
+	const var timeToEquipMutagenSec : int;		default timeToEquipMutagenSec = 3600;
 
 	//real time meditation acceleration parameters
 	const var MAX_HOURS_PER_MINUTE : float;		default MAX_HOURS_PER_MINUTE = 60;
 	const var HOURS_PER_MINUTE_PER_SECOND : float;	default HOURS_PER_MINUTE_PER_SECOND = 6;
 	
 	//max oil charges
-	const var maxOilCharges : int;				default maxOilCharges = 4;
+	const var maxOilCharges : int;				default maxOilCharges = 2;
 }
 
 function GetPreparationsConfig() : CModPreparationsConfig
