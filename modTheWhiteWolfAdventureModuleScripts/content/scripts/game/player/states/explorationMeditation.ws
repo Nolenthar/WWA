@@ -65,6 +65,13 @@ state ExplorationMeditation in W3PlayerWitcher extends Exploration
 		storedHoursPerMinute = theGame.GetHoursPerMinute();
 		HideItemsInHands();
 		BeginExplorationMeditation();
+		//---=== modFriendlyHUD ===---
+		if ( GetFHUDConfig().enableMeditationModules )
+		{
+			thePlayer.RemoveTimer( 'MeditationOffTimer' );
+			ToggleMeditModules( true, "RealTimeMeditation" );
+		}
+		//---=== modFriendlyHUD ===---
 	}
 
 	event OnLeaveState( nextStateName : name )
@@ -74,6 +81,12 @@ state ExplorationMeditation in W3PlayerWitcher extends Exploration
 		BlockGameplayActions( false );
 		theGame.ReleaseNoSaveLock( noSaveLock );
 		EndExplorationMeditation();
+		//---=== modFriendlyHUD ===---
+		if ( GetFHUDConfig().enableMeditationModules )
+		{
+			thePlayer.AddTimer( 'MeditationOffTimer' , GetFHUDConfig().fadeOutTimeSeconds, false );
+		}
+		//---=== modFriendlyHUD ===---
 		super.OnLeaveState( nextStateName );
 	}
 	
