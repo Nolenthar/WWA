@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<!-- None of these variables are even seen in the UI -->
+<UserConfig>
+	<Group id="Hidden" displayName="hidden">
+		<VisibleVars>
+			<Var id="HasSetup" displayName="hasSetup" displayType="TOGGLE"/>
+			<Var id="uiVerticalFrameScale" displayName="uiVerticalFrameScale" displayType="SLIDER:0:1:1000000"/>
+			<Var id="uiHorizontalFrameScale" displayName="uiHorizontalFrameScale" displayType="SLIDER:0:1:1000000"/>
+			<Var id="LockControlScheme" displayName="LockControlScheme" displayType="SLIDER:0:1:2" />
+            <Var id="HasSeenDLCMessage" displayName="HasSeenDLCMessage" displayType="TOGGLE" />
+            <Var id="HasSeenEP1WelcomeMessage" displayName="HasSeenEP1WelcomeMessage" displayType="TOGGLE" />
+		</VisibleVars>
+	</Group>
+</UserConfig>

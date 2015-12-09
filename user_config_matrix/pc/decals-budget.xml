@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<UserConfig>
+	<Group id="distances" displayName="Mods.Ultimate Graphics Options.Decals/Budget" tags="refreshEngine;graphics;buffered">
+	<PresetsArray>
+			<Preset id="0" displayName="" tags="customNames;nonLocalized;customDisplayName">			
+			</Preset>
+			<Preset id="1" displayName="" tags="customNames;nonLocalized;customDisplayName">			
+			</Preset>
+			<Preset id="2" displayName="" tags="customNames;nonLocalized;customDisplayName">			
+			</Preset>
+			<Preset id="3" displayName="Decals & Budget" tags="customNames;nonLocalized;customDisplayName">				
+			</Preset>
+		</PresetsArray>
+		<VisibleVars>
+		<Var id="decals text" displayName="<u>						DECALS								<u>" displayType="OPTIONS" tags="refreshEngine;customNames;nonLocalized;customDisplayName">
+				<OptionsArray>
+					<Option id="0" displayName="">
+						<Entry varId="" 	value=""/>
+					</Option>
+					<Option id="0" displayName="">
+						<Entry varId="" 	value=""/>
+					</Option>
+				</OptionsArray>
+			</Var>
+			<Var overrideGroup="LevelOfDetail" id="SwarmHideDistance" displayName="Swarm Hide Distance					<u>Vanilla = 200<u>" displayType="SLIDER;50;800;15" tags="refreshEngine;customNames;nonLocalized;customDisplayName"/>
+			<Var overrideGroup="LevelOfDetail" id="DecalsHideDistance" displayName="Decals Hide Distance					<u>Ultra = 80<u>" displayType="SLIDER;10;400;39" tags="refreshEngine;customNames;nonLocalized;customDisplayName"/>
+			<Var overrideGroup="LevelOfDetail" id="DimmerHideDistance" displayName="Dimmer Hide Distance					<u>Vanilla = 60<u>" displayType="SLIDER;10;400;39" tags="refreshEngine;customNames;nonLocalized;customDisplayName"/>
+			<Var overrideGroup="LevelOfDetail" id="DynamicDecalsHideDistance" displayName="Dynamic Decals Hide Distance				<u>Vanilla = 20<u>" displayType="SLIDER;10;400;39" tags="refreshEngine;customNames;nonLocalized;customDisplayName"/>
+			<Var overrideGroup="LevelOfDetail" id="StripeHideDistance" displayName="Stripe Hide Distance					<u>Vanilla = 60<u>" displayType="SLIDER;10;400;39" tags="refreshEngine;customNames;nonLocalized;customDisplayName"/>
+			<Var id="budget text" displayName="<u>						BUDGET								<u>" displayType="OPTIONS" tags="refreshEngine;customNames;nonLocalized;customDisplayName">
+				<OptionsArray>
+					<Option id="0" displayName="">
+						<Entry varId="" 	value=""/>
+					</Option>
+					<Option id="0" displayName="">
+						<Entry varId="" 	value=""/>
+					</Option>
+				</OptionsArray>
+			</Var>
+			<Var overrideGroup="Budget" id="DecalBudget" displayName="Decal Budget						<u>Vanilla = 100<u>" displayType="SLIDER;20;500;24" tags="refreshEngine;customNames;nonLocalized;customDisplayName"/>
+			<Var overrideGroup="Rendering" id="TextureMemoryBudget" displayName="Texture Memory Budget					<u>Ultra = 800<u>" displayType="SLIDER;20.0;2000.0;99" tags="refreshEngine;customNames;nonLocalized;customDisplayName"/>
+			<Var overrideGroup="Rendering" id="TextureTimeBudget" displayName="Texture Time Budget					<u>Vanilla = 10<u>" displayType="SLIDER;2.0;100.0;49" tags="refreshEngine;customNames;nonLocalized;customDisplayName"/>
+			<Var overrideGroup="Rendering"	id="TextureInFlightBudget" displayName="Texture In Flight Budget					<u>Ultra = 128<u>" displayType="OPTIONS" tags="refreshEngine;customNames;nonLocalized;customDisplayName">
+				<OptionsArray>
+					<Option id="0" displayName="32">
+						<Entry overrideGroup="Rendering" varId="TextureInFlightBudget" 	value="32"/>
+					</Option>
+					<Option id="1" displayName="64">
+						<Entry overrideGroup="Rendering" varId="TextureInFlightBudget" 	value="64"/>
+					</Option>
+					<Option id="2" displayName="128">
+						<Entry overrideGroup="Rendering" varId="TextureInFlightBudget" 	value="128"/>
+					</Option>
+					<Option id="3" displayName="256">
+						<Entry overrideGroup="Rendering" varId="TextureInFlightBudget" 	value="256"/>
+					</Option>
+					<Option id="4" displayName="512">
+						<Entry overrideGroup="Rendering" varId="TextureInFlightBudget" 	value="512"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+			<Var overrideGroup="Budget" id="TextureInFlightCountBudget" displayName="Texture In Flight Count Budget				<u>Vanilla = 12<u>" displayType="SLIDER;2.0;108.0;53" tags="refreshEngine;customNames;nonLocalized;customDisplayName"/>
+			<Var overrideGroup="Budget" id="TerrainTileMipDataBudget" displayName="Terrain Tile Mip Data Budget				<u>Vanilla = 100<u>" displayType="SLIDER;20.0;400.0;38" tags="refreshEngine;customNames;nonLocalized;customDisplayName"/>
+		</VisibleVars>
+	</Group>
+</UserConfig>

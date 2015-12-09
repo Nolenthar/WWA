@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<UserConfig>
+	<Group id="Audio" displayName="audio">
+		<VisibleVars>
+            <Var id="MasterVolume" displayName="master_volume" displayType="SLIDER;0;100;100"/>
+			<Var id="MusicVolume" displayName="music_volume" displayType="SLIDER;0;100;100"/>
+			<Var id="SoundVolume" displayName="sound_volume" displayType="SLIDER;0;100;100"/>
+			<Var id="VoiceoversVolume" displayName="voice_volume" displayType="SLIDER;0;100;100"/>
+		</VisibleVars>
+	</Group>
+</UserConfig>

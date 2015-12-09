@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<UserConfig>
+	<Group id="hairworks" displayName="Mods.Ultimate Graphics Options.hairworks" tags="refreshEngine;graphics;buffered">
+	<PresetsArray>
+			<Preset id="0" displayName="" tags="customNames;nonLocalized;customDisplayName">			
+			</Preset>
+			<Preset id="1" displayName="" tags="customNames;nonLocalized;customDisplayName">			
+			</Preset>
+			<Preset id="1" displayName="" tags="customNames;nonLocalized;customDisplayName">			
+			</Preset>
+			<Preset id="1" displayName="Hairworks" tags="customNames;nonLocalized;customDisplayName">				
+			</Preset>
+		</PresetsArray>
+		<VisibleVars>
+			 <Var id="Virtual_HairWorksLevel" displayName="use_hair_works" displayType="OPTIONS" tags="refreshEngine;customNames">
+				<OptionsArray>
+					<Option id="0" displayName="panel_mainmenu_option_value_off">
+						<Entry overrideGroup="Rendering"	varId="HairWorksLevel"	value="0"/>
+					</Option>
+					<Option id="1" displayName="Geralt">
+						<Entry overrideGroup="Rendering"	varId="HairWorksLevel"	value="1"/>
+					</Option>
+					<Option id="2" displayName="panel_mainmenu_option_value_on">
+						<Entry overrideGroup="Rendering"	varId="HairWorksLevel"	value="2"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+			<Var id="Virtual_HairWorksAALevel" displayName="Hairworks AA 					<u>higher = less flickering<u>" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName">
+				<OptionsArray>
+					<Option id="0" displayName="0">
+						<Entry overrideGroup="Rendering"	varId="HairWorksAALevel"	value="0"/>
+					</Option>
+					<Option id="1" displayName="2">
+						<Entry overrideGroup="Rendering"	varId="HairWorksAALevel"	value="2"/>
+					</Option>
+					<Option id="2" displayName="4">
+						<Entry overrideGroup="Rendering"	varId="HairWorksAALevel"	value="4"/>
+					</Option>
+					<Option id="3" displayName="8">
+						<Entry overrideGroup="Rendering"	varId="HairWorksAALevel"	value="8"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+			<Var id="HairWorksGlobalStrandSmoothness" displayName="HairWorksGlobalStrandSmoothness		<u>strands angularity<u>" displayType="OPTIONS" tags="refreshEngine;customNames;nonLocalized;customDisplayName">
+				<OptionsArray>
+					<Option id="0" displayName="0.0">
+						<Entry overrideGroup="Rendering"	varId="HairWorksGlobalStrandSmoothness"	value="0"/>
+					</Option>
+					<Option id="1" displayName="1">
+						<Entry overrideGroup="Rendering"	varId="HairWorksGlobalStrandSmoothness"	value="1"/>
+					</Option>
+					<Option id="2" displayName="2">
+						<Entry overrideGroup="Rendering"	varId="HairWorksGlobalStrandSmoothness"	value="2"/>
+					</Option>					
+					<Option id="3" displayName="3">
+						<Entry overrideGroup="Rendering"	varId="HairWorksGlobalStrandSmoothness"	value="3"/>
+					</Option>
+					<Option id="4" displayName="4">
+						<Entry overrideGroup="Rendering"	varId="HairWorksGlobalStrandSmoothness"	value="4"/>
+					</Option>							
+				</OptionsArray>
+			</Var>
+			<Var overrideGroup="Rendering" id="HairWorkstGlobalDensityLimit" displayName="HairWorkstGlobalDensityLimit			<U>Hair density<u>" displayType="SLIDER;0.05;2.0;39" tags="refreshEngine;customNames;nonLocalized;customDisplayName"/>
+			<Var overrideGroup="Rendering" id="HairWorksGlobalDensityQuality" displayName="HairWorksGlobalDensityQuality		<u>more hair density<u>" displayType="SLIDER;0.05;1.0;19" tags="refreshEngine;customNames;nonLocalized;customDisplayName"/>
+			<Var overrideGroup="Rendering" id="HairWorksGlobalDetailLODFactor" displayName="HairWorksGlobalDetailLODFactor		<u>low value = performance<u>" displayType="SLIDER;0.05;1.0;19" tags="refreshEngine;customNames;nonLocalized;customDisplayName"/>
+			<Var overrideGroup="Rendering" id="HairWorksGlobalWidthLimit" displayName="HairWorksGlobalWidthLimit			<u>hair thickness on horse?<u>" displayType="SLIDER;0.05;5.0;99" tags="refreshEngine;customNames;nonLocalized;customDisplayName"/>		
+		</VisibleVars>
+	</Group>
+</UserConfig>

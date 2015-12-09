@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<UserConfig>
+	<Group id="Localization" displayName="localization">
+		<VisibleVars>
+            <Var id="Subtitles" displayName="subtitles" displayType="TOGGLE"/>
+			<Var id="Virtual_Localization_text" displayName="text_language" displayType="OPTIONS" visibilityCondition="mainMenu">
+				<OptionsArray>
+					<ListingFunction name="ListTextLanguages"/>
+				</OptionsArray>
+			</Var>
+			<Var id="Virtual_Localization_speech" displayName="speech_language" displayType="OPTIONS" visibilityCondition="mainMenu">
+				<OptionsArray>
+					<ListingFunction name="ListSpeechLanguages"/>
+				</OptionsArray>
+			</Var>
+		</VisibleVars>
+	</Group>
+</UserConfig>

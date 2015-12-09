@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<UserConfig>
+	<Group id="water" displayName="Mods.Ultimate Graphics Options.terrain/water" tags="refreshEngine;graphics;buffered">
+	<PresetsArray>
+			<Preset id="0" displayName="" tags="customNames;nonLocalized;customDisplayName">			
+			</Preset>
+			<Preset id="1" displayName="" tags="customNames;nonLocalized;customDisplayName">			
+			</Preset>
+			<Preset id="1" displayName="" tags="customNames;nonLocalized;customDisplayName">			
+			</Preset>
+			<Preset id="1" displayName="Terrain & Water" tags="customNames;nonLocalized;customDisplayName">				
+			</Preset>
+		</PresetsArray>
+		<VisibleVars>
+	<Var id="water text" displayName="<u>						WATER							<u>" displayType="OPTIONS" tags="refreshEngine;customNames;nonLocalized;customDisplayName">
+				<OptionsArray>
+					<Option id="0" displayName="">
+						<Entry varId="" 	value=""/>
+					</Option>
+					<Option id="0" displayName="">
+						<Entry varId="" 	value=""/>
+					</Option>
+				</OptionsArray>
+			</Var>
+			<Var id="WaterTess" displayName="Water Tesselation					<u>waves variance<u>" displayType="OPTIONS" tags="refreshEngine;customNames;nonLocalized;customDisplayName">
+				<OptionsArray>
+					<Option id="0" displayName="1">
+						<Entry overrideGroup="Rendering"	varId="GlobalOceanTesselationFactor" 	value="1"/>
+					</Option>
+					<Option id="1" displayName="2">
+						<Entry overrideGroup="Rendering"	varId="GlobalOceanTesselationFactor" 	value="2"/>
+					</Option>
+					<Option id="2" displayName="4">
+						<Entry overrideGroup="Rendering"	varId="GlobalOceanTesselationFactor" 	value="4"/>
+					</Option>
+					<Option id="3" displayName="8">
+						<Entry overrideGroup="Rendering"	varId="GlobalOceanTesselationFactor" 	value="8"/>
+					</Option>
+					<Option id="4" displayName="16">
+						<Entry overrideGroup="Rendering"	varId="GlobalOceanTesselationFactor" 	value="16"/>
+					</Option>
+					<Option id="5" displayName="32">
+						<Entry overrideGroup="Rendering"	varId="GlobalOceanTesselationFactor" 	value="32"/>
+					</Option>
+					<Option id="6" displayName="64">
+						<Entry overrideGroup="Rendering"	varId="GlobalOceanTesselationFactor" 	value="64"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+	<Var overrideGroup="Rendering" id="WaterGeometryQuality" displayName="WaterGeometryQuality" displayType="SLIDER;1;40;39" tags="refreshEngine;customNames;nonLocalized;customDisplayName"/>
+			<Var id="Watersim" displayName="Watersimulation" displayType="OPTIONS" tags="refreshEngine;customNames;nonLocalized;customDisplayName">
+				<OptionsArray>
+					<Option id="0" displayName="false">
+           				<Entry overrideGroup="Rendering"	varId="UseDynamicWaterSimulation" 	value="false"/>
+					</Option>
+					<Option id="1" displayName="true">
+						<Entry overrideGroup="Rendering"	varId="UseDynamicWaterSimulation" 	value="true"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+<Var id="Terrain text" displayName="<u>						TERRAIN							<u>" displayType="OPTIONS" tags="refreshEngine;customNames;nonLocalized;customDisplayName">
+				<OptionsArray>
+					<Option id="0" displayName="">
+						<Entry varId="" 	value=""/>
+					</Option>
+					<Option id="0" displayName="">
+						<Entry varId="" 	value=""/>
+					</Option>
+				</OptionsArray>
+			</Var>
+			<Var id="TEMM" displayName="TerrainErrorMetricMultiplier" displayType="OPTIONS" tags="refreshEngine;customNames;nonLocalized;customDisplayName">
+				<OptionsArray>
+					<Option id="0" displayName="90">
+						<Entry overrideGroup="Rendering"	varId="TerrainErrorMetricMultiplier" 	value="90"/>
+					</Option>
+					<Option id="1" displayName="60">
+						<Entry overrideGroup="Rendering"	varId="TerrainErrorMetricMultiplier" 	value="60"/>
+					</Option>
+					<Option id="2" displayName="30 (low)">
+						<Entry overrideGroup="Rendering"	varId="TerrainErrorMetricMultiplier" 	value="30"/>
+					</Option>
+					<Option id="3" displayName="20 (medium)">
+						<Entry overrideGroup="Rendering"	varId="TerrainErrorMetricMultiplier" 	value="20"/>
+					</Option>
+					<Option id="4" displayName="10 (high)">
+						<Entry overrideGroup="Rendering"	varId="TerrainErrorMetricMultiplier" 	value="10"/>
+					</Option>
+					<Option id="5" displayName="6 (Ultra)">
+						<Entry overrideGroup="Rendering"	varId="TerrainErrorMetricMultiplier" 	value="6"/>
+					</Option>
+					<Option id="6" displayName="3">
+						<Entry overrideGroup="Rendering"	varId="TerrainErrorMetricMultiplier" 	value="3"/>
+					</Option>
+					<Option id="7" displayName="1">
+						<Entry overrideGroup="Rendering"	varId="TerrainErrorMetricMultiplier" 	value="1"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+			<Var id="TSSET" displayName="TerrainScreenSpaceErrorThreshold" displayType="OPTIONS" tags="refreshEngine;customNames;nonLocalized;customDisplayName">
+				<OptionsArray>
+					<Option id="0" displayName="12">
+						<Entry overrideGroup="Rendering"	varId="TerrainScreenSpaceErrorThreshold" 	value="12.0"/>
+					</Option>
+					<Option id="1" displayName="6">
+						<Entry overrideGroup="Rendering"	varId="TerrainScreenSpaceErrorThreshold" 	value="6.0"/>
+					</Option>
+					<Option id="2" displayName="4 (low)">
+						<Entry overrideGroup="Rendering"	varId="TerrainScreenSpaceErrorThreshold" 	value="4.0"/>
+					</Option>
+					<Option id="3" displayName="3 (medium)">
+						<Entry overrideGroup="Rendering"	varId="TerrainScreenSpaceErrorThreshold" 	value="3.0"/>
+					</Option>
+					<Option id="4" displayName="2 (high)">
+						<Entry overrideGroup="Rendering"	varId="TerrainScreenSpaceErrorThreshold" 	value="2.0"/>
+					</Option>
+					<Option id="5" displayName="1.6 (Ultra)">
+						<Entry overrideGroup="Rendering"	varId="TerrainScreenSpaceErrorThreshold" 	value="1.6"/>
+					</Option>
+					<Option id="6" displayName="1">
+						<Entry overrideGroup="Rendering"	varId="TerrainScreenSpaceErrorThreshold" 	value="1.0"/>
+					</Option>
+					<Option id="7" displayName="0.5">
+						<Entry overrideGroup="Rendering"	varId="TerrainScreenSpaceErrorThreshold" 	value="0.5"/>
+					</Option>
+					<Option id="8" displayName="0.1">
+						<Entry overrideGroup="Rendering"	varId="TerrainScreenSpaceErrorThreshold" 	value="0.1"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+			<Var id="TSSETF" displayName="TerrainScreenSpaceErrorThresholdFar" displayType="OPTIONS" tags="refreshEngine;customNames;nonLocalized;customDisplayName">
+				<OptionsArray>
+					<Option id="0" displayName="18">
+						<Entry overrideGroup="Rendering"	varId="TerrainScreenSpaceErrorThresholdFar"	value="18.0"/>
+					</Option>
+					<Option id="1" displayName="10">
+						<Entry overrideGroup="Rendering"	varId="TerrainScreenSpaceErrorThresholdFar"	value="10.0"/>
+					</Option>
+					<Option id="2" displayName="8 (low)">
+						<Entry overrideGroup="Rendering"	varId="TerrainScreenSpaceErrorThresholdFar"	value="8.0"/>
+					</Option>
+					<Option id="3" displayName="7 (medium)">
+						<Entry overrideGroup="Rendering"	varId="TerrainScreenSpaceErrorThresholdFar"	value="7.0"/>
+					</Option>
+					<Option id="4" displayName="5 (high)">
+						<Entry overrideGroup="Rendering"	varId="TerrainScreenSpaceErrorThresholdFar"	value="5.0"/>
+					</Option>
+					<Option id="5" displayName="3.5 (Ultra)">
+						<Entry overrideGroup="Rendering"	varId="TerrainScreenSpaceErrorThresholdFar"	value="3.5"/>
+					</Option>
+					<Option id="6" displayName="2">
+						<Entry overrideGroup="Rendering"	varId="TerrainScreenSpaceErrorThresholdFar"	value="2.0"/>
+					</Option>
+					<Option id="7" displayName="1">
+						<Entry overrideGroup="Rendering"	varId="TerrainScreenSpaceErrorThresholdFar"	value="1.0"/>
+					</Option>
+					<Option id="8" displayName="0.2">
+						<Entry overrideGroup="Rendering"	varId="TerrainScreenSpaceErrorThresholdFar"	value="0.2"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+			<Var id="TRAD" displayName="TerrainReadAheadDistance			<U>(Vanilla = 200)<u>" displayType="OPTIONS" tags="refreshEngine;customNames;nonLocalized;customDisplayName">
+				<OptionsArray>
+					<Option id="0" displayName="10">
+						<Entry overrideGroup="Rendering"	varId="TerrainReadAheadDistance"	value="10.0"/>
+					</Option>
+					<Option id="1" displayName="50">
+						<Entry overrideGroup="Rendering"	varId="TerrainReadAheadDistance"	value="50.0"/>
+					</Option>
+					<Option id="2" displayName="100">
+						<Entry overrideGroup="Rendering"	varId="TerrainReadAheadDistance"	value="100.0"/>
+					</Option>
+					<Option id="3" displayName="200">
+						<Entry overrideGroup="Rendering"	varId="TerrainReadAheadDistance"	value="200.0"/>
+					</Option>
+					<Option id="4" displayName="300">
+						<Entry overrideGroup="Rendering"	varId="TerrainReadAheadDistance"	value="300.0"/>
+					</Option>
+					<Option id="5" displayName="500">
+						<Entry overrideGroup="Rendering"	varId="TerrainReadAheadDistance"	value="500.0"/>
+					</Option>
+					<Option id="6" displayName="2000">
+						<Entry overrideGroup="Rendering"	varId="TerrainReadAheadDistance"	value="2000.0"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+		</VisibleVars>
+	</Group>
+</UserConfig>

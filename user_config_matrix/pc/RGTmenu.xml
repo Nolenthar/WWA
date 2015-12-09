@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<UserConfig>
+	
+	<!-- Exploration -->
+	<Group id="RGTexp" displayName="Mods.RGT Absolute Camera.Exploration">
+		<VisibleVars>
+			<Var overrideGroup="AbsoluteCameraExploration" id="ACexpEnable" displayName="Enable Custom Exploration Camera" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var overrideGroup="AbsoluteCameraExploration" id="RGTexpOffsetX" displayName="X Offset" displayType="SLIDER;-50;50;1000" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var overrideGroup="AbsoluteCameraExploration" id="RGTexpOffsetY" displayName="Y Offset" displayType="SLIDER;-50;50;1000" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var overrideGroup="AbsoluteCameraExploration" id="RGTexpOffsetZ" displayName="Z Offset" displayType="SLIDER;-50;50;1000" tags="customNames;nonLocalized;customDisplayName"/>
+		</VisibleVars>
+	</Group>
+	
+	<!-- Combat -->
+	<Group id="RGTcbt" displayName="Mods.RGT Absolute Camera.Combat">
+		<VisibleVars>
+			<Var overrideGroup="AbsoluteCameraCombat" id="ACcbtEnable" displayName="Enable Custom Combat Camera" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var overrideGroup="AbsoluteCameraCombat" id="RGTcbtOffsetX" displayName="X Offset" displayType="SLIDER;-50;50;1000" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var overrideGroup="AbsoluteCameraCombat" id="RGTcbtOffsetY" displayName="Y Offset" displayType="SLIDER;-50;50;1000" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var overrideGroup="AbsoluteCameraCombat" id="RGTcbtOffsetZ" displayName="Z Offset" displayType="SLIDER;-50;50;1000" tags="customNames;nonLocalized;customDisplayName"/>
+		</VisibleVars>
+	</Group>
+	
+	<!-- Locked to Target -->
+	<Group id="RGTlocked" displayName="Mods.RGT Absolute Camera.Combat - Locked to Target">
+		<VisibleVars>
+			<Var overrideGroup="AbsoluteCameraLocked" id="AClockedEnable" displayName="Enable Custom Locked to Target Camera" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var overrideGroup="AbsoluteCameraLocked" id="RGTLockedOffsetX" displayName="X Offset" displayType="SLIDER;-50;50;1000" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var overrideGroup="AbsoluteCameraLocked" id="RGTLockedOffsetY" displayName="Y Offset" displayType="SLIDER;-50;50;1000" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var overrideGroup="AbsoluteCameraLocked" id="RGTLockedOffsetZ" displayName="Z Offset" displayType="SLIDER;-50;50;1000" tags="customNames;nonLocalized;customDisplayName"/>
+		</VisibleVars>
+	</Group>
+	
+	<!-- Horse Riding -->
+	<Group id="RGThorse" displayName="Mods.RGT Absolute Camera.Horse Riding">
+		<VisibleVars>
+			<Var overrideGroup="AbsoluteCameraHorse" id="AChorseEnable" displayName="Enable Custom Horse Riding Camera" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var overrideGroup="AbsoluteCameraHorse" id="RGTHorseOffsetX" displayName="X Offset" displayType="SLIDER;-50;50;1000" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var overrideGroup="AbsoluteCameraHorse" id="RGTHorseOffsetY" displayName="Y Offset" displayType="SLIDER;-50;50;1000" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var overrideGroup="AbsoluteCameraHorse" id="RGTHorseOffsetZ" displayName="Z Offset" displayType="SLIDER;-50;50;1000" tags="customNames;nonLocalized;customDisplayName"/>
+		</VisibleVars>
+	</Group>
+	
+	<!-- Combat Horse Riding -->
+	<Group id="RGTcbthorse" displayName="Mods.RGT Absolute Camera.Horse Riding - Combat">
+		<VisibleVars>
+			<Var overrideGroup="AbsoluteCameraHorseCombat" id="ACcbthorseEnable" displayName="Enable Custom Horse Riding - Combat Camera" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var overrideGroup="AbsoluteCameraHorseCombat" id="RGTCbtHorseOffsetX" displayName="X Offset" displayType="SLIDER;-50;50;1000" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var overrideGroup="AbsoluteCameraHorseCombat" id="RGTCbtHorseOffsetY" displayName="Y Offset" displayType="SLIDER;-50;50;1000" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var overrideGroup="AbsoluteCameraHorseCombat" id="RGTCbtHorseOffsetZ" displayName="Z Offset" displayType="SLIDER;-50;50;1000" tags="customNames;nonLocalized;customDisplayName"/>
+		</VisibleVars>
+	</Group>
+	
+	<!-- Sailing -->
+	<Group id="RGTboat" displayName="Mods.RGT Absolute Camera.Sailing">
+		<VisibleVars>
+			<Var overrideGroup="AbsoluteCameraBoat" id="ACboatEnable" displayName="Enable Custom Sailing Camera" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var overrideGroup="AbsoluteCameraBoat" id="RGTBoatOffsetX" displayName="X Offset" displayType="SLIDER;-50;50;1000" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var overrideGroup="AbsoluteCameraBoat" id="RGTBoatOffsetY" displayName="Y Offset" displayType="SLIDER;-50;50;1000" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var overrideGroup="AbsoluteCameraBoat" id="RGTBoatOffsetZ" displayName="Z Offset" displayType="SLIDER;-50;50;1000" tags="customNames;nonLocalized;customDisplayName"/>
+		</VisibleVars>
+	</Group>
+	
+	<!-- Witcher Senses -->
+	<Group id="RGTws" displayName="Mods.RGT Absolute Camera.Witcher Senses">
+		<VisibleVars>
+			<Var overrideGroup="AbsoluteCameraWS" id="ACwsEnable" displayName="Enable Custom Witcher Senses Camera" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var overrideGroup="AbsoluteCameraWS" id="RGTWsOffsetX" displayName="X Offset" displayType="SLIDER;-50;50;1000" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var overrideGroup="AbsoluteCameraWS" id="RGTWsOffsetY" displayName="Y Offset" displayType="SLIDER;-50;50;1000" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var overrideGroup="AbsoluteCameraWS" id="RGTWsOffsetZ" displayName="Z Offset" displayType="SLIDER;-50;50;1000" tags="customNames;nonLocalized;customDisplayName"/>
+		</VisibleVars>
+	</Group>
+	
+	<!-- Interiors -->
+	<Group id="RGTint" displayName="Mods.RGT Absolute Camera.Interiors">
+		<VisibleVars>
+			<Var overrideGroup="AbsoluteCameraInteriors" id="ACintEnable" displayName="Enable Custom Interiors Camera" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var overrideGroup="AbsoluteCameraInteriors" id="RGTIntOffsetX" displayName="X Offset" displayType="SLIDER;-50;50;1000" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var overrideGroup="AbsoluteCameraInteriors" id="RGTIntOffsetY" displayName="Y Offset" displayType="SLIDER;-50;50;1000" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var overrideGroup="AbsoluteCameraInteriors" id="RGTIntOffsetZ" displayName="Z Offset" displayType="SLIDER;-50;50;1000" tags="customNames;nonLocalized;customDisplayName"/>
+		</VisibleVars>
+	</Group>
+	
+		<!-- Other Settings -->
+	<Group id="RGTotherSettings" displayName="Mods.RGT Absolute Camera.Other Settings">
+		<VisibleVars>
+			<Var overrideGroup="AbsoluteCameraOther" id="RGToffsetPerHit" displayName="Offset Amount Per Key Hit" displayType="SLIDER;0.1;2;19" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var overrideGroup="AbsoluteCameraOther" id="ForceRGTmSettings" displayName="Lock Cameras" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+		</VisibleVars>
+	</Group>
+	
+</UserConfig>

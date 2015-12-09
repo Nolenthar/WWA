@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<UserConfig>
+	<Group id="RShadows" displayName="Mods.Ultimate Graphics Options.shadows" tags="refreshEngine;graphics;buffered">
+	<PresetsArray>
+			<Preset id="0" displayName="" tags="customNames;nonLocalized;customDisplayName">			
+			</Preset>
+			<Preset id="1" displayName="" tags="customNames;nonLocalized;customDisplayName">			
+			</Preset>
+			<Preset id="1" displayName="" tags="customNames;nonLocalized;customDisplayName">			
+			</Preset>
+			<Preset id="1" displayName="Shadow" tags="customNames;nonLocalized;customDisplayName">				
+			</Preset>
+		</PresetsArray>
+		<VisibleVars>
+			<Var id="CascadeShadowFadeTreshold" displayName="CascadeShadowFadeTreshold" displayType="OPTIONS" tags="refreshEngine;customNames;nonLocalized;customDisplayName">
+				<OptionsArray>
+					<Option id="0" displayName="4">
+						<Entry overrideGroup="Rendering"	varId="CascadeShadowFadeTreshold" 		value="4"/>
+					</Option>				
+					<Option id="1" displayName="2">
+						<Entry overrideGroup="Rendering"	varId="CascadeShadowFadeTreshold" 		value="2"/>
+					</Option>
+					<Option id="2" displayName="1.5">
+						<Entry overrideGroup="Rendering"	varId="CascadeShadowFadeTreshold" 		value="1.5"/>
+					</Option>
+					<Option id="3" displayName="1">
+						<Entry overrideGroup="Rendering"	varId="CascadeShadowFadeTreshold" 		value="1"/>
+					</Option>
+					<Option id="4" displayName="0.5">
+						<Entry overrideGroup="Rendering"	varId="CascadeShadowFadeTreshold" 		value="0.5"/>
+					</Option>
+					<Option id="5" displayName="0.1">
+						<Entry overrideGroup="Rendering"	varId="CascadeShadowFadeTreshold" 		value="0.1"/>
+					</Option>					
+				</OptionsArray>
+				</Var>
+		<Var id="cascades text" displayName="<u>CascadeShadowDistances control shadow distance, quality & transition						<u>" displayType="OPTIONS" tags="refreshEngine;customNames;nonLocalized;customDisplayName">
+				<OptionsArray>
+					<Option id="0" displayName="">
+						<Entry varId="" 	value=""/>
+					</Option>
+					<Option id="0" displayName="">
+						<Entry varId="" 	value=""/>
+					</Option>
+				</OptionsArray>
+			</Var>
+			<Var overrideGroup="Rendering" id="CascadeShadowDistanceScale0" displayName="Scale0					<u>>32 for distance Screenshot purpose<u>" displayType="SLIDER;0.0;256.0;256" tags="refreshEngine;customNames;nonLocalized;customDisplayName"/>
+			<Var overrideGroup="Rendering" id="CascadeShadowDistanceScale1" displayName="Scale1					<u>=Scale0 /2<u>" displayType="SLIDER;0.0;256.0;256" tags="refreshEngine;customNames;nonLocalized;customDisplayName"/>
+			<Var overrideGroup="Rendering" id="CascadeShadowDistanceScale2" displayName="Scale2					<u>=Scale1 /2<u>" displayType="SLIDER;0.0;256.0;256" tags="refreshEngine;customNames;nonLocalized;customDisplayName"/>
+			<Var overrideGroup="Rendering" id="CascadeShadowDistanceScale3" displayName="Scale3					<u>=Scale2 /2<u>" displayType="SLIDER;0.0;256.0;256" tags="refreshEngine;customNames;nonLocalized;customDisplayName"/>
+			<Var id="cascades no text" displayName="__________________________________________________________________________________________________" displayType="OPTIONS" tags="refreshEngine;customNames;nonLocalized;customDisplayName">
+				<OptionsArray>
+					<Option id="0" displayName="">
+						<Entry varId="" 	value=""/>
+					</Option>
+					<Option id="0" displayName="">
+						<Entry varId="" 	value=""/>
+					</Option>
+				</OptionsArray>
+			</Var>
+			<Var overrideGroup="Rendering" id="CascadeShadowQuality" displayName="CascadeShadowQuality" displayType="SLIDER;0.0;6.0;6" tags="refreshEngine;customNames;nonLocalized;customDisplayName"/>
+			<Var id="CascadeShadowmapSize" displayName="CascadeShadowmapSize(CSmS)		     <u>increase @ high cascades!<u>" displayType="OPTIONS" tags="refreshEngine;customNames;nonLocalized;customDisplayName">
+				<OptionsArray>
+					<Option id="0" displayName="256">
+						<Entry overrideGroup="Rendering"	varId="CascadeShadowmapSize" 		value="256"/>
+					</Option>
+					<Option id="1" displayName="512">
+						<Entry overrideGroup="Rendering"	varId="CascadeShadowmapSize" 		value="512"/>
+					</Option>					
+					<Option id="2" displayName="1024">
+						<Entry overrideGroup="Rendering"	varId="CascadeShadowmapSize" 		value="1024"/>
+					</Option>
+					<Option id="3" displayName="2048">
+						<Entry overrideGroup="Rendering"	varId="CascadeShadowmapSize" 		value="2048"/>
+					</Option>
+					<Option id="4" displayName="3072">
+						<Entry overrideGroup="Rendering"	varId="CascadeShadowmapSize" 		value="3072"/>
+					</Option>
+					<Option id="5" displayName="4096">
+						<Entry overrideGroup="Rendering"	varId="CascadeShadowmapSize" 		value="4096"/>
+					</Option>
+					<Option id="6" displayName="8192">
+						<Entry overrideGroup="Rendering"	varId="CascadeShadowmapSize" 		value="8192"/>
+					</Option>				
+				</OptionsArray>
+			</Var>
+			<Var id="MaxCascadeCount" displayName="MaxCascadeCount				<u>(3) for high cascades @ CSmS 8192" displayType="OPTIONS" tags="refreshEngine;customNames;nonLocalized;customDisplayName">
+				<OptionsArray>
+					<Option id="0" displayName="1">
+						<Entry overrideGroup="Rendering"	varId="MaxCascadeCount" 		value="1"/>
+					</Option>
+					<Option id="1" displayName="2">
+						<Entry overrideGroup="Rendering"	varId="MaxCascadeCount" 		value="2"/>
+					</Option>
+					<Option id="2" displayName="3">
+						<Entry overrideGroup="Rendering"	varId="MaxCascadeCount" 		value="3"/>
+					</Option>					
+					<Option id="3" displayName="4">
+						<Entry overrideGroup="Rendering"	varId="MaxCascadeCount" 		value="4"/>
+					</Option>	
+				</OptionsArray>					
+			</Var>
+			<Var id="MaxTerrainShadowAtlasCount" displayName="MaxTerrainShadowAtlasCount" displayType="OPTIONS" tags="refreshEngine;customNames;nonLocalized;customDisplayName">
+				<OptionsArray>
+					<Option id="0" displayName="1">
+						<Entry overrideGroup="Rendering"	varId="MaxTerrainShadowAtlasCount" 		value="1"/>
+					</Option>
+					<Option id="1" displayName="2">
+						<Entry overrideGroup="Rendering"	varId="MaxTerrainShadowAtlasCount" 		value="2"/>
+					</Option>
+					<Option id="2" displayName="3">
+						<Entry overrideGroup="Rendering"	varId="MaxTerrainShadowAtlasCount" 		value="3"/>
+					</Option>					
+					<Option id="3" displayName="4">
+						<Entry overrideGroup="Rendering"	varId="MaxTerrainShadowAtlasCount" 		value="4"/>
+					</Option>			
+					<Option id="4" displayName="5">
+						<Entry overrideGroup="Rendering"	varId="MaxTerrainShadowAtlasCount" 		value="5"/>
+					</Option>								
+				</OptionsArray>
+			</Var>			
+			<Var id="MaxCubeShadowSize" displayName="MaxCubeShadowSize" displayType="OPTIONS" tags="refreshEngine;customNames;nonLocalized;customDisplayName">
+				<OptionsArray>
+					<Option id="0" displayName="2">
+						<Entry overrideGroup="Rendering"	varId="MaxCubeShadowSize" 		value="2"/>
+					</Option>
+					<Option id="1" displayName="256">
+						<Entry overrideGroup="Rendering"	varId="MaxCubeShadowSize" 		value="256"/>
+					</Option>
+					<Option id="2" displayName="512">
+						<Entry overrideGroup="Rendering"	varId="MaxCubeShadowSize" 		value="512"/>
+					</Option>						
+					<Option id="3" displayName="1024">
+						<Entry overrideGroup="Rendering"	varId="MaxCubeShadowSize" 		value="1024"/>
+					</Option>
+					<Option id="4" displayName="2048">
+						<Entry overrideGroup="Rendering"	varId="MaxCubeShadowSize" 		value="2048"/>
+					</Option>
+					<Option id="5" displayName="3072">
+						<Entry overrideGroup="Rendering"	varId="MaxCubeShadowSize" 		value="3072"/>
+					</Option>
+					<Option id="6" displayName="4096">
+						<Entry overrideGroup="Rendering"	varId="MaxCubeShadowSize" 		value="4096"/>
+					</Option>
+					<Option id="7" displayName="8192">
+						<Entry overrideGroup="Rendering"	varId="MaxCubeShadowSize" 		value="8192"/>
+					</Option>	
+					<Option id="8" displayName="16384">
+						<Entry overrideGroup="Rendering"	varId="MaxCubeShadowSize" 		value="16384"/>
+					</Option>					
+					<Option id="9" displayName="32768">
+						<Entry overrideGroup="Rendering"	varId="MaxCubeShadowSize" 		value="32768"/>
+					</Option>							
+				</OptionsArray>
+			</Var>
+			<Var id="MaxSpotShadowSize" displayName="MaxSpotShadowSize" displayType="OPTIONS" tags="refreshEngine;customNames;nonLocalized;customDisplayName">
+				<OptionsArray>
+					<Option id="0" displayName="2">
+						<Entry overrideGroup="Rendering"	varId="MaxSpotShadowSize" 		value="2"/>
+					</Option>
+					<Option id="1" displayName="256">
+						<Entry overrideGroup="Rendering"	varId="MaxSpotShadowSize" 		value="256"/>
+					</Option>
+					<Option id="2" displayName="512">
+						<Entry overrideGroup="Rendering"	varId="MaxSpotShadowSize" 		value="512"/>
+					</Option>					
+					<Option id="3" displayName="1024">
+						<Entry overrideGroup="Rendering"	varId="MaxSpotShadowSize" 		value="1024"/>
+					</Option>
+					<Option id="4" displayName="2048">
+						<Entry overrideGroup="Rendering"	varId="MaxSpotShadowSize" 		value="2048"/>
+					</Option>
+					<Option id="5" displayName="3072">
+						<Entry overrideGroup="Rendering"	varId="MaxSpotShadowSize" 		value="3072"/>
+					</Option>
+					<Option id="6" displayName="4096">
+						<Entry overrideGroup="Rendering"	varId="MaxSpotShadowSize" 		value="4096"/>
+					</Option>
+					<Option id="7" displayName="8192">
+						<Entry overrideGroup="Rendering"	varId="MaxSpotShadowSize" 		value="8192"/>
+					</Option>			
+					<Option id="8" displayName="16384">
+						<Entry overrideGroup="Rendering"	varId="MaxSpotShadowSize" 		value="16384"/>
+					</Option>		
+					<Option id="9" displayName="32768">
+						<Entry overrideGroup="Rendering"	varId="MaxSpotShadowSize" 		value="32768"/>
+					</Option>						
+				</OptionsArray>
+			</Var>			
+		</VisibleVars>
+	</Group>	
+</UserConfig>
