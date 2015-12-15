@@ -1,0 +1,19 @@
+1. Use any text editor like Notepad++ to open <Witcher 3 Dir>\bin\config\r4game\user_config_matrix\pc\input.xml
+2. Find the line with this text: <!-- [BASE_CharacterMovement] -->
+3. Add these lines above it. Save. Do NOT remove lines from other mods.
+
+<!-- KNGULM -->
+<Var builder="Input" id="KNGULMDisable"							displayName="ULM: Enable/Disable ULM"										displayType="INPUTPC" actions="DisableULM"/>
+<Var builder="Input" id="KNGULMReload"							displayName="ULM: Reload ULM"												displayType="INPUTPC" actions="ReloadULM"/>
+<Var builder="Input" id="KNGULMLoadPrevious"					displayName="ULM: Load Previous Environment Definition"						displayType="INPUTPC" actions="PreviousULM"/>
+<Var builder="Input" id="KNGULMLoadNext"						displayName="ULM: Load Next Environment Definition"							displayType="INPUTPC" actions="NextULM"/>
+<Var builder="Input" id="KNGULMLoadFavorite1"					displayName="ULM: Load Favorite 1"											displayType="INPUTPC" actions="Favorite1ULM"/>
+<Var builder="Input" id="KNGULMLoadFavorite2"					displayName="ULM: Load Favorite 2"											displayType="INPUTPC" actions="Favorite2ULM"/>
+<Var builder="Input" id="KNGULMLoadFavorite3"					displayName="ULM: Load Favorite 3"											displayType="INPUTPC" actions="Favorite3ULM"/>
+<Var builder="Input" id="KNGULMSaveFavorites"					displayName="ULM: Save Favorites Modifier"									displayType="INPUTPC" actions="SaveFavoritesULM"/>
+<Var builder="Input" id="KNGULMEnvPriorityPlus"					displayName="ULM: envBlend Increase (Hold modifier for envPriority)"		displayType="INPUTPC" actions="EnvPlusULM"/>
+<Var builder="Input" id="KNGULMEnvPriorityMinus"				displayName="ULM: envBlend Decrease (Hold modifier for envPriority)"		displayType="INPUTPC" actions="EnvMinusULM"/>
+<!-- KNGULM -->
+
+
+Alternatively, if you have not edited input.xml from other mods before you can just copy the input.xml file provided from "Optional bin files.zip" into the directory in step 1.

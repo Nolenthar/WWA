@@ -1,0 +1,2175 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<UserConfig>
+    <Group id="KNGMenu" displayName="Mods.Ultimate Lighting.Lighting Settings.General">
+		<PresetsArray>
+			<Preset id="0" displayName="CSLM" tags="customNames;nonLocalized;customDisplayName">
+				<Entry varId="EnableEnv"				value="1"	/>
+				<Entry varId="envPriority"				value="1000"	/>
+				<Entry varId="envBlend"					value="1"	/>
+				<Entry varId="fullscreenblur"			value="0"	/>
+				<Entry varId="EnvironmentDefinition"	value="0"	/>
+			</Preset>
+			<Preset id="1" displayName="STLM Fix" tags="customNames;nonLocalized;customDisplayName">
+				<Entry varId="EnableEnv"				value="1"	/>
+				<Entry varId="envPriority"				value="1000"	/>
+				<Entry varId="envBlend"					value="1"	/>
+				<Entry varId="fullscreenblur"			value="0"	/>
+				<Entry varId="EnvironmentDefinition"	value="117"	/>
+			</Preset>
+			<Preset id="2" displayName="Overly Dark Nights" tags="customNames;nonLocalized;customDisplayName">
+				<Entry varId="EnableEnv"				value="1"	/>
+				<Entry varId="envPriority"				value="1000"	/>
+				<Entry varId="envBlend"					value="1"	/>
+				<Entry varId="fullscreenblur"			value="0"	/>
+				<Entry varId="EnvironmentDefinition"	value="109"	/>
+			</Preset>
+		</PresetsArray>
+        <VisibleVars>
+            <!-- TRUE/FALSE -->
+            <Var id="EnableEnv" displayName="Enable Custom Lighting" displayType="TOGGLE"
+                tags="customNames;nonLocalized;customDisplayName"/>
+            <!-- SLIDER -->
+            <Var id="envPriority" displayName="envPriority: Sets the priority of Custom Lighting over Default Lighting"
+                displayType="SLIDER;0;1000;1000" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="envBlend" displayName="envBlend: Sets the intensity of Custom Lighting over Default Lighting"
+                displayType="SLIDER;0;1;1000000" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="fullscreenblur" displayName="Blur Effect"
+                displayType="SLIDER;0;1;1000000" tags="customNames;nonLocalized;customDisplayName"/>
+			<!-- OPTION -->
+            <Var id="EnvironmentDefinition" displayName="Environment Definition"
+                displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName">
+                <OptionsArray>
+                    <Option id="0" displayName="#1 CSLM">
+                        <Entry varId="EnvironmentDefinition" value="0"/>
+                    </Option>
+                    <Option id="1" displayName="#2 YALM">
+                        <Entry varId="EnvironmentDefinition" value="1"/>
+                    </Option>
+                    <Option id="2" displayName="#3 cutscen_definition_kaer_morhen">
+                        <Entry varId="EnvironmentDefinition" value="2"/>
+                    </Option>
+                    <Option id="3" displayName="#4 dandelion_cellar_cutscene">
+                        <Entry varId="EnvironmentDefinition" value="3"/>
+                    </Option>
+                    <Option id="4" displayName="#5 Swamp Zone Lighting Mod">
+                        <Entry varId="EnvironmentDefinition" value="4"/>
+                    </Option>
+                    <Option id="5" displayName="#6 env_island_of_mist">
+                        <Entry varId="EnvironmentDefinition" value="5"/>
+                    </Option>
+                    <Option id="6" displayName="#7 env_island_of_mist_2">
+                        <Entry varId="EnvironmentDefinition" value="6"/>
+                    </Option>
+                    <Option id="7" displayName="#8 env_island_of_mist_dark">
+                        <Entry varId="EnvironmentDefinition" value="7"/>
+                    </Option>
+                    <Option id="8" displayName="#9 env_island_of_mist_dark_cutscen">
+                        <Entry varId="EnvironmentDefinition" value="8"/>
+                    </Option>
+                    <Option id="9" displayName="#10 env_nml_global_dark_sunset">
+                        <Entry varId="EnvironmentDefinition" value="9"/>
+                    </Option>
+                    <Option id="10" displayName="#11 env_nml_global_dark_sunset_interior">
+                        <Entry varId="EnvironmentDefinition" value="10"/>
+                    </Option>
+                    <Option id="11" displayName="#12 env_nml_barons_castle_v2">
+                        <Entry varId="EnvironmentDefinition" value="11"/>
+                    </Option>
+                    <Option id="12" displayName="#13 env_nml_crossroads_inn_v2">
+                        <Entry varId="EnvironmentDefinition" value="12"/>
+                    </Option>
+                    <Option id="13" displayName="#14 env_keira_secret_2">
+                        <Entry varId="EnvironmentDefinition" value="13"/>
+                    </Option>
+                    <Option id="14" displayName="#15 E3 2014 Swamp Lighting">
+                        <Entry varId="EnvironmentDefinition" value="14"/>
+                    </Option>
+                    <Option id="15" displayName="#16 env_nml_swamps_v1_a_ps4_flat24">
+                        <Entry varId="EnvironmentDefinition" value="15"/>
+                    </Option>
+                    <Option id="16" displayName="#17 env_salt_mine_filmic_01">
+                        <Entry varId="EnvironmentDefinition" value="16"/>
+                    </Option>
+                    <Option id="17" displayName="#18 env_interior">
+                        <Entry varId="EnvironmentDefinition" value="17"/>
+                    </Option>
+                    <Option id="18" displayName="#19 env_novigrad_cave">
+                        <Entry varId="EnvironmentDefinition" value="18"/>
+                    </Option>
+                    <Option id="19" displayName="#20 env_novigrad_cave_blizzard">
+                        <Entry varId="EnvironmentDefinition" value="19"/>
+                    </Option>
+                    <Option id="20" displayName="#21 env_novigrad_cave_dark">
+                        <Entry varId="EnvironmentDefinition" value="20"/>
+                    </Option>
+                    <Option id="21" displayName="#22 env_novigrad_cave_red_water">
+                        <Entry varId="EnvironmentDefinition" value="21"/>
+                    </Option>
+                    <Option id="22" displayName="#23 env_novigrad_dark_clouds">
+                        <Entry varId="EnvironmentDefinition" value="22"/>
+                    </Option>
+                    <Option id="23" displayName="#24 env_novigrad_dark_clouds_heavy">
+                        <Entry varId="EnvironmentDefinition" value="23"/>
+                    </Option>
+                    <Option id="24" displayName="#25 env_novigrad_dark_clouds_heavy_rain_color">
+                        <Entry varId="EnvironmentDefinition" value="24"/>
+                    </Option>
+                    <Option id="25" displayName="#26 env_novigrad_int">
+                        <Entry varId="EnvironmentDefinition" value="25"/>
+                    </Option>
+                    <Option id="26" displayName="#27 env_novigrad_storm">
+                        <Entry varId="EnvironmentDefinition" value="26"/>
+                    </Option>
+                    <Option id="27" displayName="#28 env_novigrad_sunset">
+                        <Entry varId="EnvironmentDefinition" value="27"/>
+                    </Option>
+                    <Option id="28" displayName="#29 env_elven_king_dandelion_copy">
+                        <Entry varId="EnvironmentDefinition" value="28"/>
+                    </Option>
+                    <Option id="29" displayName="#30 env_novigrad_city">
+                        <Entry varId="EnvironmentDefinition" value="29"/>
+                    </Option>
+                    <Option id="30" displayName="#31 env_novigrad_0_storm_1">
+                        <Entry varId="EnvironmentDefinition" value="30"/>
+                    </Option>
+                    <Option id="31" displayName="#32 underwater">
+                        <Entry varId="EnvironmentDefinition" value="31"/>
+                    </Option>
+                    <Option id="32" displayName="#33 env_dandelion">
+                        <Entry varId="EnvironmentDefinition" value="32"/>
+                    </Option>
+                    <Option id="33" displayName="#34 env_interior_1">
+                        <Entry varId="EnvironmentDefinition" value="33"/>
+                    </Option>
+                    <Option id="34" displayName="#35 env_interior_2">
+                        <Entry varId="EnvironmentDefinition" value="34"/>
+                    </Option>
+                    <Option id="35" displayName="#36 env_novigrad_sewers_filmic_v1">
+                        <Entry varId="EnvironmentDefinition" value="35"/>
+                    </Option>
+                    <Option id="36" displayName="#37 env_prolog_colors_cinematic_tonemapping">
+                        <Entry varId="EnvironmentDefinition" value="36"/>
+                    </Option>
+                    <Option id="37" displayName="#38 Simply Bokehlicious">
+                        <Entry varId="EnvironmentDefinition" value="37"/>
+                    </Option>
+                    <Option id="38" displayName="#39 env_prolog_colors_v1_b_sunset">
+                        <Entry varId="EnvironmentDefinition" value="38"/>
+                    </Option>
+                    <Option id="39" displayName="#40 env_prolog_global_raw_v2_a_interior">
+                        <Entry varId="EnvironmentDefinition" value="39"/>
+                    </Option>
+                    <Option id="40" displayName="#41 env_fight_island_arena_">
+                        <Entry varId="EnvironmentDefinition" value="40"/>
+                    </Option>
+                    <Option id="41" displayName="#42 env_fight_ship">
+                        <Entry varId="EnvironmentDefinition" value="41"/>
+                    </Option>
+                    <Option id="42" displayName="#43 env_pbr_skellige_len_temp">
+                        <Entry varId="EnvironmentDefinition" value="42"/>
+                    </Option>
+                    <Option id="43" displayName="#44 env_skellige_brown">
+                        <Entry varId="EnvironmentDefinition" value="43"/>
+                    </Option>
+                    <Option id="44" displayName="#45 env_skellige_brown_dark_clouds">
+                        <Entry varId="EnvironmentDefinition" value="44"/>
+                    </Option>
+                    <Option id="45" displayName="#46 env_skellige_dark_clouds">
+                        <Entry varId="EnvironmentDefinition" value="45"/>
+                    </Option>
+                    <Option id="46" displayName="#47 env_skellige_rain_storm">
+                        <Entry varId="EnvironmentDefinition" value="46"/>
+                    </Option>
+                    <Option id="47" displayName="#48 env_skellige_rain_storm_arena">
+                        <Entry varId="EnvironmentDefinition" value="47"/>
+                    </Option>
+                    <Option id="48" displayName="#49 env_winter_skellige">
+                        <Entry varId="EnvironmentDefinition" value="48"/>
+                    </Option>
+                    <Option id="49" displayName="#50 env_skellige_cataclysm_1">
+                        <Entry varId="EnvironmentDefinition" value="49"/>
+                    </Option>
+                    <Option id="50" displayName="#51 Grim Environment">
+                        <Entry varId="EnvironmentDefinition" value="50"/>
+                    </Option>
+                    <Option id="51" displayName="#52 env_herbarium_fall_2">
+                        <Entry varId="EnvironmentDefinition" value="51"/>
+                    </Option>
+                    <Option id="52" displayName="#53 env_herbarium_mordor_1">
+                        <Entry varId="EnvironmentDefinition" value="52"/>
+                    </Option>
+                    <Option id="53" displayName="#54 env_kaer_trolde_interior_1">
+                        <Entry varId="EnvironmentDefinition" value="53"/>
+                    </Option>
+                    <Option id="54" displayName="#55 env_kaer_trolde_interior_2">
+                        <Entry varId="EnvironmentDefinition" value="54"/>
+                    </Option>
+                    <Option id="55" displayName="#56 env_skellige_udalryk">
+                        <Entry varId="EnvironmentDefinition" value="55"/>
+                    </Option>
+                    <Option id="56" displayName="#57 env_bathouse_v01">
+                        <Entry varId="EnvironmentDefinition" value="56"/>
+                    </Option>
+                    <Option id="57" displayName="#58 env_skellige_q210">
+                        <Entry varId="EnvironmentDefinition" value="57"/>
+                    </Option>
+                    <Option id="58" displayName="#59 q501_underwater">
+                        <Entry varId="EnvironmentDefinition" value="58"/>
+                    </Option>
+                    <Option id="59" displayName="#60 q502_wyzima">
+                        <Entry varId="EnvironmentDefinition" value="59"/>
+                    </Option>
+                    <Option id="60" displayName="#61 q502_wyzima_v2">
+                        <Entry varId="EnvironmentDefinition" value="60"/>
+                    </Option>
+                    <Option id="61" displayName="#62 q502_wyzima_v3">
+                        <Entry varId="EnvironmentDefinition" value="61"/>
+                    </Option>
+                    <Option id="62" displayName="#63 q502_wyzima_v4">
+                        <Entry varId="EnvironmentDefinition" value="62"/>
+                    </Option>
+                    <Option id="63" displayName="#64 env_km_v09_tm_q502_cold_light">
+                        <Entry varId="EnvironmentDefinition" value="63"/>
+                    </Option>
+                    <Option id="64" displayName="#65 skellige_brown_q502_by_light">
+                        <Entry varId="EnvironmentDefinition" value="64"/>
+                    </Option>
+                    <Option id="65" displayName="#66 skellige_brown_q502_by_light_2">
+                        <Entry varId="EnvironmentDefinition" value="65"/>
+                    </Option>
+                    <Option id="66" displayName="#67 skellige_brown_q502_by_light_3">
+                        <Entry varId="EnvironmentDefinition" value="66"/>
+                    </Option>
+                    <Option id="67" displayName="#68 skellige_brown_q502_by_light_4">
+                        <Entry varId="EnvironmentDefinition" value="67"/>
+                    </Option>
+                    <Option id="68" displayName="#69 New Lighting Mod by Vikart">
+                        <Entry varId="EnvironmentDefinition" value="68"/>
+                    </Option>
+                    <Option id="69" displayName="#70 env_skellige_sq209_02">
+                        <Entry varId="EnvironmentDefinition" value="69"/>
+                    </Option>
+                    <Option id="70" displayName="#71 env_skellige_sq209_03">
+                        <Entry varId="EnvironmentDefinition" value="70"/>
+                    </Option>
+                    <Option id="71" displayName="#72 env_elven_city_4_11">
+                        <Entry varId="EnvironmentDefinition" value="71"/>
+                    </Option>
+                    <Option id="72" displayName="#73 env_spiral_dark_valley">
+                        <Entry varId="EnvironmentDefinition" value="72"/>
+                    </Option>
+                    <Option id="73" displayName="#74 env_spiral_snow_hour_6_22_cave">
+                        <Entry varId="EnvironmentDefinition" value="73"/>
+                    </Option>
+                    <Option id="74" displayName="#75 env_winter_epilog">
+                        <Entry varId="EnvironmentDefinition" value="74"/>
+                    </Option>
+                    <Option id="75" displayName="#76 env_winter_epilog_white_grass">
+                        <Entry varId="EnvironmentDefinition" value="75"/>
+                    </Option>
+                    <Option id="76" displayName="#77 env_winter_epilog_white_grass_hendriks_basement">
+                        <Entry varId="EnvironmentDefinition" value="76"/>
+                    </Option>
+                    <Option id="77" displayName="#78 env_winter_epilog_white_grass_hendriks_house">
+                        <Entry varId="EnvironmentDefinition" value="77"/>
+                    </Option>
+                    <Option id="78" displayName="#79 env_winter_v0_white_thaw">
+                        <Entry varId="EnvironmentDefinition" value="78"/>
+                    </Option>
+                    <Option id="79" displayName="#80 kaer_morhen_nightmare">
+                        <Entry varId="EnvironmentDefinition" value="79"/>
+                    </Option>
+                    <Option id="80" displayName="#81 env_kaer_morhen_hdr_int">
+                        <Entry varId="EnvironmentDefinition" value="80"/>
+                    </Option>
+                    <Option id="81" displayName="#82 env_km_dark_clouds_heavy_rain_color">
+                        <Entry varId="EnvironmentDefinition" value="81"/>
+                    </Option>
+                    <Option id="82" displayName="#83 kaer_morhen_battle">
+                        <Entry varId="EnvironmentDefinition" value="82"/>
+                    </Option>
+                    <Option id="83" displayName="#84 kaer_morhen_battle_preview_01">
+                        <Entry varId="EnvironmentDefinition" value="83"/>
+                    </Option>
+                    <Option id="84" displayName="#85 env_kaer_morhen_v09_hdr_int">
+                        <Entry varId="EnvironmentDefinition" value="84"/>
+                    </Option>
+                    <Option id="85" displayName="#86 env_kaer_morhen_v09_tm">
+                        <Entry varId="EnvironmentDefinition" value="85"/>
+                    </Option>
+                    <Option id="86" displayName="#87 env_kaer_morhen_v09_usm_sex_scene">
+                        <Entry varId="EnvironmentDefinition" value="86"/>
+                    </Option>
+                    <Option id="87" displayName="#88 env_kaer_morhen_v09_usm_sex_scene_v3">
+                        <Entry varId="EnvironmentDefinition" value="87"/>
+                    </Option>
+                    <Option id="88" displayName="#89 env_kaer_morhen_vesemir_v0_hour_3_30">
+                        <Entry varId="EnvironmentDefinition" value="88"/>
+                    </Option>
+                    <Option id="89" displayName="#90 env_kaer_morhen_v09_q401">
+                        <Entry varId="EnvironmentDefinition" value="89"/>
+                    </Option>
+                    <Option id="90" displayName="#91 env_global_clear_interior">
+                        <Entry varId="EnvironmentDefinition" value="90"/>
+                    </Option>
+                    <Option id="91" displayName="#92 env_abandoned_mine">
+                        <Entry varId="EnvironmentDefinition" value="91"/>
+                    </Option>
+                    <Option id="92" displayName="#93 env_bies_hypnotize">
+                        <Entry varId="EnvironmentDefinition" value="92"/>
+                    </Option>
+                    <Option id="93" displayName="#94 env_dense_fog_mq2041">
+                        <Entry varId="EnvironmentDefinition" value="93"/>
+                    </Option>
+                    <Option id="94" displayName="#95 battle_02">
+                        <Entry varId="EnvironmentDefinition" value="94"/>
+                    </Option>
+                    <Option id="95" displayName="#96 battle_02_copy">
+                        <Entry varId="EnvironmentDefinition" value="95"/>
+                    </Option>
+                    <Option id="96" displayName="#97 battle_02_copy_nofx">
+                        <Entry varId="EnvironmentDefinition" value="96"/>
+                    </Option>
+                    <Option id="97" displayName="#98 battle_02_no blue_lights">
+                        <Entry varId="EnvironmentDefinition" value="97"/>
+                    </Option>
+                    <Option id="98" displayName="#99 battle_02_no _sun">
+                        <Entry varId="EnvironmentDefinition" value="98"/>
+                    </Option>
+                    <Option id="99" displayName="#100 battle_02_shadow_light">
+                        <Entry varId="EnvironmentDefinition" value="99"/>
+                    </Option>
+                    <Option id="100" displayName="#101 cs002_wild_hunt_chase_p4">
+                        <Entry varId="EnvironmentDefinition" value="100"/>
+                    </Option>
+                    <Option id="101" displayName="#102 cs301_dream_ciri_and_jasker_p2">
+                        <Entry varId="EnvironmentDefinition" value="101"/>
+                    </Option>
+                    <Option id="102" displayName="#103 cs501_ciri_escape">
+                        <Entry varId="EnvironmentDefinition" value="102"/>
+                    </Option>
+                    <Option id="103" displayName="#104 cs501_naglfar_arrives">
+                        <Entry varId="EnvironmentDefinition" value="103"/>
+                    </Option>
+                    <Option id="104" displayName="#105 cs__departure_2">
+                        <Entry varId="EnvironmentDefinition" value="104"/>
+                    </Option>
+                    <Option id="105" displayName="#106 naglfar_freezes_p2">
+                        <Entry varId="EnvironmentDefinition" value="105"/>
+                    </Option>
+                    <Option id="106" displayName="#107 naglfar_freezes_p2_face">
+                        <Entry varId="EnvironmentDefinition" value="106"/>
+                    </Option>
+                    <Option id="107" displayName="#108 env_wyzima">
+                        <Entry varId="EnvironmentDefinition" value="107"/>
+                    </Option>
+                    <Option id="108" displayName="#109 env_wyzima_interior">
+                        <Entry varId="EnvironmentDefinition" value="108"/>
+                    </Option>
+                    <Option id="109" displayName="#110 Overly Dark Nights Mod">
+                        <Entry varId="EnvironmentDefinition" value="109"/>
+                    </Option>
+                    <Option id="110" displayName="#111 q103_castle_fire_noshafts">
+                        <Entry varId="EnvironmentDefinition" value="110"/>
+                    </Option>
+                    <Option id="111" displayName="#112 q103_env_barons_burial">
+                        <Entry varId="EnvironmentDefinition" value="111"/>
+                    </Option>
+                    <Option id="112" displayName="#113 q107_env_witch_village_fog">
+                        <Entry varId="EnvironmentDefinition" value="112"/>
+                    </Option>
+                    <Option id="113" displayName="#114 env_mist_q106">
+                        <Entry varId="EnvironmentDefinition" value="113"/>
+                    </Option>
+                    <Option id="114" displayName="#115 q106_temp_island_env_int_cs">
+                        <Entry varId="EnvironmentDefinition" value="114"/>
+                    </Option>
+                    <Option id="115" displayName="#116 q106_temp_island_env">
+                        <Entry varId="EnvironmentDefinition" value="115"/>
+                    </Option>
+                    <Option id="116" displayName="#117 q106_temp_island_env_int">
+                        <Entry varId="EnvironmentDefinition" value="116"/>
+                    </Option>
+                    <Option id="117" displayName="#118 dashdot_env_nvg_global_23_07_2013_copy">
+                        <Entry varId="EnvironmentDefinition" value="117"/>
+                    </Option>
+					<Option id="118" displayName="#119 env_novigrad_cave_simpa">
+                        <Entry varId="EnvironmentDefinition" value="118"/>
+                    </Option>
+					<Option id="119" displayName="#120 env_novigrad_q602_sex_empty_1">
+                        <Entry varId="EnvironmentDefinition" value="119"/>
+                    </Option>
+					<Option id="120" displayName="#121 env_novigrad_sunset_q602_dog">
+                        <Entry varId="EnvironmentDefinition" value="120"/>
+                    </Option>
+					<Option id="121" displayName="#122 env_novigrad_sunset_q602_sex">
+                        <Entry varId="EnvironmentDefinition" value="121"/>
+                    </Option>
+					<Option id="122" displayName="#123 env_novigrad_sunset_q603_heist_starts">
+                        <Entry varId="EnvironmentDefinition" value="122"/>
+                    </Option>
+					<Option id="123" displayName="#124 env_novigrad_cave_frogarena">
+                        <Entry varId="EnvironmentDefinition" value="123"/>
+                    </Option>
+					<Option id="124" displayName="#125 q601_dark_clouds_heavy_rain">
+                        <Entry varId="EnvironmentDefinition" value="124"/>
+                    </Option>
+					<Option id="125" displayName="#126 q601_dark_clouds_heavy_rain_scene">
+                        <Entry varId="EnvironmentDefinition" value="125"/>
+                    </Option>
+					<Option id="126" displayName="#127 q602_wedding_overlay">
+                        <Entry varId="EnvironmentDefinition" value="126"/>
+                    </Option>
+					<Option id="127" displayName="#128 q602_wedding_overlay_2">
+                        <Entry varId="EnvironmentDefinition" value="127"/>
+                    </Option>
+					<Option id="128" displayName="#129 env_novigrad_sunset_q605_temple_meeting_02">
+                        <Entry varId="EnvironmentDefinition" value="128"/>
+                    </Option>
+					<Option id="129" displayName="#130 q605_no_wind">
+                        <Entry varId="EnvironmentDefinition" value="129"/>
+                    </Option>
+					<Option id="130" displayName="#131 bury_iris_side">
+                        <Entry varId="EnvironmentDefinition" value="130"/>
+                    </Option>
+					<Option id="131" displayName="#132 enter_painting_wide">
+                        <Entry varId="EnvironmentDefinition" value="131"/>
+                    </Option>
+					<Option id="132" displayName="#133 leshy_forest">
+                        <Entry varId="EnvironmentDefinition" value="132"/>
+                    </Option>
+					<Option id="133" displayName="#134 env_novigrad_sunset_cs601_09.env">
+                        <Entry varId="EnvironmentDefinition" value="133"/>
+                    </Option>
+					<Option id="134" displayName="#135 q601_ship">
+                        <Entry varId="EnvironmentDefinition" value="134"/>
+                    </Option>
+					<Option id="135" displayName="#136 env_novigrad_sunset_nn">
+                        <Entry varId="EnvironmentDefinition" value="135"/>
+                    </Option>
+					<Option id="136" displayName="#137 env_novigrad_sunset_nn">
+                        <Entry varId="EnvironmentDefinition" value="136"/>
+                    </Option>
+					<Option id="137" displayName="#138 env_novigrad_sunset_nn_blu_">
+                        <Entry varId="EnvironmentDefinition" value="137"/>
+                    </Option>
+					<Option id="138" displayName="#139 q604_blizzard">
+                        <Entry varId="EnvironmentDefinition" value="138"/>
+                    </Option>
+					<Option id="139" displayName="#140 q604_blizzard_cs">
+                        <Entry varId="EnvironmentDefinition" value="139"/>
+                    </Option>
+					<Option id="140" displayName="#141 q604_blizzard_cs_exit_painting">
+                        <Entry varId="EnvironmentDefinition" value="140"/>
+                    </Option>
+					<Option id="141" displayName="#142 q604_blizzard_interior">
+                        <Entry varId="EnvironmentDefinition" value="141"/>
+                    </Option>
+					<Option id="142" displayName="#143 q604_blizzard_interior_cs">
+                        <Entry varId="EnvironmentDefinition" value="142"/>
+                    </Option>
+					<Option id="143" displayName="#144 q604_creepy">
+                        <Entry varId="EnvironmentDefinition" value="143"/>
+                    </Option>
+					<Option id="144" displayName="#145 q604_creepy_cs">
+                        <Entry varId="EnvironmentDefinition" value="144"/>
+                    </Option>
+					<Option id="145" displayName="#146 q604_creepy_interior">
+                        <Entry varId="EnvironmentDefinition" value="145"/>
+                    </Option>
+					<Option id="146" displayName="#147 q604_dark_corridor">
+                        <Entry varId="EnvironmentDefinition" value="146"/>
+                    </Option>
+					<Option id="147" displayName="#148 q604_dark_corridor_creepy">
+                        <Entry varId="EnvironmentDefinition" value="147"/>
+                    </Option>
+					<Option id="148" displayName="#149 q604_dark_corridor_creepy_paint">
+                        <Entry varId="EnvironmentDefinition" value="148"/>
+                    </Option>
+					<Option id="149" displayName="#150 q604_painting_cs">
+                        <Entry varId="EnvironmentDefinition" value="149"/>
+                    </Option>
+					<Option id="150" displayName="#151 q604_painting_cs_closeup">
+                        <Entry varId="EnvironmentDefinition" value="150"/>
+                    </Option>
+					<Option id="151" displayName="#152 q604_painting_cs_midshot">
+                        <Entry varId="EnvironmentDefinition" value="151"/>
+                    </Option>
+					<Option id="152" displayName="#153 q604_painting_cs_wideshot">
+                        <Entry varId="EnvironmentDefinition" value="152"/>
+                    </Option>
+					<Option id="153" displayName="#154 q604_painting_interior">
+                        <Entry varId="EnvironmentDefinition" value="153"/>
+                    </Option>
+					<Option id="154" displayName="#155 q604_painting_interior_cs">
+                        <Entry varId="EnvironmentDefinition" value="154"/>
+                    </Option>
+					<Option id="155" displayName="#156 q604_unmasking">
+                        <Entry varId="EnvironmentDefinition" value="155"/>
+                    </Option>
+					<Option id="156" displayName="#157 q604_unmasking_dark">
+                        <Entry varId="EnvironmentDefinition" value="156"/>
+                    </Option>
+					<Option id="157" displayName="#158 q604_unmasking_shadow_more_details">
+                        <Entry varId="EnvironmentDefinition" value="157"/>
+                    </Option>
+					<Option id="158" displayName="#159 q605_hell_red_blockout">
+                        <Entry varId="EnvironmentDefinition" value="158"/>
+                    </Option>
+					<Option id="159" displayName="#160 q605_hell_red_blockout_last_arena">
+                        <Entry varId="EnvironmentDefinition" value="159"/>
+                    </Option>
+					<Option id="160" displayName="#161 q605_hell_red_blockout_mansion">
+                        <Entry varId="EnvironmentDefinition" value="160"/>
+                    </Option>
+				</OptionsArray>
+			</Var>
+        </VisibleVars>
+    </Group>
+	
+	<Group id="KNGMenuTurbo" displayName="Mods.Ultimate Lighting.Lighting Settings.Turbo Mode">
+		<PresetsArray>
+			<Preset id="0" displayName="Default" tags="customNames;nonLocalized;customDisplayName">
+				<Entry varId="TurboMode"				value="1"	/>
+				<Entry varId="fogDensity"				value="0.1"	/>
+				<Entry varId="EnableColorPicker"		value="1"	/>
+				<Entry varId="Saturation"				value="0.25"/>
+				<Entry varId="nearTintRange"			value="0"	/>
+				<Entry varId="nearTintRed"				value="0"	/>
+				<Entry varId="nearTintGreen"			value="0"	/>
+				<Entry varId="nearTintBlue"				value="0"	/>
+				<Entry varId="nearTintalpha"			value="0"	/>
+				<Entry varId="farTintRed"				value="0"	/>
+				<Entry varId="farTintGreen"				value="0"	/>
+				<Entry varId="farTintBlue"				value="0"	/>
+				<Entry varId="farTintAlpha"				value="0"	/>
+			</Preset>
+		</PresetsArray>
+        <VisibleVars>
+			<Var id="TurboMode" displayName="Enable Turbo Mode" 				displayType="TOGGLE" 				tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="fogDensity" displayName="Distance Fog Density" 			displayType="SLIDER;0;1;1000000" 	tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="EnableColorPicker" displayName="Enable Colorizer" 			displayType="TOGGLE" 				tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="Saturation" displayName="Desaturation" 					displayType="SLIDER;0;1;1000000" 	tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="nearTintRange" displayName="Near Tint Range in (meters)"	displayType="SLIDER;0;1000;1000000" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="nearTintRed" displayName="Near Tint Red"					displayType="SLIDER;0;255;255" 		tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="nearTintGreen" displayName="Near Tint Green"				displayType="SLIDER;0;255;255" 		tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="nearTintBlue" displayName="Near Tint Blue"					displayType="SLIDER;0;255;255" 		tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="nearTintalpha" displayName="Near Tint Alpha"				displayType="SLIDER;0;255;255" 		tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="farTintRed" displayName="Far Tint Red"						displayType="SLIDER;0;255;255" 		tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="farTintGreen" displayName="Far Tint Green"					displayType="SLIDER;0;255;255" 		tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="farTintBlue" displayName="Far Tint Blue"					displayType="SLIDER;0;255;255" 		tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="farTintAlpha" displayName="Far Tint Alpha"					displayType="SLIDER;0;255;255" 		tags="customNames;nonLocalized;customDisplayName"/>
+        </VisibleVars>
+    </Group>
+	
+	<Group id="KNGMenuFavorites1" displayName="Mods.Ultimate Lighting.Favorites.Favorite #1">
+		<PresetsArray>
+			<Preset id="0" displayName="CSLM" tags="customNames;nonLocalized;customDisplayName">
+				<Entry varId="EnableEnv"				value="1"	/>
+				<Entry varId="envPriority"				value="1000"	/>
+				<Entry varId="envBlend"					value="1"	/>
+				<Entry varId="fullscreenblur"			value="0"	/>
+				<Entry varId="EnvironmentDefinition"	value="0"	/>
+				<Entry varId="TurboMode"				value="1"	/>
+				<Entry varId="fogDensity"				value="0.1"	/>
+				<Entry varId="EnableColorPicker"		value="1"	/>
+				<Entry varId="Saturation"				value="0.25"/>
+				<Entry varId="nearTintRange"			value="0"	/>
+				<Entry varId="nearTintRed"				value="0"	/>
+				<Entry varId="nearTintGreen"			value="0"	/>
+				<Entry varId="nearTintBlue"				value="0"	/>
+				<Entry varId="nearTintalpha"			value="0"	/>
+				<Entry varId="farTintRed"				value="0"	/>
+				<Entry varId="farTintGreen"				value="0"	/>
+				<Entry varId="farTintBlue"				value="0"	/>
+				<Entry varId="farTintAlpha"				value="0"	/>
+			</Preset>
+		</PresetsArray>
+        <VisibleVars>
+            <!-- SLIDER -->
+            <Var id="envPriority" displayName="envPriority: Sets the priority of Custom Lighting over Default Lighting"
+                displayType="SLIDER;0;1000;1000" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="envBlend" displayName="envBlend: Sets the intensity of Custom Lighting over Default Lighting"
+                displayType="SLIDER;0;1;1000000" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="fullscreenblur" displayName="Blur Effect"
+                displayType="SLIDER;0;1;1000000" tags="customNames;nonLocalized;customDisplayName"/>
+			<!-- OPTION -->
+            <Var id="EnvironmentDefinition" displayName="Environment Definition"
+                displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName">
+                <OptionsArray>
+                    <Option id="0" displayName="#1 CSLM">
+                        <Entry varId="EnvironmentDefinition" value="0"/>
+                    </Option>
+                    <Option id="1" displayName="#2 YALM">
+                        <Entry varId="EnvironmentDefinition" value="1"/>
+                    </Option>
+                    <Option id="2" displayName="#3 cutscen_definition_kaer_morhen">
+                        <Entry varId="EnvironmentDefinition" value="2"/>
+                    </Option>
+                    <Option id="3" displayName="#4 dandelion_cellar_cutscene">
+                        <Entry varId="EnvironmentDefinition" value="3"/>
+                    </Option>
+                    <Option id="4" displayName="#5 Swamp Zone Lighting Mod">
+                        <Entry varId="EnvironmentDefinition" value="4"/>
+                    </Option>
+                    <Option id="5" displayName="#6 env_island_of_mist">
+                        <Entry varId="EnvironmentDefinition" value="5"/>
+                    </Option>
+                    <Option id="6" displayName="#7 env_island_of_mist_2">
+                        <Entry varId="EnvironmentDefinition" value="6"/>
+                    </Option>
+                    <Option id="7" displayName="#8 env_island_of_mist_dark">
+                        <Entry varId="EnvironmentDefinition" value="7"/>
+                    </Option>
+                    <Option id="8" displayName="#9 env_island_of_mist_dark_cutscen">
+                        <Entry varId="EnvironmentDefinition" value="8"/>
+                    </Option>
+                    <Option id="9" displayName="#10 env_nml_global_dark_sunset">
+                        <Entry varId="EnvironmentDefinition" value="9"/>
+                    </Option>
+                    <Option id="10" displayName="#11 env_nml_global_dark_sunset_interior">
+                        <Entry varId="EnvironmentDefinition" value="10"/>
+                    </Option>
+                    <Option id="11" displayName="#12 env_nml_barons_castle_v2">
+                        <Entry varId="EnvironmentDefinition" value="11"/>
+                    </Option>
+                    <Option id="12" displayName="#13 env_nml_crossroads_inn_v2">
+                        <Entry varId="EnvironmentDefinition" value="12"/>
+                    </Option>
+                    <Option id="13" displayName="#14 env_keira_secret_2">
+                        <Entry varId="EnvironmentDefinition" value="13"/>
+                    </Option>
+                    <Option id="14" displayName="#15 E3 2014 Swamp Lighting">
+                        <Entry varId="EnvironmentDefinition" value="14"/>
+                    </Option>
+                    <Option id="15" displayName="#16 env_nml_swamps_v1_a_ps4_flat24">
+                        <Entry varId="EnvironmentDefinition" value="15"/>
+                    </Option>
+                    <Option id="16" displayName="#17 env_salt_mine_filmic_01">
+                        <Entry varId="EnvironmentDefinition" value="16"/>
+                    </Option>
+                    <Option id="17" displayName="#18 env_interior">
+                        <Entry varId="EnvironmentDefinition" value="17"/>
+                    </Option>
+                    <Option id="18" displayName="#19 env_novigrad_cave">
+                        <Entry varId="EnvironmentDefinition" value="18"/>
+                    </Option>
+                    <Option id="19" displayName="#20 env_novigrad_cave_blizzard">
+                        <Entry varId="EnvironmentDefinition" value="19"/>
+                    </Option>
+                    <Option id="20" displayName="#21 env_novigrad_cave_dark">
+                        <Entry varId="EnvironmentDefinition" value="20"/>
+                    </Option>
+                    <Option id="21" displayName="#22 env_novigrad_cave_red_water">
+                        <Entry varId="EnvironmentDefinition" value="21"/>
+                    </Option>
+                    <Option id="22" displayName="#23 env_novigrad_dark_clouds">
+                        <Entry varId="EnvironmentDefinition" value="22"/>
+                    </Option>
+                    <Option id="23" displayName="#24 env_novigrad_dark_clouds_heavy">
+                        <Entry varId="EnvironmentDefinition" value="23"/>
+                    </Option>
+                    <Option id="24" displayName="#25 env_novigrad_dark_clouds_heavy_rain_color">
+                        <Entry varId="EnvironmentDefinition" value="24"/>
+                    </Option>
+                    <Option id="25" displayName="#26 env_novigrad_int">
+                        <Entry varId="EnvironmentDefinition" value="25"/>
+                    </Option>
+                    <Option id="26" displayName="#27 env_novigrad_storm">
+                        <Entry varId="EnvironmentDefinition" value="26"/>
+                    </Option>
+                    <Option id="27" displayName="#28 env_novigrad_sunset">
+                        <Entry varId="EnvironmentDefinition" value="27"/>
+                    </Option>
+                    <Option id="28" displayName="#29 env_elven_king_dandelion_copy">
+                        <Entry varId="EnvironmentDefinition" value="28"/>
+                    </Option>
+                    <Option id="29" displayName="#30 env_novigrad_city">
+                        <Entry varId="EnvironmentDefinition" value="29"/>
+                    </Option>
+                    <Option id="30" displayName="#31 env_novigrad_0_storm_1">
+                        <Entry varId="EnvironmentDefinition" value="30"/>
+                    </Option>
+                    <Option id="31" displayName="#32 underwater">
+                        <Entry varId="EnvironmentDefinition" value="31"/>
+                    </Option>
+                    <Option id="32" displayName="#33 env_dandelion">
+                        <Entry varId="EnvironmentDefinition" value="32"/>
+                    </Option>
+                    <Option id="33" displayName="#34 env_interior_1">
+                        <Entry varId="EnvironmentDefinition" value="33"/>
+                    </Option>
+                    <Option id="34" displayName="#35 env_interior_2">
+                        <Entry varId="EnvironmentDefinition" value="34"/>
+                    </Option>
+                    <Option id="35" displayName="#36 env_novigrad_sewers_filmic_v1">
+                        <Entry varId="EnvironmentDefinition" value="35"/>
+                    </Option>
+                    <Option id="36" displayName="#37 env_prolog_colors_cinematic_tonemapping">
+                        <Entry varId="EnvironmentDefinition" value="36"/>
+                    </Option>
+                    <Option id="37" displayName="#38 Simply Bokehlicious">
+                        <Entry varId="EnvironmentDefinition" value="37"/>
+                    </Option>
+                    <Option id="38" displayName="#39 env_prolog_colors_v1_b_sunset">
+                        <Entry varId="EnvironmentDefinition" value="38"/>
+                    </Option>
+                    <Option id="39" displayName="#40 env_prolog_global_raw_v2_a_interior">
+                        <Entry varId="EnvironmentDefinition" value="39"/>
+                    </Option>
+                    <Option id="40" displayName="#41 env_fight_island_arena_">
+                        <Entry varId="EnvironmentDefinition" value="40"/>
+                    </Option>
+                    <Option id="41" displayName="#42 env_fight_ship">
+                        <Entry varId="EnvironmentDefinition" value="41"/>
+                    </Option>
+                    <Option id="42" displayName="#43 env_pbr_skellige_len_temp">
+                        <Entry varId="EnvironmentDefinition" value="42"/>
+                    </Option>
+                    <Option id="43" displayName="#44 env_skellige_brown">
+                        <Entry varId="EnvironmentDefinition" value="43"/>
+                    </Option>
+                    <Option id="44" displayName="#45 env_skellige_brown_dark_clouds">
+                        <Entry varId="EnvironmentDefinition" value="44"/>
+                    </Option>
+                    <Option id="45" displayName="#46 env_skellige_dark_clouds">
+                        <Entry varId="EnvironmentDefinition" value="45"/>
+                    </Option>
+                    <Option id="46" displayName="#47 env_skellige_rain_storm">
+                        <Entry varId="EnvironmentDefinition" value="46"/>
+                    </Option>
+                    <Option id="47" displayName="#48 env_skellige_rain_storm_arena">
+                        <Entry varId="EnvironmentDefinition" value="47"/>
+                    </Option>
+                    <Option id="48" displayName="#49 env_winter_skellige">
+                        <Entry varId="EnvironmentDefinition" value="48"/>
+                    </Option>
+                    <Option id="49" displayName="#50 env_skellige_cataclysm_1">
+                        <Entry varId="EnvironmentDefinition" value="49"/>
+                    </Option>
+                    <Option id="50" displayName="#51 Grim Environment">
+                        <Entry varId="EnvironmentDefinition" value="50"/>
+                    </Option>
+                    <Option id="51" displayName="#52 env_herbarium_fall_2">
+                        <Entry varId="EnvironmentDefinition" value="51"/>
+                    </Option>
+                    <Option id="52" displayName="#53 env_herbarium_mordor_1">
+                        <Entry varId="EnvironmentDefinition" value="52"/>
+                    </Option>
+                    <Option id="53" displayName="#54 env_kaer_trolde_interior_1">
+                        <Entry varId="EnvironmentDefinition" value="53"/>
+                    </Option>
+                    <Option id="54" displayName="#55 env_kaer_trolde_interior_2">
+                        <Entry varId="EnvironmentDefinition" value="54"/>
+                    </Option>
+                    <Option id="55" displayName="#56 env_skellige_udalryk">
+                        <Entry varId="EnvironmentDefinition" value="55"/>
+                    </Option>
+                    <Option id="56" displayName="#57 env_bathouse_v01">
+                        <Entry varId="EnvironmentDefinition" value="56"/>
+                    </Option>
+                    <Option id="57" displayName="#58 env_skellige_q210">
+                        <Entry varId="EnvironmentDefinition" value="57"/>
+                    </Option>
+                    <Option id="58" displayName="#59 q501_underwater">
+                        <Entry varId="EnvironmentDefinition" value="58"/>
+                    </Option>
+                    <Option id="59" displayName="#60 q502_wyzima">
+                        <Entry varId="EnvironmentDefinition" value="59"/>
+                    </Option>
+                    <Option id="60" displayName="#61 q502_wyzima_v2">
+                        <Entry varId="EnvironmentDefinition" value="60"/>
+                    </Option>
+                    <Option id="61" displayName="#62 q502_wyzima_v3">
+                        <Entry varId="EnvironmentDefinition" value="61"/>
+                    </Option>
+                    <Option id="62" displayName="#63 q502_wyzima_v4">
+                        <Entry varId="EnvironmentDefinition" value="62"/>
+                    </Option>
+                    <Option id="63" displayName="#64 env_km_v09_tm_q502_cold_light">
+                        <Entry varId="EnvironmentDefinition" value="63"/>
+                    </Option>
+                    <Option id="64" displayName="#65 skellige_brown_q502_by_light">
+                        <Entry varId="EnvironmentDefinition" value="64"/>
+                    </Option>
+                    <Option id="65" displayName="#66 skellige_brown_q502_by_light_2">
+                        <Entry varId="EnvironmentDefinition" value="65"/>
+                    </Option>
+                    <Option id="66" displayName="#67 skellige_brown_q502_by_light_3">
+                        <Entry varId="EnvironmentDefinition" value="66"/>
+                    </Option>
+                    <Option id="67" displayName="#68 skellige_brown_q502_by_light_4">
+                        <Entry varId="EnvironmentDefinition" value="67"/>
+                    </Option>
+                    <Option id="68" displayName="#69 New Lighting Mod by Vikart">
+                        <Entry varId="EnvironmentDefinition" value="68"/>
+                    </Option>
+                    <Option id="69" displayName="#70 env_skellige_sq209_02">
+                        <Entry varId="EnvironmentDefinition" value="69"/>
+                    </Option>
+                    <Option id="70" displayName="#71 env_skellige_sq209_03">
+                        <Entry varId="EnvironmentDefinition" value="70"/>
+                    </Option>
+                    <Option id="71" displayName="#72 env_elven_city_4_11">
+                        <Entry varId="EnvironmentDefinition" value="71"/>
+                    </Option>
+                    <Option id="72" displayName="#73 env_spiral_dark_valley">
+                        <Entry varId="EnvironmentDefinition" value="72"/>
+                    </Option>
+                    <Option id="73" displayName="#74 env_spiral_snow_hour_6_22_cave">
+                        <Entry varId="EnvironmentDefinition" value="73"/>
+                    </Option>
+                    <Option id="74" displayName="#75 env_winter_epilog">
+                        <Entry varId="EnvironmentDefinition" value="74"/>
+                    </Option>
+                    <Option id="75" displayName="#76 env_winter_epilog_white_grass">
+                        <Entry varId="EnvironmentDefinition" value="75"/>
+                    </Option>
+                    <Option id="76" displayName="#77 env_winter_epilog_white_grass_hendriks_basement">
+                        <Entry varId="EnvironmentDefinition" value="76"/>
+                    </Option>
+                    <Option id="77" displayName="#78 env_winter_epilog_white_grass_hendriks_house">
+                        <Entry varId="EnvironmentDefinition" value="77"/>
+                    </Option>
+                    <Option id="78" displayName="#79 env_winter_v0_white_thaw">
+                        <Entry varId="EnvironmentDefinition" value="78"/>
+                    </Option>
+                    <Option id="79" displayName="#80 kaer_morhen_nightmare">
+                        <Entry varId="EnvironmentDefinition" value="79"/>
+                    </Option>
+                    <Option id="80" displayName="#81 env_kaer_morhen_hdr_int">
+                        <Entry varId="EnvironmentDefinition" value="80"/>
+                    </Option>
+                    <Option id="81" displayName="#82 env_km_dark_clouds_heavy_rain_color">
+                        <Entry varId="EnvironmentDefinition" value="81"/>
+                    </Option>
+                    <Option id="82" displayName="#83 kaer_morhen_battle">
+                        <Entry varId="EnvironmentDefinition" value="82"/>
+                    </Option>
+                    <Option id="83" displayName="#84 kaer_morhen_battle_preview_01">
+                        <Entry varId="EnvironmentDefinition" value="83"/>
+                    </Option>
+                    <Option id="84" displayName="#85 env_kaer_morhen_v09_hdr_int">
+                        <Entry varId="EnvironmentDefinition" value="84"/>
+                    </Option>
+                    <Option id="85" displayName="#86 env_kaer_morhen_v09_tm">
+                        <Entry varId="EnvironmentDefinition" value="85"/>
+                    </Option>
+                    <Option id="86" displayName="#87 env_kaer_morhen_v09_usm_sex_scene">
+                        <Entry varId="EnvironmentDefinition" value="86"/>
+                    </Option>
+                    <Option id="87" displayName="#88 env_kaer_morhen_v09_usm_sex_scene_v3">
+                        <Entry varId="EnvironmentDefinition" value="87"/>
+                    </Option>
+                    <Option id="88" displayName="#89 env_kaer_morhen_vesemir_v0_hour_3_30">
+                        <Entry varId="EnvironmentDefinition" value="88"/>
+                    </Option>
+                    <Option id="89" displayName="#90 env_kaer_morhen_v09_q401">
+                        <Entry varId="EnvironmentDefinition" value="89"/>
+                    </Option>
+                    <Option id="90" displayName="#91 env_global_clear_interior">
+                        <Entry varId="EnvironmentDefinition" value="90"/>
+                    </Option>
+                    <Option id="91" displayName="#92 env_abandoned_mine">
+                        <Entry varId="EnvironmentDefinition" value="91"/>
+                    </Option>
+                    <Option id="92" displayName="#93 env_bies_hypnotize">
+                        <Entry varId="EnvironmentDefinition" value="92"/>
+                    </Option>
+                    <Option id="93" displayName="#94 env_dense_fog_mq2041">
+                        <Entry varId="EnvironmentDefinition" value="93"/>
+                    </Option>
+                    <Option id="94" displayName="#95 battle_02">
+                        <Entry varId="EnvironmentDefinition" value="94"/>
+                    </Option>
+                    <Option id="95" displayName="#96 battle_02_copy">
+                        <Entry varId="EnvironmentDefinition" value="95"/>
+                    </Option>
+                    <Option id="96" displayName="#97 battle_02_copy_nofx">
+                        <Entry varId="EnvironmentDefinition" value="96"/>
+                    </Option>
+                    <Option id="97" displayName="#98 battle_02_no blue_lights">
+                        <Entry varId="EnvironmentDefinition" value="97"/>
+                    </Option>
+                    <Option id="98" displayName="#99 battle_02_no _sun">
+                        <Entry varId="EnvironmentDefinition" value="98"/>
+                    </Option>
+                    <Option id="99" displayName="#100 battle_02_shadow_light">
+                        <Entry varId="EnvironmentDefinition" value="99"/>
+                    </Option>
+                    <Option id="100" displayName="#101 cs002_wild_hunt_chase_p4">
+                        <Entry varId="EnvironmentDefinition" value="100"/>
+                    </Option>
+                    <Option id="101" displayName="#102 cs301_dream_ciri_and_jasker_p2">
+                        <Entry varId="EnvironmentDefinition" value="101"/>
+                    </Option>
+                    <Option id="102" displayName="#103 cs501_ciri_escape">
+                        <Entry varId="EnvironmentDefinition" value="102"/>
+                    </Option>
+                    <Option id="103" displayName="#104 cs501_naglfar_arrives">
+                        <Entry varId="EnvironmentDefinition" value="103"/>
+                    </Option>
+                    <Option id="104" displayName="#105 cs__departure_2">
+                        <Entry varId="EnvironmentDefinition" value="104"/>
+                    </Option>
+                    <Option id="105" displayName="#106 naglfar_freezes_p2">
+                        <Entry varId="EnvironmentDefinition" value="105"/>
+                    </Option>
+                    <Option id="106" displayName="#107 naglfar_freezes_p2_face">
+                        <Entry varId="EnvironmentDefinition" value="106"/>
+                    </Option>
+                    <Option id="107" displayName="#108 env_wyzima">
+                        <Entry varId="EnvironmentDefinition" value="107"/>
+                    </Option>
+                    <Option id="108" displayName="#109 env_wyzima_interior">
+                        <Entry varId="EnvironmentDefinition" value="108"/>
+                    </Option>
+                    <Option id="109" displayName="#110 Overly Dark Nights Mod">
+                        <Entry varId="EnvironmentDefinition" value="109"/>
+                    </Option>
+                    <Option id="110" displayName="#111 q103_castle_fire_noshafts">
+                        <Entry varId="EnvironmentDefinition" value="110"/>
+                    </Option>
+                    <Option id="111" displayName="#112 q103_env_barons_burial">
+                        <Entry varId="EnvironmentDefinition" value="111"/>
+                    </Option>
+                    <Option id="112" displayName="#113 q107_env_witch_village_fog">
+                        <Entry varId="EnvironmentDefinition" value="112"/>
+                    </Option>
+                    <Option id="113" displayName="#114 env_mist_q106">
+                        <Entry varId="EnvironmentDefinition" value="113"/>
+                    </Option>
+                    <Option id="114" displayName="#115 q106_temp_island_env_int_cs">
+                        <Entry varId="EnvironmentDefinition" value="114"/>
+                    </Option>
+                    <Option id="115" displayName="#116 q106_temp_island_env">
+                        <Entry varId="EnvironmentDefinition" value="115"/>
+                    </Option>
+                    <Option id="116" displayName="#117 q106_temp_island_env_int">
+                        <Entry varId="EnvironmentDefinition" value="116"/>
+                    </Option>
+                    <Option id="117" displayName="#118 dashdot_env_nvg_global_23_07_2013_copy">
+                        <Entry varId="EnvironmentDefinition" value="117"/>
+                    </Option>
+					<Option id="118" displayName="#119 env_novigrad_cave_simpa">
+                        <Entry varId="EnvironmentDefinition" value="118"/>
+                    </Option>
+					<Option id="119" displayName="#120 env_novigrad_q602_sex_empty_1">
+                        <Entry varId="EnvironmentDefinition" value="119"/>
+                    </Option>
+					<Option id="120" displayName="#121 env_novigrad_sunset_q602_dog">
+                        <Entry varId="EnvironmentDefinition" value="120"/>
+                    </Option>
+					<Option id="121" displayName="#122 env_novigrad_sunset_q602_sex">
+                        <Entry varId="EnvironmentDefinition" value="121"/>
+                    </Option>
+					<Option id="122" displayName="#123 env_novigrad_sunset_q603_heist_starts">
+                        <Entry varId="EnvironmentDefinition" value="122"/>
+                    </Option>
+					<Option id="123" displayName="#124 env_novigrad_cave_frogarena">
+                        <Entry varId="EnvironmentDefinition" value="123"/>
+                    </Option>
+					<Option id="124" displayName="#125 q601_dark_clouds_heavy_rain">
+                        <Entry varId="EnvironmentDefinition" value="124"/>
+                    </Option>
+					<Option id="125" displayName="#126 q601_dark_clouds_heavy_rain_scene">
+                        <Entry varId="EnvironmentDefinition" value="125"/>
+                    </Option>
+					<Option id="126" displayName="#127 q602_wedding_overlay">
+                        <Entry varId="EnvironmentDefinition" value="126"/>
+                    </Option>
+					<Option id="127" displayName="#128 q602_wedding_overlay_2">
+                        <Entry varId="EnvironmentDefinition" value="127"/>
+                    </Option>
+					<Option id="128" displayName="#129 env_novigrad_sunset_q605_temple_meeting_02">
+                        <Entry varId="EnvironmentDefinition" value="128"/>
+                    </Option>
+					<Option id="129" displayName="#130 q605_no_wind">
+                        <Entry varId="EnvironmentDefinition" value="129"/>
+                    </Option>
+					<Option id="130" displayName="#131 bury_iris_side">
+                        <Entry varId="EnvironmentDefinition" value="130"/>
+                    </Option>
+					<Option id="131" displayName="#132 enter_painting_wide">
+                        <Entry varId="EnvironmentDefinition" value="131"/>
+                    </Option>
+					<Option id="132" displayName="#133 leshy_forest">
+                        <Entry varId="EnvironmentDefinition" value="132"/>
+                    </Option>
+					<Option id="133" displayName="#134 env_novigrad_sunset_cs601_09.env">
+                        <Entry varId="EnvironmentDefinition" value="133"/>
+                    </Option>
+					<Option id="134" displayName="#135 q601_ship">
+                        <Entry varId="EnvironmentDefinition" value="134"/>
+                    </Option>
+					<Option id="135" displayName="#136 env_novigrad_sunset_nn">
+                        <Entry varId="EnvironmentDefinition" value="135"/>
+                    </Option>
+					<Option id="136" displayName="#137 env_novigrad_sunset_nn">
+                        <Entry varId="EnvironmentDefinition" value="136"/>
+                    </Option>
+					<Option id="137" displayName="#138 env_novigrad_sunset_nn_blu_">
+                        <Entry varId="EnvironmentDefinition" value="137"/>
+                    </Option>
+					<Option id="138" displayName="#139 q604_blizzard">
+                        <Entry varId="EnvironmentDefinition" value="138"/>
+                    </Option>
+					<Option id="139" displayName="#140 q604_blizzard_cs">
+                        <Entry varId="EnvironmentDefinition" value="139"/>
+                    </Option>
+					<Option id="140" displayName="#141 q604_blizzard_cs_exit_painting">
+                        <Entry varId="EnvironmentDefinition" value="140"/>
+                    </Option>
+					<Option id="141" displayName="#142 q604_blizzard_interior">
+                        <Entry varId="EnvironmentDefinition" value="141"/>
+                    </Option>
+					<Option id="142" displayName="#143 q604_blizzard_interior_cs">
+                        <Entry varId="EnvironmentDefinition" value="142"/>
+                    </Option>
+					<Option id="143" displayName="#144 q604_creepy">
+                        <Entry varId="EnvironmentDefinition" value="143"/>
+                    </Option>
+					<Option id="144" displayName="#145 q604_creepy_cs">
+                        <Entry varId="EnvironmentDefinition" value="144"/>
+                    </Option>
+					<Option id="145" displayName="#146 q604_creepy_interior">
+                        <Entry varId="EnvironmentDefinition" value="145"/>
+                    </Option>
+					<Option id="146" displayName="#147 q604_dark_corridor">
+                        <Entry varId="EnvironmentDefinition" value="146"/>
+                    </Option>
+					<Option id="147" displayName="#148 q604_dark_corridor_creepy">
+                        <Entry varId="EnvironmentDefinition" value="147"/>
+                    </Option>
+					<Option id="148" displayName="#149 q604_dark_corridor_creepy_paint">
+                        <Entry varId="EnvironmentDefinition" value="148"/>
+                    </Option>
+					<Option id="149" displayName="#150 q604_painting_cs">
+                        <Entry varId="EnvironmentDefinition" value="149"/>
+                    </Option>
+					<Option id="150" displayName="#151 q604_painting_cs_closeup">
+                        <Entry varId="EnvironmentDefinition" value="150"/>
+                    </Option>
+					<Option id="151" displayName="#152 q604_painting_cs_midshot">
+                        <Entry varId="EnvironmentDefinition" value="151"/>
+                    </Option>
+					<Option id="152" displayName="#153 q604_painting_cs_wideshot">
+                        <Entry varId="EnvironmentDefinition" value="152"/>
+                    </Option>
+					<Option id="153" displayName="#154 q604_painting_interior">
+                        <Entry varId="EnvironmentDefinition" value="153"/>
+                    </Option>
+					<Option id="154" displayName="#155 q604_painting_interior_cs">
+                        <Entry varId="EnvironmentDefinition" value="154"/>
+                    </Option>
+					<Option id="155" displayName="#156 q604_unmasking">
+                        <Entry varId="EnvironmentDefinition" value="155"/>
+                    </Option>
+					<Option id="156" displayName="#157 q604_unmasking_dark">
+                        <Entry varId="EnvironmentDefinition" value="156"/>
+                    </Option>
+					<Option id="157" displayName="#158 q604_unmasking_shadow_more_details">
+                        <Entry varId="EnvironmentDefinition" value="157"/>
+                    </Option>
+					<Option id="158" displayName="#159 q605_hell_red_blockout">
+                        <Entry varId="EnvironmentDefinition" value="158"/>
+                    </Option>
+					<Option id="159" displayName="#160 q605_hell_red_blockout_last_arena">
+                        <Entry varId="EnvironmentDefinition" value="159"/>
+                    </Option>
+					<Option id="160" displayName="#161 q605_hell_red_blockout_mansion">
+                        <Entry varId="EnvironmentDefinition" value="160"/>
+                    </Option>
+				</OptionsArray>
+			</Var>
+
+			<Var id="TurboMode" displayName="Enable Turbo Mode" 				displayType="TOGGLE" 				tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="fogDensity" displayName="Distance Fog Density" 			displayType="SLIDER;0;1;1000000" 	tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="EnableColorPicker" displayName="Enable Colorizer" 			displayType="TOGGLE" 				tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="Saturation" displayName="Desaturation" 					displayType="SLIDER;0;1;1000000" 	tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="nearTintRange" displayName="Near Tint Range in (meters)"	displayType="SLIDER;0;1000;1000000" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="nearTintRed" displayName="Near Tint Red"					displayType="SLIDER;0;255;255" 		tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="nearTintGreen" displayName="Near Tint Green"				displayType="SLIDER;0;255;255" 		tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="nearTintBlue" displayName="Near Tint Blue"					displayType="SLIDER;0;255;255" 		tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="nearTintalpha" displayName="Near Tint Alpha"				displayType="SLIDER;0;255;255" 		tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="farTintRed" displayName="Far Tint Red"						displayType="SLIDER;0;255;255" 		tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="farTintGreen" displayName="Far Tint Green"					displayType="SLIDER;0;255;255" 		tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="farTintBlue" displayName="Far Tint Blue"					displayType="SLIDER;0;255;255" 		tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="farTintAlpha" displayName="Far Tint Alpha"					displayType="SLIDER;0;255;255" 		tags="customNames;nonLocalized;customDisplayName"/>
+        </VisibleVars>
+    </Group>
+    
+	<Group id="KNGMenuFavorites2" displayName="Mods.Ultimate Lighting.Favorites.Favorite #2">
+        <PresetsArray>
+			<Preset id="0" displayName="STLM Fix" tags="customNames;nonLocalized;customDisplayName">
+				<Entry varId="EnableEnv"				value="1"	/>
+				<Entry varId="envPriority"				value="1000"	/>
+				<Entry varId="envBlend"					value="1"	/>
+				<Entry varId="fullscreenblur"			value="0"	/>
+				<Entry varId="EnvironmentDefinition"	value="117"	/>
+				<Entry varId="TurboMode"				value="1"	/>
+				<Entry varId="fogDensity"				value="0.1"	/>
+				<Entry varId="EnableColorPicker"		value="1"	/>
+				<Entry varId="Saturation"				value="0.25"/>
+				<Entry varId="nearTintRange"			value="0"	/>
+				<Entry varId="nearTintRed"				value="0"	/>
+				<Entry varId="nearTintGreen"			value="0"	/>
+				<Entry varId="nearTintBlue"				value="0"	/>
+				<Entry varId="nearTintalpha"			value="0"	/>
+				<Entry varId="farTintRed"				value="0"	/>
+				<Entry varId="farTintGreen"				value="0"	/>
+				<Entry varId="farTintBlue"				value="0"	/>
+				<Entry varId="farTintAlpha"				value="0"	/>
+			</Preset>
+		</PresetsArray>
+		<VisibleVars>
+            <!-- SLIDER -->
+            <Var id="envPriority" displayName="envPriority: Sets the priority of Custom Lighting over Default Lighting"
+                displayType="SLIDER;0;1000;1000" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="envBlend" displayName="envBlend: Sets the intensity of Custom Lighting over Default Lighting"
+                displayType="SLIDER;0;1;1000000" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="fullscreenblur" displayName="Blur Effect"
+                displayType="SLIDER;0;1;1000000" tags="customNames;nonLocalized;customDisplayName"/>
+			<!-- OPTION -->
+            <Var id="EnvironmentDefinition" displayName="Environment Definition"
+                displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName">
+                <OptionsArray>
+                    <Option id="0" displayName="#1 CSLM">
+                        <Entry varId="EnvironmentDefinition" value="0"/>
+                    </Option>
+                    <Option id="1" displayName="#2 YALM">
+                        <Entry varId="EnvironmentDefinition" value="1"/>
+                    </Option>
+                    <Option id="2" displayName="#3 cutscen_definition_kaer_morhen">
+                        <Entry varId="EnvironmentDefinition" value="2"/>
+                    </Option>
+                    <Option id="3" displayName="#4 dandelion_cellar_cutscene">
+                        <Entry varId="EnvironmentDefinition" value="3"/>
+                    </Option>
+                    <Option id="4" displayName="#5 Swamp Zone Lighting Mod">
+                        <Entry varId="EnvironmentDefinition" value="4"/>
+                    </Option>
+                    <Option id="5" displayName="#6 env_island_of_mist">
+                        <Entry varId="EnvironmentDefinition" value="5"/>
+                    </Option>
+                    <Option id="6" displayName="#7 env_island_of_mist_2">
+                        <Entry varId="EnvironmentDefinition" value="6"/>
+                    </Option>
+                    <Option id="7" displayName="#8 env_island_of_mist_dark">
+                        <Entry varId="EnvironmentDefinition" value="7"/>
+                    </Option>
+                    <Option id="8" displayName="#9 env_island_of_mist_dark_cutscen">
+                        <Entry varId="EnvironmentDefinition" value="8"/>
+                    </Option>
+                    <Option id="9" displayName="#10 env_nml_global_dark_sunset">
+                        <Entry varId="EnvironmentDefinition" value="9"/>
+                    </Option>
+                    <Option id="10" displayName="#11 env_nml_global_dark_sunset_interior">
+                        <Entry varId="EnvironmentDefinition" value="10"/>
+                    </Option>
+                    <Option id="11" displayName="#12 env_nml_barons_castle_v2">
+                        <Entry varId="EnvironmentDefinition" value="11"/>
+                    </Option>
+                    <Option id="12" displayName="#13 env_nml_crossroads_inn_v2">
+                        <Entry varId="EnvironmentDefinition" value="12"/>
+                    </Option>
+                    <Option id="13" displayName="#14 env_keira_secret_2">
+                        <Entry varId="EnvironmentDefinition" value="13"/>
+                    </Option>
+                    <Option id="14" displayName="#15 E3 2014 Swamp Lighting">
+                        <Entry varId="EnvironmentDefinition" value="14"/>
+                    </Option>
+                    <Option id="15" displayName="#16 env_nml_swamps_v1_a_ps4_flat24">
+                        <Entry varId="EnvironmentDefinition" value="15"/>
+                    </Option>
+                    <Option id="16" displayName="#17 env_salt_mine_filmic_01">
+                        <Entry varId="EnvironmentDefinition" value="16"/>
+                    </Option>
+                    <Option id="17" displayName="#18 env_interior">
+                        <Entry varId="EnvironmentDefinition" value="17"/>
+                    </Option>
+                    <Option id="18" displayName="#19 env_novigrad_cave">
+                        <Entry varId="EnvironmentDefinition" value="18"/>
+                    </Option>
+                    <Option id="19" displayName="#20 env_novigrad_cave_blizzard">
+                        <Entry varId="EnvironmentDefinition" value="19"/>
+                    </Option>
+                    <Option id="20" displayName="#21 env_novigrad_cave_dark">
+                        <Entry varId="EnvironmentDefinition" value="20"/>
+                    </Option>
+                    <Option id="21" displayName="#22 env_novigrad_cave_red_water">
+                        <Entry varId="EnvironmentDefinition" value="21"/>
+                    </Option>
+                    <Option id="22" displayName="#23 env_novigrad_dark_clouds">
+                        <Entry varId="EnvironmentDefinition" value="22"/>
+                    </Option>
+                    <Option id="23" displayName="#24 env_novigrad_dark_clouds_heavy">
+                        <Entry varId="EnvironmentDefinition" value="23"/>
+                    </Option>
+                    <Option id="24" displayName="#25 env_novigrad_dark_clouds_heavy_rain_color">
+                        <Entry varId="EnvironmentDefinition" value="24"/>
+                    </Option>
+                    <Option id="25" displayName="#26 env_novigrad_int">
+                        <Entry varId="EnvironmentDefinition" value="25"/>
+                    </Option>
+                    <Option id="26" displayName="#27 env_novigrad_storm">
+                        <Entry varId="EnvironmentDefinition" value="26"/>
+                    </Option>
+                    <Option id="27" displayName="#28 env_novigrad_sunset">
+                        <Entry varId="EnvironmentDefinition" value="27"/>
+                    </Option>
+                    <Option id="28" displayName="#29 env_elven_king_dandelion_copy">
+                        <Entry varId="EnvironmentDefinition" value="28"/>
+                    </Option>
+                    <Option id="29" displayName="#30 env_novigrad_city">
+                        <Entry varId="EnvironmentDefinition" value="29"/>
+                    </Option>
+                    <Option id="30" displayName="#31 env_novigrad_0_storm_1">
+                        <Entry varId="EnvironmentDefinition" value="30"/>
+                    </Option>
+                    <Option id="31" displayName="#32 underwater">
+                        <Entry varId="EnvironmentDefinition" value="31"/>
+                    </Option>
+                    <Option id="32" displayName="#33 env_dandelion">
+                        <Entry varId="EnvironmentDefinition" value="32"/>
+                    </Option>
+                    <Option id="33" displayName="#34 env_interior_1">
+                        <Entry varId="EnvironmentDefinition" value="33"/>
+                    </Option>
+                    <Option id="34" displayName="#35 env_interior_2">
+                        <Entry varId="EnvironmentDefinition" value="34"/>
+                    </Option>
+                    <Option id="35" displayName="#36 env_novigrad_sewers_filmic_v1">
+                        <Entry varId="EnvironmentDefinition" value="35"/>
+                    </Option>
+                    <Option id="36" displayName="#37 env_prolog_colors_cinematic_tonemapping">
+                        <Entry varId="EnvironmentDefinition" value="36"/>
+                    </Option>
+                    <Option id="37" displayName="#38 Simply Bokehlicious">
+                        <Entry varId="EnvironmentDefinition" value="37"/>
+                    </Option>
+                    <Option id="38" displayName="#39 env_prolog_colors_v1_b_sunset">
+                        <Entry varId="EnvironmentDefinition" value="38"/>
+                    </Option>
+                    <Option id="39" displayName="#40 env_prolog_global_raw_v2_a_interior">
+                        <Entry varId="EnvironmentDefinition" value="39"/>
+                    </Option>
+                    <Option id="40" displayName="#41 env_fight_island_arena_">
+                        <Entry varId="EnvironmentDefinition" value="40"/>
+                    </Option>
+                    <Option id="41" displayName="#42 env_fight_ship">
+                        <Entry varId="EnvironmentDefinition" value="41"/>
+                    </Option>
+                    <Option id="42" displayName="#43 env_pbr_skellige_len_temp">
+                        <Entry varId="EnvironmentDefinition" value="42"/>
+                    </Option>
+                    <Option id="43" displayName="#44 env_skellige_brown">
+                        <Entry varId="EnvironmentDefinition" value="43"/>
+                    </Option>
+                    <Option id="44" displayName="#45 env_skellige_brown_dark_clouds">
+                        <Entry varId="EnvironmentDefinition" value="44"/>
+                    </Option>
+                    <Option id="45" displayName="#46 env_skellige_dark_clouds">
+                        <Entry varId="EnvironmentDefinition" value="45"/>
+                    </Option>
+                    <Option id="46" displayName="#47 env_skellige_rain_storm">
+                        <Entry varId="EnvironmentDefinition" value="46"/>
+                    </Option>
+                    <Option id="47" displayName="#48 env_skellige_rain_storm_arena">
+                        <Entry varId="EnvironmentDefinition" value="47"/>
+                    </Option>
+                    <Option id="48" displayName="#49 env_winter_skellige">
+                        <Entry varId="EnvironmentDefinition" value="48"/>
+                    </Option>
+                    <Option id="49" displayName="#50 env_skellige_cataclysm_1">
+                        <Entry varId="EnvironmentDefinition" value="49"/>
+                    </Option>
+                    <Option id="50" displayName="#51 Grim Environment">
+                        <Entry varId="EnvironmentDefinition" value="50"/>
+                    </Option>
+                    <Option id="51" displayName="#52 env_herbarium_fall_2">
+                        <Entry varId="EnvironmentDefinition" value="51"/>
+                    </Option>
+                    <Option id="52" displayName="#53 env_herbarium_mordor_1">
+                        <Entry varId="EnvironmentDefinition" value="52"/>
+                    </Option>
+                    <Option id="53" displayName="#54 env_kaer_trolde_interior_1">
+                        <Entry varId="EnvironmentDefinition" value="53"/>
+                    </Option>
+                    <Option id="54" displayName="#55 env_kaer_trolde_interior_2">
+                        <Entry varId="EnvironmentDefinition" value="54"/>
+                    </Option>
+                    <Option id="55" displayName="#56 env_skellige_udalryk">
+                        <Entry varId="EnvironmentDefinition" value="55"/>
+                    </Option>
+                    <Option id="56" displayName="#57 env_bathouse_v01">
+                        <Entry varId="EnvironmentDefinition" value="56"/>
+                    </Option>
+                    <Option id="57" displayName="#58 env_skellige_q210">
+                        <Entry varId="EnvironmentDefinition" value="57"/>
+                    </Option>
+                    <Option id="58" displayName="#59 q501_underwater">
+                        <Entry varId="EnvironmentDefinition" value="58"/>
+                    </Option>
+                    <Option id="59" displayName="#60 q502_wyzima">
+                        <Entry varId="EnvironmentDefinition" value="59"/>
+                    </Option>
+                    <Option id="60" displayName="#61 q502_wyzima_v2">
+                        <Entry varId="EnvironmentDefinition" value="60"/>
+                    </Option>
+                    <Option id="61" displayName="#62 q502_wyzima_v3">
+                        <Entry varId="EnvironmentDefinition" value="61"/>
+                    </Option>
+                    <Option id="62" displayName="#63 q502_wyzima_v4">
+                        <Entry varId="EnvironmentDefinition" value="62"/>
+                    </Option>
+                    <Option id="63" displayName="#64 env_km_v09_tm_q502_cold_light">
+                        <Entry varId="EnvironmentDefinition" value="63"/>
+                    </Option>
+                    <Option id="64" displayName="#65 skellige_brown_q502_by_light">
+                        <Entry varId="EnvironmentDefinition" value="64"/>
+                    </Option>
+                    <Option id="65" displayName="#66 skellige_brown_q502_by_light_2">
+                        <Entry varId="EnvironmentDefinition" value="65"/>
+                    </Option>
+                    <Option id="66" displayName="#67 skellige_brown_q502_by_light_3">
+                        <Entry varId="EnvironmentDefinition" value="66"/>
+                    </Option>
+                    <Option id="67" displayName="#68 skellige_brown_q502_by_light_4">
+                        <Entry varId="EnvironmentDefinition" value="67"/>
+                    </Option>
+                    <Option id="68" displayName="#69 New Lighting Mod by Vikart">
+                        <Entry varId="EnvironmentDefinition" value="68"/>
+                    </Option>
+                    <Option id="69" displayName="#70 env_skellige_sq209_02">
+                        <Entry varId="EnvironmentDefinition" value="69"/>
+                    </Option>
+                    <Option id="70" displayName="#71 env_skellige_sq209_03">
+                        <Entry varId="EnvironmentDefinition" value="70"/>
+                    </Option>
+                    <Option id="71" displayName="#72 env_elven_city_4_11">
+                        <Entry varId="EnvironmentDefinition" value="71"/>
+                    </Option>
+                    <Option id="72" displayName="#73 env_spiral_dark_valley">
+                        <Entry varId="EnvironmentDefinition" value="72"/>
+                    </Option>
+                    <Option id="73" displayName="#74 env_spiral_snow_hour_6_22_cave">
+                        <Entry varId="EnvironmentDefinition" value="73"/>
+                    </Option>
+                    <Option id="74" displayName="#75 env_winter_epilog">
+                        <Entry varId="EnvironmentDefinition" value="74"/>
+                    </Option>
+                    <Option id="75" displayName="#76 env_winter_epilog_white_grass">
+                        <Entry varId="EnvironmentDefinition" value="75"/>
+                    </Option>
+                    <Option id="76" displayName="#77 env_winter_epilog_white_grass_hendriks_basement">
+                        <Entry varId="EnvironmentDefinition" value="76"/>
+                    </Option>
+                    <Option id="77" displayName="#78 env_winter_epilog_white_grass_hendriks_house">
+                        <Entry varId="EnvironmentDefinition" value="77"/>
+                    </Option>
+                    <Option id="78" displayName="#79 env_winter_v0_white_thaw">
+                        <Entry varId="EnvironmentDefinition" value="78"/>
+                    </Option>
+                    <Option id="79" displayName="#80 kaer_morhen_nightmare">
+                        <Entry varId="EnvironmentDefinition" value="79"/>
+                    </Option>
+                    <Option id="80" displayName="#81 env_kaer_morhen_hdr_int">
+                        <Entry varId="EnvironmentDefinition" value="80"/>
+                    </Option>
+                    <Option id="81" displayName="#82 env_km_dark_clouds_heavy_rain_color">
+                        <Entry varId="EnvironmentDefinition" value="81"/>
+                    </Option>
+                    <Option id="82" displayName="#83 kaer_morhen_battle">
+                        <Entry varId="EnvironmentDefinition" value="82"/>
+                    </Option>
+                    <Option id="83" displayName="#84 kaer_morhen_battle_preview_01">
+                        <Entry varId="EnvironmentDefinition" value="83"/>
+                    </Option>
+                    <Option id="84" displayName="#85 env_kaer_morhen_v09_hdr_int">
+                        <Entry varId="EnvironmentDefinition" value="84"/>
+                    </Option>
+                    <Option id="85" displayName="#86 env_kaer_morhen_v09_tm">
+                        <Entry varId="EnvironmentDefinition" value="85"/>
+                    </Option>
+                    <Option id="86" displayName="#87 env_kaer_morhen_v09_usm_sex_scene">
+                        <Entry varId="EnvironmentDefinition" value="86"/>
+                    </Option>
+                    <Option id="87" displayName="#88 env_kaer_morhen_v09_usm_sex_scene_v3">
+                        <Entry varId="EnvironmentDefinition" value="87"/>
+                    </Option>
+                    <Option id="88" displayName="#89 env_kaer_morhen_vesemir_v0_hour_3_30">
+                        <Entry varId="EnvironmentDefinition" value="88"/>
+                    </Option>
+                    <Option id="89" displayName="#90 env_kaer_morhen_v09_q401">
+                        <Entry varId="EnvironmentDefinition" value="89"/>
+                    </Option>
+                    <Option id="90" displayName="#91 env_global_clear_interior">
+                        <Entry varId="EnvironmentDefinition" value="90"/>
+                    </Option>
+                    <Option id="91" displayName="#92 env_abandoned_mine">
+                        <Entry varId="EnvironmentDefinition" value="91"/>
+                    </Option>
+                    <Option id="92" displayName="#93 env_bies_hypnotize">
+                        <Entry varId="EnvironmentDefinition" value="92"/>
+                    </Option>
+                    <Option id="93" displayName="#94 env_dense_fog_mq2041">
+                        <Entry varId="EnvironmentDefinition" value="93"/>
+                    </Option>
+                    <Option id="94" displayName="#95 battle_02">
+                        <Entry varId="EnvironmentDefinition" value="94"/>
+                    </Option>
+                    <Option id="95" displayName="#96 battle_02_copy">
+                        <Entry varId="EnvironmentDefinition" value="95"/>
+                    </Option>
+                    <Option id="96" displayName="#97 battle_02_copy_nofx">
+                        <Entry varId="EnvironmentDefinition" value="96"/>
+                    </Option>
+                    <Option id="97" displayName="#98 battle_02_no blue_lights">
+                        <Entry varId="EnvironmentDefinition" value="97"/>
+                    </Option>
+                    <Option id="98" displayName="#99 battle_02_no _sun">
+                        <Entry varId="EnvironmentDefinition" value="98"/>
+                    </Option>
+                    <Option id="99" displayName="#100 battle_02_shadow_light">
+                        <Entry varId="EnvironmentDefinition" value="99"/>
+                    </Option>
+                    <Option id="100" displayName="#101 cs002_wild_hunt_chase_p4">
+                        <Entry varId="EnvironmentDefinition" value="100"/>
+                    </Option>
+                    <Option id="101" displayName="#102 cs301_dream_ciri_and_jasker_p2">
+                        <Entry varId="EnvironmentDefinition" value="101"/>
+                    </Option>
+                    <Option id="102" displayName="#103 cs501_ciri_escape">
+                        <Entry varId="EnvironmentDefinition" value="102"/>
+                    </Option>
+                    <Option id="103" displayName="#104 cs501_naglfar_arrives">
+                        <Entry varId="EnvironmentDefinition" value="103"/>
+                    </Option>
+                    <Option id="104" displayName="#105 cs__departure_2">
+                        <Entry varId="EnvironmentDefinition" value="104"/>
+                    </Option>
+                    <Option id="105" displayName="#106 naglfar_freezes_p2">
+                        <Entry varId="EnvironmentDefinition" value="105"/>
+                    </Option>
+                    <Option id="106" displayName="#107 naglfar_freezes_p2_face">
+                        <Entry varId="EnvironmentDefinition" value="106"/>
+                    </Option>
+                    <Option id="107" displayName="#108 env_wyzima">
+                        <Entry varId="EnvironmentDefinition" value="107"/>
+                    </Option>
+                    <Option id="108" displayName="#109 env_wyzima_interior">
+                        <Entry varId="EnvironmentDefinition" value="108"/>
+                    </Option>
+                    <Option id="109" displayName="#110 Overly Dark Nights Mod">
+                        <Entry varId="EnvironmentDefinition" value="109"/>
+                    </Option>
+                    <Option id="110" displayName="#111 q103_castle_fire_noshafts">
+                        <Entry varId="EnvironmentDefinition" value="110"/>
+                    </Option>
+                    <Option id="111" displayName="#112 q103_env_barons_burial">
+                        <Entry varId="EnvironmentDefinition" value="111"/>
+                    </Option>
+                    <Option id="112" displayName="#113 q107_env_witch_village_fog">
+                        <Entry varId="EnvironmentDefinition" value="112"/>
+                    </Option>
+                    <Option id="113" displayName="#114 env_mist_q106">
+                        <Entry varId="EnvironmentDefinition" value="113"/>
+                    </Option>
+                    <Option id="114" displayName="#115 q106_temp_island_env_int_cs">
+                        <Entry varId="EnvironmentDefinition" value="114"/>
+                    </Option>
+                    <Option id="115" displayName="#116 q106_temp_island_env">
+                        <Entry varId="EnvironmentDefinition" value="115"/>
+                    </Option>
+                    <Option id="116" displayName="#117 q106_temp_island_env_int">
+                        <Entry varId="EnvironmentDefinition" value="116"/>
+                    </Option>
+                    <Option id="117" displayName="#118 dashdot_env_nvg_global_23_07_2013_copy">
+                        <Entry varId="EnvironmentDefinition" value="117"/>
+                    </Option>
+					<Option id="118" displayName="#119 env_novigrad_cave_simpa">
+                        <Entry varId="EnvironmentDefinition" value="118"/>
+                    </Option>
+					<Option id="119" displayName="#120 env_novigrad_q602_sex_empty_1">
+                        <Entry varId="EnvironmentDefinition" value="119"/>
+                    </Option>
+					<Option id="120" displayName="#121 env_novigrad_sunset_q602_dog">
+                        <Entry varId="EnvironmentDefinition" value="120"/>
+                    </Option>
+					<Option id="121" displayName="#122 env_novigrad_sunset_q602_sex">
+                        <Entry varId="EnvironmentDefinition" value="121"/>
+                    </Option>
+					<Option id="122" displayName="#123 env_novigrad_sunset_q603_heist_starts">
+                        <Entry varId="EnvironmentDefinition" value="122"/>
+                    </Option>
+					<Option id="123" displayName="#124 env_novigrad_cave_frogarena">
+                        <Entry varId="EnvironmentDefinition" value="123"/>
+                    </Option>
+					<Option id="124" displayName="#125 q601_dark_clouds_heavy_rain">
+                        <Entry varId="EnvironmentDefinition" value="124"/>
+                    </Option>
+					<Option id="125" displayName="#126 q601_dark_clouds_heavy_rain_scene">
+                        <Entry varId="EnvironmentDefinition" value="125"/>
+                    </Option>
+					<Option id="126" displayName="#127 q602_wedding_overlay">
+                        <Entry varId="EnvironmentDefinition" value="126"/>
+                    </Option>
+					<Option id="127" displayName="#128 q602_wedding_overlay_2">
+                        <Entry varId="EnvironmentDefinition" value="127"/>
+                    </Option>
+					<Option id="128" displayName="#129 env_novigrad_sunset_q605_temple_meeting_02">
+                        <Entry varId="EnvironmentDefinition" value="128"/>
+                    </Option>
+					<Option id="129" displayName="#130 q605_no_wind">
+                        <Entry varId="EnvironmentDefinition" value="129"/>
+                    </Option>
+					<Option id="130" displayName="#131 bury_iris_side">
+                        <Entry varId="EnvironmentDefinition" value="130"/>
+                    </Option>
+					<Option id="131" displayName="#132 enter_painting_wide">
+                        <Entry varId="EnvironmentDefinition" value="131"/>
+                    </Option>
+					<Option id="132" displayName="#133 leshy_forest">
+                        <Entry varId="EnvironmentDefinition" value="132"/>
+                    </Option>
+					<Option id="133" displayName="#134 env_novigrad_sunset_cs601_09.env">
+                        <Entry varId="EnvironmentDefinition" value="133"/>
+                    </Option>
+					<Option id="134" displayName="#135 q601_ship">
+                        <Entry varId="EnvironmentDefinition" value="134"/>
+                    </Option>
+					<Option id="135" displayName="#136 env_novigrad_sunset_nn">
+                        <Entry varId="EnvironmentDefinition" value="135"/>
+                    </Option>
+					<Option id="136" displayName="#137 env_novigrad_sunset_nn">
+                        <Entry varId="EnvironmentDefinition" value="136"/>
+                    </Option>
+					<Option id="137" displayName="#138 env_novigrad_sunset_nn_blu_">
+                        <Entry varId="EnvironmentDefinition" value="137"/>
+                    </Option>
+					<Option id="138" displayName="#139 q604_blizzard">
+                        <Entry varId="EnvironmentDefinition" value="138"/>
+                    </Option>
+					<Option id="139" displayName="#140 q604_blizzard_cs">
+                        <Entry varId="EnvironmentDefinition" value="139"/>
+                    </Option>
+					<Option id="140" displayName="#141 q604_blizzard_cs_exit_painting">
+                        <Entry varId="EnvironmentDefinition" value="140"/>
+                    </Option>
+					<Option id="141" displayName="#142 q604_blizzard_interior">
+                        <Entry varId="EnvironmentDefinition" value="141"/>
+                    </Option>
+					<Option id="142" displayName="#143 q604_blizzard_interior_cs">
+                        <Entry varId="EnvironmentDefinition" value="142"/>
+                    </Option>
+					<Option id="143" displayName="#144 q604_creepy">
+                        <Entry varId="EnvironmentDefinition" value="143"/>
+                    </Option>
+					<Option id="144" displayName="#145 q604_creepy_cs">
+                        <Entry varId="EnvironmentDefinition" value="144"/>
+                    </Option>
+					<Option id="145" displayName="#146 q604_creepy_interior">
+                        <Entry varId="EnvironmentDefinition" value="145"/>
+                    </Option>
+					<Option id="146" displayName="#147 q604_dark_corridor">
+                        <Entry varId="EnvironmentDefinition" value="146"/>
+                    </Option>
+					<Option id="147" displayName="#148 q604_dark_corridor_creepy">
+                        <Entry varId="EnvironmentDefinition" value="147"/>
+                    </Option>
+					<Option id="148" displayName="#149 q604_dark_corridor_creepy_paint">
+                        <Entry varId="EnvironmentDefinition" value="148"/>
+                    </Option>
+					<Option id="149" displayName="#150 q604_painting_cs">
+                        <Entry varId="EnvironmentDefinition" value="149"/>
+                    </Option>
+					<Option id="150" displayName="#151 q604_painting_cs_closeup">
+                        <Entry varId="EnvironmentDefinition" value="150"/>
+                    </Option>
+					<Option id="151" displayName="#152 q604_painting_cs_midshot">
+                        <Entry varId="EnvironmentDefinition" value="151"/>
+                    </Option>
+					<Option id="152" displayName="#153 q604_painting_cs_wideshot">
+                        <Entry varId="EnvironmentDefinition" value="152"/>
+                    </Option>
+					<Option id="153" displayName="#154 q604_painting_interior">
+                        <Entry varId="EnvironmentDefinition" value="153"/>
+                    </Option>
+					<Option id="154" displayName="#155 q604_painting_interior_cs">
+                        <Entry varId="EnvironmentDefinition" value="154"/>
+                    </Option>
+					<Option id="155" displayName="#156 q604_unmasking">
+                        <Entry varId="EnvironmentDefinition" value="155"/>
+                    </Option>
+					<Option id="156" displayName="#157 q604_unmasking_dark">
+                        <Entry varId="EnvironmentDefinition" value="156"/>
+                    </Option>
+					<Option id="157" displayName="#158 q604_unmasking_shadow_more_details">
+                        <Entry varId="EnvironmentDefinition" value="157"/>
+                    </Option>
+					<Option id="158" displayName="#159 q605_hell_red_blockout">
+                        <Entry varId="EnvironmentDefinition" value="158"/>
+                    </Option>
+					<Option id="159" displayName="#160 q605_hell_red_blockout_last_arena">
+                        <Entry varId="EnvironmentDefinition" value="159"/>
+                    </Option>
+					<Option id="160" displayName="#161 q605_hell_red_blockout_mansion">
+                        <Entry varId="EnvironmentDefinition" value="160"/>
+                    </Option>
+				</OptionsArray>
+			</Var>
+
+			<Var id="TurboMode" displayName="Enable Turbo Mode" 				displayType="TOGGLE" 				tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="fogDensity" displayName="Distance Fog Density" 			displayType="SLIDER;0;1;1000000" 	tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="EnableColorPicker" displayName="Enable Colorizer" 			displayType="TOGGLE" 				tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="Saturation" displayName="Desaturation" 					displayType="SLIDER;0;1;1000000" 	tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="nearTintRange" displayName="Near Tint Range in (meters)"	displayType="SLIDER;0;1000;1000000" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="nearTintRed" displayName="Near Tint Red"					displayType="SLIDER;0;255;255" 		tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="nearTintGreen" displayName="Near Tint Green"				displayType="SLIDER;0;255;255" 		tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="nearTintBlue" displayName="Near Tint Blue"					displayType="SLIDER;0;255;255" 		tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="nearTintalpha" displayName="Near Tint Alpha"				displayType="SLIDER;0;255;255" 		tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="farTintRed" displayName="Far Tint Red"						displayType="SLIDER;0;255;255" 		tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="farTintGreen" displayName="Far Tint Green"					displayType="SLIDER;0;255;255" 		tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="farTintBlue" displayName="Far Tint Blue"					displayType="SLIDER;0;255;255" 		tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="farTintAlpha" displayName="Far Tint Alpha"					displayType="SLIDER;0;255;255" 		tags="customNames;nonLocalized;customDisplayName"/>
+        </VisibleVars>
+    </Group>
+
+	<Group id="KNGMenuFavorites3" displayName="Mods.Ultimate Lighting.Favorites.Favorite #3">
+        <PresetsArray>
+			<Preset id="0" displayName="Overly Dark Nights" tags="customNames;nonLocalized;customDisplayName">
+				<Entry varId="EnableEnv"				value="1"	/>
+				<Entry varId="envPriority"				value="1000"	/>
+				<Entry varId="envBlend"					value="1"	/>
+				<Entry varId="fullscreenblur"			value="0"	/>
+				<Entry varId="EnvironmentDefinition"	value="109"	/>
+				<Entry varId="TurboMode"				value="1"	/>
+				<Entry varId="fogDensity"				value="0.1"	/>
+				<Entry varId="EnableColorPicker"		value="1"	/>
+				<Entry varId="Saturation"				value="0.25"/>
+				<Entry varId="nearTintRange"			value="0"	/>
+				<Entry varId="nearTintRed"				value="0"	/>
+				<Entry varId="nearTintGreen"			value="0"	/>
+				<Entry varId="nearTintBlue"				value="0"	/>
+				<Entry varId="nearTintalpha"			value="0"	/>
+				<Entry varId="farTintRed"				value="0"	/>
+				<Entry varId="farTintGreen"				value="0"	/>
+				<Entry varId="farTintBlue"				value="0"	/>
+				<Entry varId="farTintAlpha"				value="0"	/>
+			</Preset>
+		</PresetsArray>
+		<VisibleVars>
+            <!-- SLIDER -->
+            <Var id="envPriority" displayName="envPriority: Sets the priority of Custom Lighting over Default Lighting"
+                displayType="SLIDER;0;1000;1000" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="envBlend" displayName="envBlend: Sets the intensity of Custom Lighting over Default Lighting"
+                displayType="SLIDER;0;1;1000000" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="fullscreenblur" displayName="Blur Effect"
+                displayType="SLIDER;0;1;1000000" tags="customNames;nonLocalized;customDisplayName"/>
+			<!-- OPTION -->
+            <Var id="EnvironmentDefinition" displayName="Environment Definition"
+                displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName">
+                <OptionsArray>
+                    <Option id="0" displayName="#1 CSLM">
+                        <Entry varId="EnvironmentDefinition" value="0"/>
+                    </Option>
+                    <Option id="1" displayName="#2 YALM">
+                        <Entry varId="EnvironmentDefinition" value="1"/>
+                    </Option>
+                    <Option id="2" displayName="#3 cutscen_definition_kaer_morhen">
+                        <Entry varId="EnvironmentDefinition" value="2"/>
+                    </Option>
+                    <Option id="3" displayName="#4 dandelion_cellar_cutscene">
+                        <Entry varId="EnvironmentDefinition" value="3"/>
+                    </Option>
+                    <Option id="4" displayName="#5 Swamp Zone Lighting Mod">
+                        <Entry varId="EnvironmentDefinition" value="4"/>
+                    </Option>
+                    <Option id="5" displayName="#6 env_island_of_mist">
+                        <Entry varId="EnvironmentDefinition" value="5"/>
+                    </Option>
+                    <Option id="6" displayName="#7 env_island_of_mist_2">
+                        <Entry varId="EnvironmentDefinition" value="6"/>
+                    </Option>
+                    <Option id="7" displayName="#8 env_island_of_mist_dark">
+                        <Entry varId="EnvironmentDefinition" value="7"/>
+                    </Option>
+                    <Option id="8" displayName="#9 env_island_of_mist_dark_cutscen">
+                        <Entry varId="EnvironmentDefinition" value="8"/>
+                    </Option>
+                    <Option id="9" displayName="#10 env_nml_global_dark_sunset">
+                        <Entry varId="EnvironmentDefinition" value="9"/>
+                    </Option>
+                    <Option id="10" displayName="#11 env_nml_global_dark_sunset_interior">
+                        <Entry varId="EnvironmentDefinition" value="10"/>
+                    </Option>
+                    <Option id="11" displayName="#12 env_nml_barons_castle_v2">
+                        <Entry varId="EnvironmentDefinition" value="11"/>
+                    </Option>
+                    <Option id="12" displayName="#13 env_nml_crossroads_inn_v2">
+                        <Entry varId="EnvironmentDefinition" value="12"/>
+                    </Option>
+                    <Option id="13" displayName="#14 env_keira_secret_2">
+                        <Entry varId="EnvironmentDefinition" value="13"/>
+                    </Option>
+                    <Option id="14" displayName="#15 E3 2014 Swamp Lighting">
+                        <Entry varId="EnvironmentDefinition" value="14"/>
+                    </Option>
+                    <Option id="15" displayName="#16 env_nml_swamps_v1_a_ps4_flat24">
+                        <Entry varId="EnvironmentDefinition" value="15"/>
+                    </Option>
+                    <Option id="16" displayName="#17 env_salt_mine_filmic_01">
+                        <Entry varId="EnvironmentDefinition" value="16"/>
+                    </Option>
+                    <Option id="17" displayName="#18 env_interior">
+                        <Entry varId="EnvironmentDefinition" value="17"/>
+                    </Option>
+                    <Option id="18" displayName="#19 env_novigrad_cave">
+                        <Entry varId="EnvironmentDefinition" value="18"/>
+                    </Option>
+                    <Option id="19" displayName="#20 env_novigrad_cave_blizzard">
+                        <Entry varId="EnvironmentDefinition" value="19"/>
+                    </Option>
+                    <Option id="20" displayName="#21 env_novigrad_cave_dark">
+                        <Entry varId="EnvironmentDefinition" value="20"/>
+                    </Option>
+                    <Option id="21" displayName="#22 env_novigrad_cave_red_water">
+                        <Entry varId="EnvironmentDefinition" value="21"/>
+                    </Option>
+                    <Option id="22" displayName="#23 env_novigrad_dark_clouds">
+                        <Entry varId="EnvironmentDefinition" value="22"/>
+                    </Option>
+                    <Option id="23" displayName="#24 env_novigrad_dark_clouds_heavy">
+                        <Entry varId="EnvironmentDefinition" value="23"/>
+                    </Option>
+                    <Option id="24" displayName="#25 env_novigrad_dark_clouds_heavy_rain_color">
+                        <Entry varId="EnvironmentDefinition" value="24"/>
+                    </Option>
+                    <Option id="25" displayName="#26 env_novigrad_int">
+                        <Entry varId="EnvironmentDefinition" value="25"/>
+                    </Option>
+                    <Option id="26" displayName="#27 env_novigrad_storm">
+                        <Entry varId="EnvironmentDefinition" value="26"/>
+                    </Option>
+                    <Option id="27" displayName="#28 env_novigrad_sunset">
+                        <Entry varId="EnvironmentDefinition" value="27"/>
+                    </Option>
+                    <Option id="28" displayName="#29 env_elven_king_dandelion_copy">
+                        <Entry varId="EnvironmentDefinition" value="28"/>
+                    </Option>
+                    <Option id="29" displayName="#30 env_novigrad_city">
+                        <Entry varId="EnvironmentDefinition" value="29"/>
+                    </Option>
+                    <Option id="30" displayName="#31 env_novigrad_0_storm_1">
+                        <Entry varId="EnvironmentDefinition" value="30"/>
+                    </Option>
+                    <Option id="31" displayName="#32 underwater">
+                        <Entry varId="EnvironmentDefinition" value="31"/>
+                    </Option>
+                    <Option id="32" displayName="#33 env_dandelion">
+                        <Entry varId="EnvironmentDefinition" value="32"/>
+                    </Option>
+                    <Option id="33" displayName="#34 env_interior_1">
+                        <Entry varId="EnvironmentDefinition" value="33"/>
+                    </Option>
+                    <Option id="34" displayName="#35 env_interior_2">
+                        <Entry varId="EnvironmentDefinition" value="34"/>
+                    </Option>
+                    <Option id="35" displayName="#36 env_novigrad_sewers_filmic_v1">
+                        <Entry varId="EnvironmentDefinition" value="35"/>
+                    </Option>
+                    <Option id="36" displayName="#37 env_prolog_colors_cinematic_tonemapping">
+                        <Entry varId="EnvironmentDefinition" value="36"/>
+                    </Option>
+                    <Option id="37" displayName="#38 Simply Bokehlicious">
+                        <Entry varId="EnvironmentDefinition" value="37"/>
+                    </Option>
+                    <Option id="38" displayName="#39 env_prolog_colors_v1_b_sunset">
+                        <Entry varId="EnvironmentDefinition" value="38"/>
+                    </Option>
+                    <Option id="39" displayName="#40 env_prolog_global_raw_v2_a_interior">
+                        <Entry varId="EnvironmentDefinition" value="39"/>
+                    </Option>
+                    <Option id="40" displayName="#41 env_fight_island_arena_">
+                        <Entry varId="EnvironmentDefinition" value="40"/>
+                    </Option>
+                    <Option id="41" displayName="#42 env_fight_ship">
+                        <Entry varId="EnvironmentDefinition" value="41"/>
+                    </Option>
+                    <Option id="42" displayName="#43 env_pbr_skellige_len_temp">
+                        <Entry varId="EnvironmentDefinition" value="42"/>
+                    </Option>
+                    <Option id="43" displayName="#44 env_skellige_brown">
+                        <Entry varId="EnvironmentDefinition" value="43"/>
+                    </Option>
+                    <Option id="44" displayName="#45 env_skellige_brown_dark_clouds">
+                        <Entry varId="EnvironmentDefinition" value="44"/>
+                    </Option>
+                    <Option id="45" displayName="#46 env_skellige_dark_clouds">
+                        <Entry varId="EnvironmentDefinition" value="45"/>
+                    </Option>
+                    <Option id="46" displayName="#47 env_skellige_rain_storm">
+                        <Entry varId="EnvironmentDefinition" value="46"/>
+                    </Option>
+                    <Option id="47" displayName="#48 env_skellige_rain_storm_arena">
+                        <Entry varId="EnvironmentDefinition" value="47"/>
+                    </Option>
+                    <Option id="48" displayName="#49 env_winter_skellige">
+                        <Entry varId="EnvironmentDefinition" value="48"/>
+                    </Option>
+                    <Option id="49" displayName="#50 env_skellige_cataclysm_1">
+                        <Entry varId="EnvironmentDefinition" value="49"/>
+                    </Option>
+                    <Option id="50" displayName="#51 Grim Environment">
+                        <Entry varId="EnvironmentDefinition" value="50"/>
+                    </Option>
+                    <Option id="51" displayName="#52 env_herbarium_fall_2">
+                        <Entry varId="EnvironmentDefinition" value="51"/>
+                    </Option>
+                    <Option id="52" displayName="#53 env_herbarium_mordor_1">
+                        <Entry varId="EnvironmentDefinition" value="52"/>
+                    </Option>
+                    <Option id="53" displayName="#54 env_kaer_trolde_interior_1">
+                        <Entry varId="EnvironmentDefinition" value="53"/>
+                    </Option>
+                    <Option id="54" displayName="#55 env_kaer_trolde_interior_2">
+                        <Entry varId="EnvironmentDefinition" value="54"/>
+                    </Option>
+                    <Option id="55" displayName="#56 env_skellige_udalryk">
+                        <Entry varId="EnvironmentDefinition" value="55"/>
+                    </Option>
+                    <Option id="56" displayName="#57 env_bathouse_v01">
+                        <Entry varId="EnvironmentDefinition" value="56"/>
+                    </Option>
+                    <Option id="57" displayName="#58 env_skellige_q210">
+                        <Entry varId="EnvironmentDefinition" value="57"/>
+                    </Option>
+                    <Option id="58" displayName="#59 q501_underwater">
+                        <Entry varId="EnvironmentDefinition" value="58"/>
+                    </Option>
+                    <Option id="59" displayName="#60 q502_wyzima">
+                        <Entry varId="EnvironmentDefinition" value="59"/>
+                    </Option>
+                    <Option id="60" displayName="#61 q502_wyzima_v2">
+                        <Entry varId="EnvironmentDefinition" value="60"/>
+                    </Option>
+                    <Option id="61" displayName="#62 q502_wyzima_v3">
+                        <Entry varId="EnvironmentDefinition" value="61"/>
+                    </Option>
+                    <Option id="62" displayName="#63 q502_wyzima_v4">
+                        <Entry varId="EnvironmentDefinition" value="62"/>
+                    </Option>
+                    <Option id="63" displayName="#64 env_km_v09_tm_q502_cold_light">
+                        <Entry varId="EnvironmentDefinition" value="63"/>
+                    </Option>
+                    <Option id="64" displayName="#65 skellige_brown_q502_by_light">
+                        <Entry varId="EnvironmentDefinition" value="64"/>
+                    </Option>
+                    <Option id="65" displayName="#66 skellige_brown_q502_by_light_2">
+                        <Entry varId="EnvironmentDefinition" value="65"/>
+                    </Option>
+                    <Option id="66" displayName="#67 skellige_brown_q502_by_light_3">
+                        <Entry varId="EnvironmentDefinition" value="66"/>
+                    </Option>
+                    <Option id="67" displayName="#68 skellige_brown_q502_by_light_4">
+                        <Entry varId="EnvironmentDefinition" value="67"/>
+                    </Option>
+                    <Option id="68" displayName="#69 New Lighting Mod by Vikart">
+                        <Entry varId="EnvironmentDefinition" value="68"/>
+                    </Option>
+                    <Option id="69" displayName="#70 env_skellige_sq209_02">
+                        <Entry varId="EnvironmentDefinition" value="69"/>
+                    </Option>
+                    <Option id="70" displayName="#71 env_skellige_sq209_03">
+                        <Entry varId="EnvironmentDefinition" value="70"/>
+                    </Option>
+                    <Option id="71" displayName="#72 env_elven_city_4_11">
+                        <Entry varId="EnvironmentDefinition" value="71"/>
+                    </Option>
+                    <Option id="72" displayName="#73 env_spiral_dark_valley">
+                        <Entry varId="EnvironmentDefinition" value="72"/>
+                    </Option>
+                    <Option id="73" displayName="#74 env_spiral_snow_hour_6_22_cave">
+                        <Entry varId="EnvironmentDefinition" value="73"/>
+                    </Option>
+                    <Option id="74" displayName="#75 env_winter_epilog">
+                        <Entry varId="EnvironmentDefinition" value="74"/>
+                    </Option>
+                    <Option id="75" displayName="#76 env_winter_epilog_white_grass">
+                        <Entry varId="EnvironmentDefinition" value="75"/>
+                    </Option>
+                    <Option id="76" displayName="#77 env_winter_epilog_white_grass_hendriks_basement">
+                        <Entry varId="EnvironmentDefinition" value="76"/>
+                    </Option>
+                    <Option id="77" displayName="#78 env_winter_epilog_white_grass_hendriks_house">
+                        <Entry varId="EnvironmentDefinition" value="77"/>
+                    </Option>
+                    <Option id="78" displayName="#79 env_winter_v0_white_thaw">
+                        <Entry varId="EnvironmentDefinition" value="78"/>
+                    </Option>
+                    <Option id="79" displayName="#80 kaer_morhen_nightmare">
+                        <Entry varId="EnvironmentDefinition" value="79"/>
+                    </Option>
+                    <Option id="80" displayName="#81 env_kaer_morhen_hdr_int">
+                        <Entry varId="EnvironmentDefinition" value="80"/>
+                    </Option>
+                    <Option id="81" displayName="#82 env_km_dark_clouds_heavy_rain_color">
+                        <Entry varId="EnvironmentDefinition" value="81"/>
+                    </Option>
+                    <Option id="82" displayName="#83 kaer_morhen_battle">
+                        <Entry varId="EnvironmentDefinition" value="82"/>
+                    </Option>
+                    <Option id="83" displayName="#84 kaer_morhen_battle_preview_01">
+                        <Entry varId="EnvironmentDefinition" value="83"/>
+                    </Option>
+                    <Option id="84" displayName="#85 env_kaer_morhen_v09_hdr_int">
+                        <Entry varId="EnvironmentDefinition" value="84"/>
+                    </Option>
+                    <Option id="85" displayName="#86 env_kaer_morhen_v09_tm">
+                        <Entry varId="EnvironmentDefinition" value="85"/>
+                    </Option>
+                    <Option id="86" displayName="#87 env_kaer_morhen_v09_usm_sex_scene">
+                        <Entry varId="EnvironmentDefinition" value="86"/>
+                    </Option>
+                    <Option id="87" displayName="#88 env_kaer_morhen_v09_usm_sex_scene_v3">
+                        <Entry varId="EnvironmentDefinition" value="87"/>
+                    </Option>
+                    <Option id="88" displayName="#89 env_kaer_morhen_vesemir_v0_hour_3_30">
+                        <Entry varId="EnvironmentDefinition" value="88"/>
+                    </Option>
+                    <Option id="89" displayName="#90 env_kaer_morhen_v09_q401">
+                        <Entry varId="EnvironmentDefinition" value="89"/>
+                    </Option>
+                    <Option id="90" displayName="#91 env_global_clear_interior">
+                        <Entry varId="EnvironmentDefinition" value="90"/>
+                    </Option>
+                    <Option id="91" displayName="#92 env_abandoned_mine">
+                        <Entry varId="EnvironmentDefinition" value="91"/>
+                    </Option>
+                    <Option id="92" displayName="#93 env_bies_hypnotize">
+                        <Entry varId="EnvironmentDefinition" value="92"/>
+                    </Option>
+                    <Option id="93" displayName="#94 env_dense_fog_mq2041">
+                        <Entry varId="EnvironmentDefinition" value="93"/>
+                    </Option>
+                    <Option id="94" displayName="#95 battle_02">
+                        <Entry varId="EnvironmentDefinition" value="94"/>
+                    </Option>
+                    <Option id="95" displayName="#96 battle_02_copy">
+                        <Entry varId="EnvironmentDefinition" value="95"/>
+                    </Option>
+                    <Option id="96" displayName="#97 battle_02_copy_nofx">
+                        <Entry varId="EnvironmentDefinition" value="96"/>
+                    </Option>
+                    <Option id="97" displayName="#98 battle_02_no blue_lights">
+                        <Entry varId="EnvironmentDefinition" value="97"/>
+                    </Option>
+                    <Option id="98" displayName="#99 battle_02_no _sun">
+                        <Entry varId="EnvironmentDefinition" value="98"/>
+                    </Option>
+                    <Option id="99" displayName="#100 battle_02_shadow_light">
+                        <Entry varId="EnvironmentDefinition" value="99"/>
+                    </Option>
+                    <Option id="100" displayName="#101 cs002_wild_hunt_chase_p4">
+                        <Entry varId="EnvironmentDefinition" value="100"/>
+                    </Option>
+                    <Option id="101" displayName="#102 cs301_dream_ciri_and_jasker_p2">
+                        <Entry varId="EnvironmentDefinition" value="101"/>
+                    </Option>
+                    <Option id="102" displayName="#103 cs501_ciri_escape">
+                        <Entry varId="EnvironmentDefinition" value="102"/>
+                    </Option>
+                    <Option id="103" displayName="#104 cs501_naglfar_arrives">
+                        <Entry varId="EnvironmentDefinition" value="103"/>
+                    </Option>
+                    <Option id="104" displayName="#105 cs__departure_2">
+                        <Entry varId="EnvironmentDefinition" value="104"/>
+                    </Option>
+                    <Option id="105" displayName="#106 naglfar_freezes_p2">
+                        <Entry varId="EnvironmentDefinition" value="105"/>
+                    </Option>
+                    <Option id="106" displayName="#107 naglfar_freezes_p2_face">
+                        <Entry varId="EnvironmentDefinition" value="106"/>
+                    </Option>
+                    <Option id="107" displayName="#108 env_wyzima">
+                        <Entry varId="EnvironmentDefinition" value="107"/>
+                    </Option>
+                    <Option id="108" displayName="#109 env_wyzima_interior">
+                        <Entry varId="EnvironmentDefinition" value="108"/>
+                    </Option>
+                    <Option id="109" displayName="#110 Overly Dark Nights Mod">
+                        <Entry varId="EnvironmentDefinition" value="109"/>
+                    </Option>
+                    <Option id="110" displayName="#111 q103_castle_fire_noshafts">
+                        <Entry varId="EnvironmentDefinition" value="110"/>
+                    </Option>
+                    <Option id="111" displayName="#112 q103_env_barons_burial">
+                        <Entry varId="EnvironmentDefinition" value="111"/>
+                    </Option>
+                    <Option id="112" displayName="#113 q107_env_witch_village_fog">
+                        <Entry varId="EnvironmentDefinition" value="112"/>
+                    </Option>
+                    <Option id="113" displayName="#114 env_mist_q106">
+                        <Entry varId="EnvironmentDefinition" value="113"/>
+                    </Option>
+                    <Option id="114" displayName="#115 q106_temp_island_env_int_cs">
+                        <Entry varId="EnvironmentDefinition" value="114"/>
+                    </Option>
+                    <Option id="115" displayName="#116 q106_temp_island_env">
+                        <Entry varId="EnvironmentDefinition" value="115"/>
+                    </Option>
+                    <Option id="116" displayName="#117 q106_temp_island_env_int">
+                        <Entry varId="EnvironmentDefinition" value="116"/>
+                    </Option>
+                    <Option id="117" displayName="#118 dashdot_env_nvg_global_23_07_2013_copy">
+                        <Entry varId="EnvironmentDefinition" value="117"/>
+                    </Option>
+					<Option id="118" displayName="#119 env_novigrad_cave_simpa">
+                        <Entry varId="EnvironmentDefinition" value="118"/>
+                    </Option>
+					<Option id="119" displayName="#120 env_novigrad_q602_sex_empty_1">
+                        <Entry varId="EnvironmentDefinition" value="119"/>
+                    </Option>
+					<Option id="120" displayName="#121 env_novigrad_sunset_q602_dog">
+                        <Entry varId="EnvironmentDefinition" value="120"/>
+                    </Option>
+					<Option id="121" displayName="#122 env_novigrad_sunset_q602_sex">
+                        <Entry varId="EnvironmentDefinition" value="121"/>
+                    </Option>
+					<Option id="122" displayName="#123 env_novigrad_sunset_q603_heist_starts">
+                        <Entry varId="EnvironmentDefinition" value="122"/>
+                    </Option>
+					<Option id="123" displayName="#124 env_novigrad_cave_frogarena">
+                        <Entry varId="EnvironmentDefinition" value="123"/>
+                    </Option>
+					<Option id="124" displayName="#125 q601_dark_clouds_heavy_rain">
+                        <Entry varId="EnvironmentDefinition" value="124"/>
+                    </Option>
+					<Option id="125" displayName="#126 q601_dark_clouds_heavy_rain_scene">
+                        <Entry varId="EnvironmentDefinition" value="125"/>
+                    </Option>
+					<Option id="126" displayName="#127 q602_wedding_overlay">
+                        <Entry varId="EnvironmentDefinition" value="126"/>
+                    </Option>
+					<Option id="127" displayName="#128 q602_wedding_overlay_2">
+                        <Entry varId="EnvironmentDefinition" value="127"/>
+                    </Option>
+					<Option id="128" displayName="#129 env_novigrad_sunset_q605_temple_meeting_02">
+                        <Entry varId="EnvironmentDefinition" value="128"/>
+                    </Option>
+					<Option id="129" displayName="#130 q605_no_wind">
+                        <Entry varId="EnvironmentDefinition" value="129"/>
+                    </Option>
+					<Option id="130" displayName="#131 bury_iris_side">
+                        <Entry varId="EnvironmentDefinition" value="130"/>
+                    </Option>
+					<Option id="131" displayName="#132 enter_painting_wide">
+                        <Entry varId="EnvironmentDefinition" value="131"/>
+                    </Option>
+					<Option id="132" displayName="#133 leshy_forest">
+                        <Entry varId="EnvironmentDefinition" value="132"/>
+                    </Option>
+					<Option id="133" displayName="#134 env_novigrad_sunset_cs601_09.env">
+                        <Entry varId="EnvironmentDefinition" value="133"/>
+                    </Option>
+					<Option id="134" displayName="#135 q601_ship">
+                        <Entry varId="EnvironmentDefinition" value="134"/>
+                    </Option>
+					<Option id="135" displayName="#136 env_novigrad_sunset_nn">
+                        <Entry varId="EnvironmentDefinition" value="135"/>
+                    </Option>
+					<Option id="136" displayName="#137 env_novigrad_sunset_nn">
+                        <Entry varId="EnvironmentDefinition" value="136"/>
+                    </Option>
+					<Option id="137" displayName="#138 env_novigrad_sunset_nn_blu_">
+                        <Entry varId="EnvironmentDefinition" value="137"/>
+                    </Option>
+					<Option id="138" displayName="#139 q604_blizzard">
+                        <Entry varId="EnvironmentDefinition" value="138"/>
+                    </Option>
+					<Option id="139" displayName="#140 q604_blizzard_cs">
+                        <Entry varId="EnvironmentDefinition" value="139"/>
+                    </Option>
+					<Option id="140" displayName="#141 q604_blizzard_cs_exit_painting">
+                        <Entry varId="EnvironmentDefinition" value="140"/>
+                    </Option>
+					<Option id="141" displayName="#142 q604_blizzard_interior">
+                        <Entry varId="EnvironmentDefinition" value="141"/>
+                    </Option>
+					<Option id="142" displayName="#143 q604_blizzard_interior_cs">
+                        <Entry varId="EnvironmentDefinition" value="142"/>
+                    </Option>
+					<Option id="143" displayName="#144 q604_creepy">
+                        <Entry varId="EnvironmentDefinition" value="143"/>
+                    </Option>
+					<Option id="144" displayName="#145 q604_creepy_cs">
+                        <Entry varId="EnvironmentDefinition" value="144"/>
+                    </Option>
+					<Option id="145" displayName="#146 q604_creepy_interior">
+                        <Entry varId="EnvironmentDefinition" value="145"/>
+                    </Option>
+					<Option id="146" displayName="#147 q604_dark_corridor">
+                        <Entry varId="EnvironmentDefinition" value="146"/>
+                    </Option>
+					<Option id="147" displayName="#148 q604_dark_corridor_creepy">
+                        <Entry varId="EnvironmentDefinition" value="147"/>
+                    </Option>
+					<Option id="148" displayName="#149 q604_dark_corridor_creepy_paint">
+                        <Entry varId="EnvironmentDefinition" value="148"/>
+                    </Option>
+					<Option id="149" displayName="#150 q604_painting_cs">
+                        <Entry varId="EnvironmentDefinition" value="149"/>
+                    </Option>
+					<Option id="150" displayName="#151 q604_painting_cs_closeup">
+                        <Entry varId="EnvironmentDefinition" value="150"/>
+                    </Option>
+					<Option id="151" displayName="#152 q604_painting_cs_midshot">
+                        <Entry varId="EnvironmentDefinition" value="151"/>
+                    </Option>
+					<Option id="152" displayName="#153 q604_painting_cs_wideshot">
+                        <Entry varId="EnvironmentDefinition" value="152"/>
+                    </Option>
+					<Option id="153" displayName="#154 q604_painting_interior">
+                        <Entry varId="EnvironmentDefinition" value="153"/>
+                    </Option>
+					<Option id="154" displayName="#155 q604_painting_interior_cs">
+                        <Entry varId="EnvironmentDefinition" value="154"/>
+                    </Option>
+					<Option id="155" displayName="#156 q604_unmasking">
+                        <Entry varId="EnvironmentDefinition" value="155"/>
+                    </Option>
+					<Option id="156" displayName="#157 q604_unmasking_dark">
+                        <Entry varId="EnvironmentDefinition" value="156"/>
+                    </Option>
+					<Option id="157" displayName="#158 q604_unmasking_shadow_more_details">
+                        <Entry varId="EnvironmentDefinition" value="157"/>
+                    </Option>
+					<Option id="158" displayName="#159 q605_hell_red_blockout">
+                        <Entry varId="EnvironmentDefinition" value="158"/>
+                    </Option>
+					<Option id="159" displayName="#160 q605_hell_red_blockout_last_arena">
+                        <Entry varId="EnvironmentDefinition" value="159"/>
+                    </Option>
+					<Option id="160" displayName="#161 q605_hell_red_blockout_mansion">
+                        <Entry varId="EnvironmentDefinition" value="160"/>
+                    </Option>
+				</OptionsArray>
+			</Var>
+
+			<Var id="TurboMode" displayName="Enable Turbo Mode" 				displayType="TOGGLE" 				tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="fogDensity" displayName="Distance Fog Density" 			displayType="SLIDER;0;1;1000000" 	tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="EnableColorPicker" displayName="Enable Colorizer" 			displayType="TOGGLE" 				tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="Saturation" displayName="Desaturation" 					displayType="SLIDER;0;1;1000000" 	tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="nearTintRange" displayName="Near Tint Range in (meters)"	displayType="SLIDER;0;1000;1000000" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="nearTintRed" displayName="Near Tint Red"					displayType="SLIDER;0;255;255" 		tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="nearTintGreen" displayName="Near Tint Green"				displayType="SLIDER;0;255;255" 		tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="nearTintBlue" displayName="Near Tint Blue"					displayType="SLIDER;0;255;255" 		tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="nearTintalpha" displayName="Near Tint Alpha"				displayType="SLIDER;0;255;255" 		tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="farTintRed" displayName="Far Tint Red"						displayType="SLIDER;0;255;255" 		tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="farTintGreen" displayName="Far Tint Green"					displayType="SLIDER;0;255;255" 		tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="farTintBlue" displayName="Far Tint Blue"					displayType="SLIDER;0;255;255" 		tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="farTintAlpha" displayName="Far Tint Alpha"					displayType="SLIDER;0;255;255" 		tags="customNames;nonLocalized;customDisplayName"/>
+        </VisibleVars>
+    </Group>
+</UserConfig>

@@ -1,0 +1,4 @@
+1. Remove modMissingLocalizationStringFix if you have this mod installed from <Witcher 3 Dir>\Mods\
+2. Download and install modCustomLocalizationFix v1.0.4 or above
+ http://www.nexusmods.com/witcher3/mods/897/?
+3. Copy the "bin" folder to <Witcher 3> and overwrite all files
