@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<UserConfig>
+    <Group id="SCOptionG" displayName="Mods.The White Wolf Adventure.General">
+		<PresetsArray>
+			<Preset id="0" displayName="WWA" tags="customNames;nonLocalized;customDisplayName">
+				<Entry varId="HDCMode"				value="0"	/>
+				<Entry varId="VSMode"				value="0"	/>
+				<Entry varId="PCheck"				value="0"	/>
+				<Entry varId="CCheck"				value="0"	/>
+				<Entry varId="BFix"					value="1"	/>
+				<Entry varId="DDamage"				value="1"	/>
+				<Entry varId="LVLReq"				value="1"	/>
+				<Entry varId="MonsLVL"				value="1"	/>
+				<Entry varId="MaxLVL"				value="70"	/>
+				<Entry varId="MaxLVLP"				value="70"	/>
+			</Preset>
+			<Preset id="1" displayName="Vanilla" tags="customNames;nonLocalized;customDisplayName">
+				<Entry varId="HDCMode"				value="0"	/>
+				<Entry varId="VSMode"				value="1"	/>
+				<Entry varId="PCheck"				value="0"	/>
+				<Entry varId="CCheck"				value="0"	/>
+				<Entry varId="BFix"					value="0"	/>
+				<Entry varId="DDamage"				value="1"	/>
+				<Entry varId="LVLReq"				value="1"	/>
+				<Entry varId="MonsLVL"				value="1"	/>
+				<Entry varId="MaxLVL"				value="70"	/>
+				<Entry varId="MaxLVLP"				value="70"	/>
+			</Preset>
+		</PresetsArray>
+        <VisibleVars>
+		
+			<Var id="HDCMode" 		 	 displayName="Hardcore Mode" 												displayType="TOGGLE"					tags="customNames;nonLocalized;customDisplayName" />
+			<Var id="VSMode" 		 	 displayName="Vanilla Scaling (no scaling)"									displayType="TOGGLE"					tags="customNames;nonLocalized;customDisplayName" />
+			<Var id="BFix" 		 	 	 displayName="Bestiary Fix" 												displayType="TOGGLE"					tags="customNames;nonLocalized;customDisplayName" />
+			<Var id="DDamage" 		 	 displayName="Durability Damage" 											displayType="TOGGLE"					tags="customNames;nonLocalized;customDisplayName" />
+			<Var id="PCheck" 		 	 displayName="Heavy Attack Parrying" 										displayType="TOGGLE"					tags="customNames;nonLocalized;customDisplayName" />
+			<Var id="CCheck" 		 	 displayName="Counter - Heavy Attack" 										displayType="TOGGLE"					tags="customNames;nonLocalized;customDisplayName" />
+			<Var id="LVLReq" 		 	 displayName="Gear Level Requirement" 										displayType="TOGGLE"					tags="customNames;nonLocalized;customDisplayName" />
+			<Var id="MonsLVL" 			 displayName="Show Monster Level"											displayType="TOGGLE"					tags="customNames;nonLocalized;customDisplayName" />
+			<Var id="MaxLVL" 			 displayName="Maximum Monster Level"										displayType="SLIDER;40;100;60" 			tags="customNames;nonLocalized;customDisplayName" />
+			<Var id="MaxLVLP" 			 displayName="Maximum Player Level"											displayType="SLIDER;40;100;60" 			tags="customNames;nonLocalized;customDisplayName" />
+
+		</VisibleVars>
+    </Group>
+
+    <Group id="SCOptionC" displayName="Mods.The White Wolf Adventure.Combat">
+		<PresetsArray>
+			<Preset id="0" displayName="WWA" tags="customNames;nonLocalized;customDisplayName">
+				<Entry varId="Lockon"				value="1"	/>
+				<Entry varId="LockonM"				value="0"	/>
+				<Entry varId="Combatstate"			value="1"	/>
+				<Entry varId="ASSD"					value="1"	/>
+				<Entry varId="Dism"					value="0"	/>
+				<Entry varId="ASFA"					value="0.04"/>
+				<Entry varId="ASFAM"				value="0.60"/>
+				<Entry varId="ASHA"					value="0.10"/>
+				<Entry varId="ASHAM"				value="1.00"/>
+				<Entry varId="ASDR"					value="0.08"/>
+				<Entry varId="ASDRM"				value="0.75"/>
+				<Entry varId="ASFAN"				value="1"	/>
+				<Entry varId="ASHAN"				value="1"	/>
+				<Entry varId="ASDRN"				value="1"	/>
+			</Preset>
+			<Preset id="1" displayName="Vanilla" tags="customNames;nonLocalized;customDisplayName">
+				<Entry varId="Lockon"				value="1"	/>
+				<Entry varId="LockonM"				value="0"	/>
+				<Entry varId="Combatstate"			value="1"	/>
+				<Entry varId="ASSD"					value="0"	/>
+				<Entry varId="Dism"					value="0"	/>
+				<Entry varId="ASFA"					value="0"	/>
+				<Entry varId="ASFAM"				value="0"	/>
+				<Entry varId="ASHA"					value="0"	/>
+				<Entry varId="ASHAM"				value="0"	/>
+				<Entry varId="ASDR"					value="0"	/>
+				<Entry varId="ASDRM"				value="0"	/>
+				<Entry varId="ASFAN"				value="1"	/>
+				<Entry varId="ASHAN"				value="1"	/>
+				<Entry varId="ASDRN"				value="1"	/>
+			</Preset>
+		</PresetsArray>
+        <VisibleVars>
+		
+			<Var id="Lockon" 		 	 	 displayName="Automatic Targeting (LOCK-ON)" 									displayType="TOGGLE"					tags="customNames;nonLocalized;customDisplayName" />
+			<Var id="LockonM" 		 	 	 displayName="Targeting Mode (WITHOUT LOCK-ON)" 								displayType="OPTIONS"					tags="customNames;nonLocalized;customDisplayName">
+               <OptionsArray>
+					<Option id="0" displayName="Camera Targeting (Mouse Friendly)">
+                        <Entry varId="LockonM" value="0"/>
+                    </Option>
+                    <Option id="1" displayName="Movement Targeting (Contr. Friendly)">
+                        <Entry varId="LockonM" value="1"/>
+                    </Option>
+				</OptionsArray>
+			</Var>
+			<Var id="Combatstate" 		 	 displayName="Combat Stance" 													displayType="TOGGLE"					tags="customNames;nonLocalized;customDisplayName" />
+			<Var id="ASSD" 		 	 		 displayName="Attack Speed  - Skill Dependency" 								displayType="TOGGLE"					tags="customNames;nonLocalized;customDisplayName" />
+			<Var id="ASFA" 		 	 		 displayName="Fast Attack   - Increments Per Skill Level" 						displayType="SLIDER;0.00;0.50;50" 		tags="customNames;nonLocalized;customDisplayName" />
+			<Var id="ASFAM" 		 	 	 displayName="Fast Attack   - Maximum Speed Multiplier with Skill Dependency"	displayType="SLIDER;0.00;2.50;250" 		tags="customNames;nonLocalized;customDisplayName" />
+			<Var id="ASHA" 		 	 		 displayName="Strong Attack - Increments Per Skill Level" 						displayType="SLIDER;0.00;0.50;50" 		tags="customNames;nonLocalized;customDisplayName" />
+			<Var id="ASHAM"		 	 		 displayName="Strong Attack - Maximum Speed Multiplier with Skill Dependency" 	displayType="SLIDER;0.00;2.50;250" 		tags="customNames;nonLocalized;customDisplayName" />
+			<Var id="ASDR" 		 	 		 displayName="Dodge & Roll  - Increments Per Skill Level" 						displayType="SLIDER;0.00;0.50;50" 		tags="customNames;nonLocalized;customDisplayName" />
+			<Var id="ASDRM"	 	 	 		 displayName="Dodge & Roll  - Maximum Speed Multiplier with Skill Dependency" 	displayType="SLIDER;0.00;2.50;250" 		tags="customNames;nonLocalized;customDisplayName" />
+			<Var id="Dism" 		 	 		 displayName="Always Dismember Enemies" 										displayType="TOGGLE"					tags="customNames;nonLocalized;customDisplayName" />
+			<Var id="ASFAN" 		 	 	 displayName="Fast Attack   - Speed Multiplier (No Skill Requirement)" 			displayType="SLIDER;1.0;2.5;15" 		tags="customNames;nonLocalized;customDisplayName" />
+			<Var id="ASHAN" 		 	 	 displayName="Strong Attack - Speed Multiplier (No Skill Requirement)" 			displayType="SLIDER;1.0;2.5;15" 		tags="customNames;nonLocalized;customDisplayName" />
+			<Var id="ASDRN" 		 	 	 displayName="Dodge & Roll  - Speed Multiplier (No Skill Requirement)" 			displayType="SLIDER;1.0;2.5;15" 		tags="customNames;nonLocalized;customDisplayName" />
+
+		</VisibleVars>
+    </Group>
+	
+    <Group id="SCOptionLH" displayName="Mods.The White Wolf Adventure.Levels.Humans">
+		<PresetsArray>
+			<Preset id="0" displayName="WWA" tags="customNames;nonLocalized;customDisplayName">
+				<Entry varId="T1H1"				value="0"	/>
+				<Entry varId="T1H2"				value="3"	/>
+				<Entry varId="T2H1"				value="0"	/>
+				<Entry varId="T2H2"				value="3"	/>
+				<Entry varId="T3H1"				value="0"	/>
+				<Entry varId="T3H2"				value="3"	/>
+				<Entry varId="T4H1"				value="0"	/>
+				<Entry varId="T4H2"				value="4"	/>
+				<Entry varId="T5H1"				value="0"	/>
+				<Entry varId="T5H2"				value="4"	/>
+			</Preset>
+		</PresetsArray>
+        <VisibleVars>
+		
+			<Var id="T1H1" 			 displayName="Tier 1 Minimum Added (LEVEL 5 - 10)"												displayType="SLIDER;-10;10;20" 			tags="customNames;nonLocalized;customDisplayName" />
+			<Var id="T1H2" 			 displayName="Tier 1 Maximum Added"												displayType="SLIDER;-10;10;20" 			tags="customNames;nonLocalized;customDisplayName" />
+			<Var id="T2H1" 			 displayName="Tier 2 Minimum Added (LEVEL 10 - 20)"												displayType="SLIDER;-10;10;20" 			tags="customNames;nonLocalized;customDisplayName" />
+			<Var id="T2H2" 			 displayName="Tier 2 Maximum Added"												displayType="SLIDER;-10;10;20" 			tags="customNames;nonLocalized;customDisplayName" />
+			<Var id="T3H1" 			 displayName="Tier 3 Minimum Added (LEVEL 20 - 30)"												displayType="SLIDER;-10;10;20" 			tags="customNames;nonLocalized;customDisplayName" />
+			<Var id="T3H2" 			 displayName="Tier 3 Maximum Added"												displayType="SLIDER;-10;10;20" 			tags="customNames;nonLocalized;customDisplayName" />
+			<Var id="T4H1" 			 displayName="Tier 4 Minimum Added (LEVEL 30 - 40)"												displayType="SLIDER;-10;10;20" 			tags="customNames;nonLocalized;customDisplayName" />
+			<Var id="T4H2" 			 displayName="Tier 4 Maximum Added"												displayType="SLIDER;-10;10;20" 			tags="customNames;nonLocalized;customDisplayName" />
+			<Var id="T5H1" 			 displayName="Tier 5 Minimum Added (LEVEL 40 - MAX)"												displayType="SLIDER;-10;10;20" 			tags="customNames;nonLocalized;customDisplayName" />
+			<Var id="T5H2" 			 displayName="Tier 5 Maximum Added"												displayType="SLIDER;-10;10;20" 			tags="customNames;nonLocalized;customDisplayName" />
+
+		</VisibleVars>
+    </Group>
+	
+    <Group id="SCOptionLM" displayName="Mods.The White Wolf Adventure.Levels.Monsters">
+		<PresetsArray>
+			<Preset id="0" displayName="WWA" tags="customNames;nonLocalized;customDisplayName">
+				<Entry varId="T1M1"				value="0"	/>
+				<Entry varId="T1M2"				value="3"	/>
+				<Entry varId="T2M1"				value="0"	/>
+				<Entry varId="T2M2"				value="3"	/>
+				<Entry varId="T3M1"				value="0"	/>
+				<Entry varId="T3M2"				value="3"	/>
+				<Entry varId="T4M1"				value="0"	/>
+				<Entry varId="T4M2"				value="3"	/>
+				<Entry varId="T5M1"				value="0"	/>
+				<Entry varId="T5M2"				value="3"	/>
+			</Preset>
+		</PresetsArray>
+        <VisibleVars>
+		
+			<Var id="T1M1" 			 displayName="Tier 1 Minimum Added (LEVEL 5 - 10)"												displayType="SLIDER;-10;10;20" 			tags="customNames;nonLocalized;customDisplayName" />
+			<Var id="T1M2" 			 displayName="Tier 1 Maximum Added"												displayType="SLIDER;-10;10;20" 			tags="customNames;nonLocalized;customDisplayName" />
+			<Var id="T2M1" 			 displayName="Tier 2 Minimum Added (LEVEL 10 - 20)"												displayType="SLIDER;-10;10;20" 			tags="customNames;nonLocalized;customDisplayName" />
+			<Var id="T2M2" 			 displayName="Tier 2 Maximum Added"												displayType="SLIDER;-10;10;20" 			tags="customNames;nonLocalized;customDisplayName" />
+			<Var id="T3M1" 			 displayName="Tier 3 Minimum Added (LEVEL 20 - 30)"												displayType="SLIDER;-10;10;20" 			tags="customNames;nonLocalized;customDisplayName" />
+			<Var id="T3M2" 			 displayName="Tier 3 Maximum Added"												displayType="SLIDER;-10;10;20" 			tags="customNames;nonLocalized;customDisplayName" />
+			<Var id="T4M1" 			 displayName="Tier 4 Minimum Added (LEVEL 30 - 40)"												displayType="SLIDER;-10;10;20" 			tags="customNames;nonLocalized;customDisplayName" />
+			<Var id="T4M2" 			 displayName="Tier 4 Maximum Added"												displayType="SLIDER;-10;10;20" 			tags="customNames;nonLocalized;customDisplayName" />
+			<Var id="T5M1" 			 displayName="Tier 5 Minimum Added (LEVEL 40 - MAX)"												displayType="SLIDER;-10;10;20" 			tags="customNames;nonLocalized;customDisplayName" />
+			<Var id="T5M2" 			 displayName="Tier 5 Maximum Added"												displayType="SLIDER;-10;10;20" 			tags="customNames;nonLocalized;customDisplayName" />
+
+		</VisibleVars>
+    </Group>
+	
+    <Group id="SCOptionLGM" displayName="Mods.The White Wolf Adventure.Levels.Grouped Monsters">
+		<PresetsArray>
+			<Preset id="0" displayName="WWA" tags="customNames;nonLocalized;customDisplayName">
+				<Entry varId="T1GM1"				value="0"	/>
+				<Entry varId="T1GM2"				value="2"	/>
+				<Entry varId="T2GM1"				value="0"	/>
+				<Entry varId="T2GM2"				value="3"	/>
+				<Entry varId="T3GM1"				value="0"	/>
+				<Entry varId="T3GM2"				value="4"	/>
+				<Entry varId="T4GM1"				value="0"	/>
+				<Entry varId="T4GM2"				value="4"	/>
+				<Entry varId="T5GM1"				value="0"	/>
+				<Entry varId="T5GM2"				value="4"	/>
+			</Preset>
+		</PresetsArray>
+        <VisibleVars>
+		
+			<Var id="T1GM1" 			 displayName="Tier 1 Minimum Added (LEVEL 5 - 10)"												displayType="SLIDER;-10;10;20" 			tags="customNames;nonLocalized;customDisplayName" />
+			<Var id="T1GM2" 			 displayName="Tier 1 Maximum Added"												displayType="SLIDER;-10;10;20" 			tags="customNames;nonLocalized;customDisplayName" />
+			<Var id="T2GM1" 			 displayName="Tier 2 Minimum Added (LEVEL 10 - 20)"												displayType="SLIDER;-10;10;20" 			tags="customNames;nonLocalized;customDisplayName" />
+			<Var id="T2GM2" 			 displayName="Tier 2 Maximum Added"												displayType="SLIDER;-10;10;20" 			tags="customNames;nonLocalized;customDisplayName" />
+			<Var id="T3GM1" 			 displayName="Tier 3 Minimum Added (LEVEL 20 - 30)"												displayType="SLIDER;-10;10;20" 			tags="customNames;nonLocalized;customDisplayName" />
+			<Var id="T3GM2" 			 displayName="Tier 3 Maximum Added"												displayType="SLIDER;-10;10;20" 			tags="customNames;nonLocalized;customDisplayName" />
+			<Var id="T4GM1" 			 displayName="Tier 4 Minimum Added (LEVEL 30 - 40)"												displayType="SLIDER;-10;10;20" 			tags="customNames;nonLocalized;customDisplayName" />
+			<Var id="T4GM2" 			 displayName="Tier 4 Maximum Added"												displayType="SLIDER;-10;10;20" 			tags="customNames;nonLocalized;customDisplayName" />
+			<Var id="T5GM1" 			 displayName="Tier 5 Minimum Added (LEVEL 40 - MAX)"												displayType="SLIDER;-10;10;20" 			tags="customNames;nonLocalized;customDisplayName" />
+			<Var id="T5GM2" 			 displayName="Tier 5 Maximum Added"												displayType="SLIDER;-10;10;20" 			tags="customNames;nonLocalized;customDisplayName" />
+
+		</VisibleVars>
+    </Group>
+
+    <Group id="SCOptionE" displayName="Mods.The White Wolf Adventure.Experience">
+		<PresetsArray>
+			<Preset id="0" displayName="WWA" tags="customNames;nonLocalized;customDisplayName">
+				<Entry varId="QXPScaling"			value="1"	/>
+				<Entry varId="XPScaling"			value="1"	/>
+				<Entry varId="XPMult"				value="0"	/>
+				<Entry varId="QXPMult"				value="1.1"	/>
+			</Preset>
+		</PresetsArray>
+        <VisibleVars>
+		
+			<Var id="QXPScaling" 		 displayName="Quest Experience Scaling" 									displayType="TOGGLE"					tags="customNames;nonLocalized;customDisplayName" />
+			<Var id="XPScaling" 		 displayName="Fighting Experience Scaling" 									displayType="TOGGLE"					tags="customNames;nonLocalized;customDisplayName" />
+			<Var id="QXPMult" 		 	 displayName="Quest Experience Multiplier" 									displayType="SLIDER;0.1;4.0;78" 		tags="customNames;nonLocalized;customDisplayName" />
+			<Var id="XPMult" 			 displayName="Fighting XP Multiplier"										displayType="SLIDER;0;4.0;79" 		tags="customNames;nonLocalized;customDisplayName" />
+
+		</VisibleVars>
+    </Group>
+	
+    <Group id="SCOptionH" displayName="Mods.The White Wolf Adventure.Health Modifiers">
+		<PresetsArray>
+			<Preset id="0" displayName="WWA" tags="customNames;nonLocalized;customDisplayName">
+				<Entry varId="HumanHP"				value="1.0"	/>
+				<Entry varId="MonsterHP"			value="1.0"	/>
+				<Entry varId="GMonsterHP"			value="1.0"	/>
+				<Entry varId="CMonsterHP"			value="1.0"	/>
+				<Entry varId="BossHP"				value="1.0"	/>
+			</Preset>
+		</PresetsArray>
+        <VisibleVars>
+		
+			<Var id="HumanHP" 			 displayName="Health Multiplier - Human"									displayType="SLIDER;0.1;4.0;78" 		tags="customNames;nonLocalized;customDisplayName" />
+			<Var id="MonsterHP" 		 displayName="Health Multiplier - Monsters"									displayType="SLIDER;0.1;4.0;78" 		tags="customNames;nonLocalized;customDisplayName" />
+			<Var id="GMonsterHP" 		 displayName="Health Multiplier - Group Monsters"							displayType="SLIDER;0.1;4.0;78" 		tags="customNames;nonLocalized;customDisplayName" />
+			<Var id="CMonsterHP" 		 displayName="Health Multiplier - Contract Beasts"							displayType="SLIDER;0.1;4.0;78" 		tags="customNames;nonLocalized;customDisplayName" />
+			<Var id="BossHP" 		 	 displayName="Health Multiplier - Bosses"									displayType="SLIDER;0.1;4.0;78" 		tags="customNames;nonLocalized;customDisplayName" />
+
+		</VisibleVars>
+    </Group>
+
+    <Group id="SCOptionD" displayName="Mods.The White Wolf Adventure.Damage Modifiers">
+		<PresetsArray>
+			<Preset id="0" displayName="WWA" tags="customNames;nonLocalized;customDisplayName">
+				<Entry varId="PDam"					value="1"	/>
+				<Entry varId="HumDam"				value="1"	/>
+				<Entry varId="MonDam"				value="1"	/>
+				<Entry varId="CMonDam"				value="1"	/>
+				<Entry varId="BDam"					value="1"	/>
+				<Entry varId="PDOT"					value="1"	/>
+				<Entry varId="EDOT"					value="1"	/>
+			</Preset>
+		</PresetsArray>
+        <VisibleVars>
+		
+			<Var id="PDam" 			 	 displayName="Damage Multiplier - Player"									displayType="SLIDER;0.1;4.0;78" 		tags="customNames;nonLocalized;customDisplayName" />
+			<Var id="HumDam" 		 	 displayName="Damage Multiplier - Humans"									displayType="SLIDER;0.1;4.0;78" 		tags="customNames;nonLocalized;customDisplayName" />
+			<Var id="MonDam" 		 	 displayName="Damage Multiplier - Monsters"									displayType="SLIDER;0.1;4.0;78" 		tags="customNames;nonLocalized;customDisplayName" />
+			<Var id="CMonDam" 		 	 displayName="Damage Multiplier - Contract Beasts"							displayType="SLIDER;0.1;4.0;78" 		tags="customNames;nonLocalized;customDisplayName" />
+			<Var id="BDam" 		 	 	 displayName="Damage Multiplier - Bosses"									displayType="SLIDER;0.1;4.0;78" 		tags="customNames;nonLocalized;customDisplayName" />
+			<Var id="PDOT" 		 	 	 displayName="Damage Multiplier - Player DoT"								displayType="SLIDER;0.1;4.0;78" 		tags="customNames;nonLocalized;customDisplayName" />
+			<Var id="EDOT" 		 	 	 displayName="Damage Multiplier - Enemy DoT"								displayType="SLIDER;0.1;4.0;78" 		tags="customNames;nonLocalized;customDisplayName" />
+		   
+		</VisibleVars>
+    </Group>
+</UserConfig>

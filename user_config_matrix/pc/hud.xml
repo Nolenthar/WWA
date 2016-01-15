@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<UserConfig>
+	<Group id="Hud" displayName="video.hudelements">
+		<VisibleVars>
+            <Var id="HudVisibility" displayName="hudvisibility" displayType="TOGGLE"/>
+			<Var id="HudSize" displayName="hudsize" displayType="OPTIONS">
+				<OptionsArray>
+					<Option id="0" displayName="small">
+						<Entry varId="HudSize" value="0"/>
+					</Option>
+					<Option id="1" displayName="big">
+						<Entry varId="HudSize" value="1"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+            <Var id="ConsoleModule" displayName="ConsoleLog" displayType="TOGGLE"/>
+            <Var id="Minimap2Module" displayName="Minimap" displayType="TOGGLE"/>
+            <Var id="MinimapRotation" displayName="MinimapRotation" displayType="TOGGLE"/>
+            <Var id="MinimapFocusClues" displayName="MinimapFocusClues" displayType="TOGGLE"/>
+			<Var id="MinimapTracksWaypoints" displayName="MinimapHintWaypoints" displayType="TOGGLE"/>
+			<Var id="MiminapPoiQuestionMarks" displayName="MiminapPoiQuestionMarks" displayType="TOGGLE"/>
+            <Var id="OnelinersModule" displayName="NPCChatter" displayType="TOGGLE"/>
+            <Var id="QuestsModule" displayName="ActiveQuests" displayType="TOGGLE"/>
+            <Var id="WolfMedalion" displayName="WolfMedalion" displayType="TOGGLE"/>
+            <Var id="BuffsModule" displayName="CurrentBuffs" displayType="TOGGLE"/>
+            <Var id="OxygenBarModule" displayName="OxygenBar" displayType="TOGGLE"/>
+            <Var id="MessageModule" displayName="InfoMessages" displayType="TOGGLE"/>
+            <Var id="ControlsFeedbackModule" displayName="ControlHints" displayType="TOGGLE"/>
+            <Var id="DamagedItemsModule" displayName="DamagedItems" displayType="TOGGLE"/>
+            <Var id="ItemInfoModule" displayName="AdditionalEquipment" displayType="TOGGLE"/>
+            <Var id="TimeLapseModule" displayName="TimeZone" displayType="TOGGLE"/>
+            <Var id="BossFocusModule" displayName="BossHealth" displayType="TOGGLE"/>
+            <Var id="EnemyFocusModule" displayName="EnemyHealthBar" displayType="TOGGLE"/>
+            <Var id="EnemyHitEffects" displayName="critical_hit_texts" displayType="TOGGLE"/>
+            <Var id="NPCNames" displayName="npc_names" displayType="TOGGLE"/>
+            <Var id="BoatHealthModule" displayName="BoatHealth" displayType="TOGGLE"/>
+            <Var id="CompanionModule" displayName="CompanionPortrait" displayType="TOGGLE"/>
+			<Var id="HorsePanicBarModule" displayName="HorseMorale" displayType="TOGGLE"/>
+			<Var id="HorseStaminaBarModule" displayName="HorseStamina" displayType="TOGGLE"/>
+			<!--<Var id="JournalUpdateModule" displayName="UpdateSection" displayType="TOGGLE"/>-->
+		</VisibleVars>
+	</Group>
+</UserConfig>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<UserConfig>
+	<Group id="Gameplay" displayName="gameplay">
+		<VisibleVars>
+			<Var id="HudTutorialEnabled" displayName="HudTutorialEnabled" displayType="TOGGLE"/>
+			<Var id="AutomaticFinishersEnabled" displayName="AutoFinishersEnabled" displayType="TOGGLE"/>
+            <Var id="ColorblindFocusMode" displayName="witcher_senses_colorblind" displayType="TOGGLE" visibilityCondition="mainMenu"/>
+            <Var id="EnableUberMovement" displayName="menu_movement_response" displayType="OPTIONS" tags="customNames;customDisplayName">
+				<OptionsArray>
+					<Option id="0" displayName="menu_movement_standard">
+						<Entry varId="EnableUberMovement" value="0"/>
+					</Option>
+					<Option id="1" displayName="menu_movement_alternative">
+						<Entry varId="EnableUberMovement" value="1"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+            <Var id="AutosaveTimeInterval" displayName="AutosaveTimeInterval" displayType="SLIDER;3;15;12"/>
+		</VisibleVars>
+	</Group>
+    <Group id="Controls" displayName="option_controllerhelp">
+        <VisibleVars>
+			<Var overrideGroup="Input" id="UIMouseSensitivity" displayName="ui_mouse_sensitivity" displayType="SLIDER;0.1;4.0;78"/>
+            <Var overrideGroup="Input" id="MouseSensitivity" displayName="mouse_sensitivity" displayType="SLIDER;0.1;4.0;78"/>
+            <Var overrideGroup="Input" id="InvertCameraXOnMouse" displayName="camera_input_reverse_x_axis_mouse" displayType="TOGGLE"/>
+			<Var overrideGroup="Input" id="InvertCameraYOnMouse" displayName="camera_input_reverse_y_axis_mouse" displayType="TOGGLE"/>
+			<Var overrideGroup="Input" id="InvertCameraX" displayName="camera_input_reverse_x_axis_xb1" displayType="TOGGLE"/>
+			<Var overrideGroup="Input" id="InvertCameraY" displayName="camera_input_reverse_y_axis_xb1" displayType="TOGGLE"/>
+            <Var id="LeftStickSensitivity" displayName="LeftStickSensitivity" displayType="SLIDER;0.5;1;50" visibilityCondition="hideAlways"/>
+            <Var overrideGroup="Input" id="RightStickCameraSensitivity" displayName="RightStickCameraSensitivity" displayType="SLIDER;0.5;1.5;98"/>
+			<Var overrideGroup="Input" id="RightStickAimSensitivity" displayName="RightStickAimSensitivity" displayType="SLIDER;0.5;1.5;98"/>
+            <Var overrideGroup="Input" id="PadVibrationEnabled" displayName="pad_vibrations" displayType="TOGGLE"/>
+            <Var id="SwapAcceptCancel" displayName="swap_accept_cancel" displayType="TOGGLE"/>
+        </VisibleVars>
+    </Group>
+</UserConfig>

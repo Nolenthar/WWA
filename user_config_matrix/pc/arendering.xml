@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<UserConfig>
+	<Group id="RenderingUGOM" displayName="Mods.Ultimate Graphics Options.general" tags="refreshEngine;graphics;buffered">
+		<VisibleVars>
+			<Var id="FPSLimit" displayName="Framerate Limit			<u>ingame FPS = max FPS => less inputlag<u>" displayType="OPTIONS" tags="refreshViewport;customNames;customDisplayName">
+				<OptionsArray>
+					<Option id="0" displayName="Unlimited">
+						<Entry overrideGroup="Engine" varId="LimitFPS" value="0"/>
+					</Option>
+					<Option id="1" displayName="25">
+						<Entry overrideGroup="Engine" varId="LimitFPS" value="25"/>
+					</Option>
+					<Option id="2" displayName="30">
+						<Entry overrideGroup="Engine" varId="LimitFPS" value="30"/>
+					</Option>
+					<Option id="3" displayName="35">
+						<Entry overrideGroup="Engine" varId="LimitFPS" value="35"/>
+					</Option>
+					<Option id="4" displayName="40">
+						<Entry overrideGroup="Engine" varId="LimitFPS" value="40"/>
+					</Option>
+					<Option id="5" displayName="45">
+						<Entry overrideGroup="Engine" varId="LimitFPS" value="45"/>
+					</Option>
+					<Option id="6" displayName="50">
+						<Entry overrideGroup="Engine" varId="LimitFPS" value="50"/>
+					</Option>
+					<Option id="7" displayName="59">
+						<Entry overrideGroup="Engine" varId="LimitFPS" value="59"/>
+					</Option>
+					<Option id="8" displayName="60">
+						<Entry overrideGroup="Engine" varId="LimitFPS" value="60"/>
+					</Option>
+					<Option id="9" displayName="90">
+						<Entry overrideGroup="Engine" varId="LimitFPS" value="90"/>
+					</Option>
+					<Option id="10" displayName="120">
+						<Entry overrideGroup="Engine" varId="LimitFPS" value="120"/>
+					</Option>
+					<Option id="11" displayName="144">
+						<Entry overrideGroup="Engine" varId="LimitFPS" value="144"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+			<Var id="MovieFramerate" displayName="MovieFramerate" displayType="OPTIONS" tags="refreshEngine;customNames;nonLocalized;customDisplayName">
+				<OptionsArray>
+					<Option id="0" displayName="30">
+						<Entry overrideGroup="Visuals" varId="MovieFramerate" value="30"/>
+					</Option>
+					<Option id="1" displayName="60">
+						<Entry overrideGroup="Rendering" varId="MovieFramerate" value="60"/>
+					</Option>
+					<Option id="2" displayName="120">
+						<Entry overrideGroup="Rendering" varId="MovieFramerate" value="90"/>
+					</Option>
+				</OptionsArray>
+			</var>
+				<Var id="Virtual_CommunitySpawnLimit" displayName="NPC Spawn Count			<u>150 = Ultra<u>" displayType="OPTIONS" tags="refreshEngine;customNames;nonLocalized;customDisplayName">
+				<OptionsArray>
+					<Option id="0" displayName="25">
+						<Entry overrideGroup="Gameplay/EntityPool" varId="SpawnedLimit" value="25"/>
+					</Option>
+					<Option id="1" displayName="75">
+						<Entry overrideGroup="Gameplay/EntityPool" varId="SpawnedLimit" value="75"/>
+					</Option>
+					<Option id="2" displayName="100">
+						<Entry overrideGroup="Gameplay/EntityPool" varId="SpawnedLimit" value="100"/>
+					</Option>
+					<Option id="3" displayName="150">
+						<Entry overrideGroup="Gameplay/EntityPool" varId="SpawnedLimit" value="150"/>
+					</Option>
+					<Option id="4" displayName="200">
+						<Entry overrideGroup="Gameplay/EntityPool" varId="SpawnedLimit" value="200"/>
+					</Option>
+					<Option id="5" displayName="300">
+						<Entry overrideGroup="Gameplay/EntityPool" varId="SpawnedLimit" value="300"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+			<Var id="NPC_POP_TRUE_FALSE" displayName="Avoid NPC popin (experimental)" displayType="OPTIONS" tags="refreshEngine;customNames;nonLocalized;customDisplayName">
+				<OptionsArray>
+					<Option id="0" displayName="NO">
+						<Entry overrideGroup="Rendering" varId="TextureStreamingHeadsDistanceLimit" value="10"/>
+						<Entry overrideGroup="Rendering" varId="TextureStreamingReduceGameplayLOD" value="true"/>
+						<Entry overrideGroup="Rendering" varId="TextureStreamingCharacterDistanceLimit" value="50"/>
+					</Option>
+					<Option id="1" displayName="YES">
+						<Entry overrideGroup="Rendering" varId="TextureStreamingHeadsDistanceLimit" value="160"/>
+						<Entry overrideGroup="Rendering" varId="TextureStreamingReduceGameplayLOD" value="false"/>
+						<Entry overrideGroup="Rendering" varId="TextureStreamingCharacterDistanceLimit" value="320"/>
+					</Option>
+				</OptionsArray>
+			</var>
+		</VisibleVars>
+	</Group>
+</UserConfig>

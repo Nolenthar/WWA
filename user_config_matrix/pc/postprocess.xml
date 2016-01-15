@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<UserConfig>
+	<Group id="PostProcess" displayName="video.postprocess" tags="graphics">
+		<PresetsArray>
+			<Preset id="0" displayName="low">
+				<Entry varId="AllowBloom" 		 value="true"/>
+				<Entry varId="AllowShafts" 	 	 value="false"/>
+				<Entry varId="AllowAntialias" 	 value="false"/>
+				<Entry varId="AllowBlur" 		 value="false"/>
+				<Entry varId="AllowDOF" 		 value="false"/>
+				<Entry varId="AllowVignette" 	 value="true"/>
+				<Entry varId="Virtual_SharpenAmount" value="0"/>
+				<Entry varId="Virtual_SSAOSolution" value="0"/>
+				<Entry varId="AllowMotionBlur"   value="false"/>
+				<Entry varId="AllowChromaticAberration"  value="false"/>
+			</Preset>
+			<Preset id="1" displayName="medium">
+				<Entry varId="AllowBloom" 		 value="true"/>
+				<Entry varId="AllowShafts" 	 	 value="false"/>
+				<Entry varId="AllowAntialias" 	 value="true"/>
+				<Entry varId="AllowBlur" 		 value="true"/>
+				<Entry varId="AllowDOF" 		 value="false"/>
+				<Entry varId="AllowVignette" 	 value="true"/>
+				<Entry varId="Virtual_SharpenAmount" value="1"/>
+				<Entry varId="Virtual_SSAOSolution" value="1"/>
+				<Entry varId="AllowMotionBlur"   value="true"/>
+				<Entry varId="AllowChromaticAberration"  value="false"/>
+			</Preset>
+			<Preset id="2" displayName="high">
+				<Entry varId="AllowBloom" 		 value="true"/>
+				<Entry varId="AllowShafts" 	 	 value="true"/>
+				<Entry varId="AllowAntialias" 	 value="true"/>
+				<Entry varId="AllowBlur" 		 value="true"/>
+				<Entry varId="AllowDOF" 		 value="true"/>
+				<Entry varId="AllowVignette" 	 value="true"/>
+				<Entry varId="Virtual_SharpenAmount" value="2"/>
+				<Entry varId="Virtual_SSAOSolution" value="1"/>
+				<Entry varId="AllowMotionBlur"   value="true"/>
+				<Entry varId="AllowChromaticAberration"  value="true"/>
+			</Preset>
+		</PresetsArray>
+		<VisibleVars>
+            <Var id="AllowMotionBlur" 	 displayName="allow_motion_blur" 	displayType="TOGGLE"/>
+            <Var id="AllowBlur" 		 displayName="allow_blur" 			displayType="TOGGLE"/>
+            <Var id="AllowAntialias" 	 displayName="allow_Antialias" 		displayType="TOGGLE"/>
+			<Var id="AllowBloom" 		 displayName="allow_bloom" 			displayType="TOGGLE"/>
+            <Var id="Virtual_SharpenAmount" 	 displayName="allow_sharpen" 	displayType="OPTIONS" tags="customNames">
+				<OptionsArray>
+					<Option id="0" displayName="panel_mainmenu_option_value_off">
+						<Entry varId="SharpenAmount" value="0"/>
+					</Option>
+					<Option id="1" displayName="preset_value_low">
+						<Entry varId="SharpenAmount" value="1"/>
+					</Option>
+					<Option id="2" displayName="preset_value_high">
+						<Entry varId="SharpenAmount" value="2"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+            <Var id="Virtual_SSAOSolution" 		 displayName="ssao_solution" 		displayType="OPTIONS">
+				<OptionsArray>
+					<Option id="0" displayName="AONone">
+						<Entry varId="SSAOSolution" value="0"/>
+					</Option>
+					<Option id="1" displayName="SSAO">
+						<Entry varId="SSAOSolution" value="1"/>
+					</Option>
+					<Option id="2" displayName="HBAO">
+						<Entry varId="SSAOSolution" value="2"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+            <Var id="AllowDOF" 		 	 displayName="allow_dof" 			displayType="TOGGLE"/>
+            <Var id="AllowChromaticAberration" 	 displayName="allow_chromatic_aberration" 		displayType="TOGGLE"/>
+			<Var id="AllowVignette" 	 displayName="allow_vignette" 		displayType="TOGGLE"/>
+			<Var id="AllowShafts" 		 displayName="allow_shafts" 		displayType="TOGGLE"/>
+		</VisibleVars>
+	</Group>
+</UserConfig>

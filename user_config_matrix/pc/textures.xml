@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<UserConfig>
+	<Group id="textures" displayName="Mods.Ultimate Graphics Options.textures" tags="refreshEngine;graphics;buffered">
+		<PresetsArray>
+			<Preset id="0" displayName="" tags="customNames;nonLocalized;customDisplayName">			
+			</Preset>
+			<Preset id="1" displayName="" tags="customNames;nonLocalized;customDisplayName">			
+			</Preset>
+			<Preset id="1" displayName="" tags="customNames;nonLocalized;customDisplayName">			
+			</Preset>
+			<Preset id="1" displayName="Textures" tags="customNames;nonLocalized;customDisplayName">				
+			</Preset>
+		</PresetsArray>
+		<VisibleVars>
+			<Var id="MaxTextureSize" displayName="MaxTextureSize					<u>global max Texture resolution<u>" displayType="OPTIONS" tags="refreshEngine;customNames;nonLocalized;customDisplayName">
+				<OptionsArray>
+					<Option id="0" displayName="32">
+						<Entry overrideGroup="Rendering" varId="MaxTextureSize" 			value="32"/>
+					</Option>
+					<Option id="1" displayName="64">
+						<Entry overrideGroup="Rendering" varId="MaxTextureSize" 			value="64"/>
+					</Option>
+					<Option id="2" displayName="128">
+						<Entry overrideGroup="Rendering" varId="MaxTextureSize" 			value="128"/>
+					</Option>
+					<Option id="3" displayName="256">
+						<Entry overrideGroup="Rendering" varId="MaxTextureSize" 			value="256"/>
+					</Option>
+					<Option id="4" displayName="512">
+						<Entry overrideGroup="Rendering" varId="MaxTextureSize" 			value="512"/>
+					</Option>
+					<Option id="5" displayName="1024">
+						<Entry overrideGroup="Rendering" varId="MaxTextureSize" 			value="1024"/>
+					</Option>
+					<Option id="6" displayName="2048">
+						<Entry overrideGroup="Rendering" varId="MaxTextureSize" 			value="2048"/>
+					</Option>
+					<Option id="7" displayName="4096">
+						<Entry overrideGroup="Rendering" varId="MaxTextureSize" 			value="4096"/>
+					</Option>
+					<Option id="8" displayName="8192">
+						<Entry overrideGroup="Rendering" varId="MaxTextureSize" 			value="8192"/>
+					</Option>
+					<Option id="9" displayName="16384">
+						<Entry overrideGroup="Rendering" varId="MaxTextureSize" 			value="16384"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+			<Var id="TextureDownscale" displayName="TextureDownscale					<u>value low = quality<u>" displayType="OPTIONS" tags="refreshEngine;customNames;nonLocalized;customDisplayName">
+				<OptionsArray>
+					<Option id="0" displayName="16">
+						<Entry overrideGroup="Rendering" varId="TextureDownscale" 			value="16"/>
+					</Option>
+					<Option id="1" displayName="8">
+						<Entry overrideGroup="Rendering" varId="TextureDownscale" 			value="8"/>
+					</Option>
+					<Option id="2" displayName="4">
+						<Entry overrideGroup="Rendering" varId="TextureDownscale" 			value="4"/>
+					</Option>
+					<Option id="3" displayName="3">
+						<Entry overrideGroup="Rendering" varId="TextureDownscale" 			value="3"/>
+					</Option>
+					<Option id="4" displayName="2">
+						<Entry overrideGroup="Rendering" varId="TextureDownscale" 			value="2"/>
+					</Option>
+					<Option id="5" displayName="1">
+						<Entry overrideGroup="Rendering" varId="TextureDownscale" 			value="1"/>
+					</Option>
+					<Option id="6" displayName="0">
+						<Entry overrideGroup="Rendering" varId="TextureDownscale" 			value="0"/>
+					</Option>
+				</OptionsArray>
+			</Var>		
+			<Var id="DetailTextureDownscale" displayName="DetailTextureDownscale" displayType="OPTIONS" tags="refreshEngine;customNames;nonLocalized;customDisplayName">
+				<OptionsArray>
+					<Option id="0" displayName="4">
+						<Entry overrideGroup="Rendering" varId="DetailTextureDownscale" 			value="4"/>
+					</Option>
+					<Option id="1" displayName="3">
+						<Entry overrideGroup="Rendering" varId="DetailTextureDownscale" 			value="3"/>
+					</Option>
+					<Option id="2" displayName="2">
+						<Entry overrideGroup="Rendering" varId="DetailTextureDownscale" 			value="2"/>
+					</Option>
+					<Option id="3" displayName="1">
+						<Entry overrideGroup="Rendering" varId="DetailTextureDownscale" 			value="1"/>
+					</Option>
+					<Option id="4" displayName="0">
+						<Entry overrideGroup="Rendering" varId="DetailTextureDownscale" 			value="0"/>
+					</Option>
+				</OptionsArray>
+			</Var>	
+			<Var id="AtlasTextureDownscale" displayName="AtlasTextureDownscale" displayType="OPTIONS" tags="refreshEngine;customNames;nonLocalized;customDisplayName">
+				<OptionsArray>
+					<Option id="0" displayName="4">
+						<Entry overrideGroup="Rendering" varId="AtlasTextureDownscale" 			value="4"/>
+					</Option>
+					<Option id="1" displayName="3">
+						<Entry overrideGroup="Rendering" varId="AtlasTextureDownscale" 			value="3"/>
+					</Option>
+					<Option id="2" displayName="2">
+						<Entry overrideGroup="Rendering" varId="AtlasTextureDownscale" 			value="2"/>
+					</Option>
+					<Option id="3" displayName="1">
+						<Entry overrideGroup="Rendering" varId="AtlasTextureDownscale" 			value="1"/>
+					</Option>
+					<Option id="4" displayName="0">
+						<Entry overrideGroup="Rendering" varId="AtlasTextureDownscale" 			value="0"/>
+					</Option>
+				</OptionsArray>
+			</Var>				
+			<Var id="MaxTextureAnizotropy" displayName="MaxTextureAnizotropy				<u>linear distance texture quality<u>" displayType="OPTIONS" tags="refreshEngine;customNames;nonLocalized;customDisplayName">
+				<OptionsArray>
+					<Option id="0" displayName="1">
+						<Entry overrideGroup="Rendering" varId="MaxTextureAnizotropy" 			value="1"/>
+					</Option>
+					<Option id="1" displayName="4">
+						<Entry overrideGroup="Rendering" varId="MaxTextureAnizotropy" 			value="4"/>
+					</Option>
+					<Option id="2" displayName="8">
+						<Entry overrideGroup="Rendering" varId="MaxTextureAnizotropy" 			value="8"/>
+					</Option>
+					<Option id="3" displayName="16">
+						<Entry overrideGroup="Rendering" varId="MaxTextureAnizotropy" 			value="16"/>
+					</Option>
+				</OptionsArray>
+			</Var>			
+			<Var overrideGroup="Streaming/Textures" id="UseMipRefiner" 	 displayName="UseMipRefiner					<u>sharp textures OFF/ON<u>" 	displayType="TOGGLE" tags="refreshEngine;customNames;nonLocalized;customDisplayName"/>
+			<Var id="CinematicModeMipBias" displayName="CinematicModeMipBias				<u>char texture sharpness<u>" displayType="OPTIONS" tags="refreshEngine;customNames;nonLocalized;customDisplayName">
+				<OptionsArray>
+					<Option id="0" displayName="4">
+						<Entry overrideGroup="Streaming/Textures" varId="CinematicModeMipBias" 			value="4"/>
+					</Option>
+					<Option id="1" displayName="3">
+						<Entry overrideGroup="Streaming/Textures" varId="CinematicModeMipBias" 			value="3"/>
+					</Option>
+					<Option id="2" displayName="2">
+						<Entry overrideGroup="Streaming/Textures" varId="CinematicModeMipBias" 			value="2"/>
+					</Option>
+					<Option id="3" displayName="1">
+						<Entry overrideGroup="Streaming/Textures" varId="CinematicModeMipBias" 			value="1"/>
+					</Option>
+					<Option id="4" displayName="0">
+						<Entry overrideGroup="Streaming/Textures" varId="CinematicModeMipBias" 			value="0"/>
+					</Option>
+					<Option id="5" displayName="-0.3">
+						<Entry overrideGroup="Streaming/Textures" varId="CinematicModeMipBias" 			value="-0.3"/>
+					</Option>
+				</OptionsArray>
+			</Var>					
+			<Var id="TextureMipBias" displayName="TextureMipBias					<u>Texture sharpness, Ultra = -1<u>" displayType="OPTIONS" tags="refreshEngine;customNames;nonLocalized;customDisplayName">
+				<OptionsArray>
+					<Option id="0" displayName="8">
+						<Entry overrideGroup="Rendering" varId="TextureMipBias" 			value="8"/>
+					</Option>
+					<Option id="1" displayName="4">
+						<Entry overrideGroup="Rendering" varId="TextureMipBias" 			value="4"/>
+					</Option>
+					<Option id="2" displayName="2">
+						<Entry overrideGroup="Rendering" varId="TextureMipBias" 			value="2"/>
+					</Option>
+					<Option id="3" displayName="0">
+						<Entry overrideGroup="Rendering" varId="TextureMipBias" 			value="0"/>
+					</Option>
+					<Option id="4" displayName="-0.3">
+						<Entry overrideGroup="Rendering" varId="TextureMipBias" 			value="-0.3"/>
+					</Option>
+					<Option id="5" displayName="-0.5">
+						<Entry overrideGroup="Rendering" varId="TextureMipBias" 			value="-0.5"/>
+					</Option>
+					<Option id="6" displayName="-0.7">
+						<Entry overrideGroup="Rendering" varId="TextureMipBias" 			value="-0.7"/>
+					</Option>
+					<Option id="7" displayName="-0.8">
+						<Entry overrideGroup="Rendering" varId="TextureMipBias" 			value="-0.8"/>
+					</Option>
+					<Option id="8" displayName="-1">
+						<Entry overrideGroup="Rendering" varId="TextureMipBias" 			value="-1"/>
+					</Option>
+					<Option id="9" displayName="-1.5">
+						<Entry overrideGroup="Rendering" varId="TextureMipBias" 			value="-1.5"/>
+					</Option>
+					<Option id="10" displayName="-2">
+						<Entry overrideGroup="Rendering" varId="TextureMipBias" 			value="-2"/>
+					</Option>
+					<Option id="11" displayName="-4">
+						<Entry overrideGroup="Rendering" varId="TextureMipBias" 			value="-4"/>
+					</Option>
+					<Option id="12" displayName="-8">
+						<Entry overrideGroup="Rendering" varId="TextureMipBias" 			value="-8"/>
+					</Option>
+				</OptionsArray>
+			</Var>					
+						<Var id="ScaleformTextureUnstreamDelay" displayName="ScaleformTextureUnstreamDelay" displayType="OPTIONS" tags="refreshEngine;customNames;nonLocalized;customDisplayName">
+				<OptionsArray>
+					<Option id="0" displayName="0">
+						<Entry overrideGroup="Rendering" varId="ScaleformTextureUnstreamDelay" 			value="0"/>
+					</Option>
+					<Option id="1" displayName="1">
+						<Entry overrideGroup="Rendering" varId="ScaleformTextureUnstreamDelay" 			value="1"/>
+					</Option>
+					<Option id="2" displayName="2">
+						<Entry overrideGroup="Rendering" varId="ScaleformTextureUnstreamDelay" 			value="2"/>
+					</Option>
+					<Option id="3" displayName="2.5 (Vanilla)">
+						<Entry overrideGroup="Rendering" varId="ScaleformTextureUnstreamDelay" 			value="2.5"/>
+					</Option>
+					<Option id="4" displayName="3">
+						<Entry overrideGroup="Rendering" varId="ScaleformTextureUnstreamDelay" 			value="3"/>
+					</Option>
+					<Option id="5" displayName="4">
+						<Entry overrideGroup="Rendering" varId="ScaleformTextureUnstreamDelay" 			value="4"/>
+					</Option>
+					<Option id="6" displayName="6">
+						<Entry overrideGroup="Rendering" varId="ScaleformTextureUnstreamDelay" 			value="6"/>
+					</Option>
+					<Option id="7" displayName="10">
+						<Entry overrideGroup="Rendering" varId="ScaleformTextureUnstreamDelay" 			value="10"/>
+					</Option>
+					<Option id="8" displayName="20">
+						<Entry overrideGroup="Rendering" varId="ScaleformTextureUnstreamDelay" 			value="20"/>
+					</Option>
+					<Option id="9" displayName="40">
+						<Entry overrideGroup="Rendering" varId="ScaleformTextureUnstreamDelay" 			value="40"/>
+					</Option>
+				</OptionsArray>
+			</Var>			
+			ScaleformTextureUnstreamDelay=2.5
+			<Var id="UberSampling" displayName="Uber Sampling" displayType="OPTIONS" tags="refreshEngine;customNames;nonLocalized;customDisplayName">
+				<OptionsArray>
+					<Option id="0" displayName="0">
+						<Entry overrideGroup="Rendering"	varId="UberSampling" 	value="0"/>
+					</Option>	
+					<Option id="1" displayName="1">
+						<Entry overrideGroup="Rendering"	varId="UberSampling" 	value="1"/>
+					</Option>						
+				</OptionsArray>
+			</Var>	
+		</VisibleVars>
+	</Group>
+</UserConfig>
+

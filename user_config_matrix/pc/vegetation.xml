@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<UserConfig>
+	<Group id="Vegetation" displayName="Mods.Ultimate Graphics Options.vegetation" tags="refreshEngine;graphics;buffered">
+	<PresetsArray>
+			<Preset id="0" displayName="" tags="customNames;nonLocalized;customDisplayName">			
+			</Preset>
+			<Preset id="1" displayName="" tags="customNames;nonLocalized;customDisplayName">			
+			</Preset>
+			<Preset id="1" displayName="" tags="customNames;nonLocalized;customDisplayName">			
+			</Preset>
+			<Preset id="1" displayName="Vegetation" tags="customNames;nonLocalized;customDisplayName">				
+			</Preset>
+		</PresetsArray>
+		<VisibleVars>
+		<Var id="Grass text" displayName="<u>						GRASS							<u>" displayType="OPTIONS" tags="refreshEngine;customNames;nonLocalized;customDisplayName">
+				<OptionsArray>
+					<Option id="0" displayName="">
+						<Entry varId="" 	value=""/>
+					</Option>
+					<Option id="0" displayName="">
+						<Entry varId="" 	value=""/>
+					</Option>
+				</OptionsArray>
+			</Var>
+			<Var overrideGroup="Rendering" id="GrassDensity" displayName="GrassDensity				<u>must be combined with grassringsize!<u>" displayType="SLIDER;100;8000;79" tags="refreshEngine;customNames;nonLocalized;customDisplayName"/>
+			<Var id="GrassDist" displayName="Grass distance				<u>grass spawning infront meters*100?</u>" displayType="OPTIONS" tags="refreshEngine;customNames;nonLocalized;customDisplayName">
+				<OptionsArray>
+					<Option id="0" displayName="0.1">
+						<Entry overrideGroup="Rendering/SpeedTree" varId="GrassDistanceScale" value="0.1"/>
+					</Option>
+					<Option id="1" displayName="0.5">
+						<Entry overrideGroup="Rendering/SpeedTree" varId="GrassDistanceScale" value="0.5"/>
+					</Option>
+					<Option id="2" displayName="0.8">
+						<Entry overrideGroup="Rendering/SpeedTree" varId="GrassDistanceScale" 	value="0.8"/>
+					</Option>
+					<Option id="3" displayName="1">
+						<Entry overrideGroup="Rendering/SpeedTree" varId="GrassDistanceScale" 	value="1.0"/>
+					</Option>
+					<Option id="4" displayName="1.5">
+						<Entry overrideGroup="Rendering/SpeedTree" varId="GrassDistanceScale" 	value="1.5"/>
+					</Option>
+					<Option id="5" displayName="3!">
+						<Entry overrideGroup="Rendering/SpeedTree" varId="GrassDistanceScale" 	value="3.0"/>
+					</Option>
+					<Option id="6" displayName="4">
+						<Entry overrideGroup="Rendering/SpeedTree" varId="GrassDistanceScale" 	value="4.0"/>
+					</Option>
+					<Option id="7" displayName="5">
+						<Entry overrideGroup="Rendering/SpeedTree" varId="GrassDistanceScale" 	value="5.0"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+				<Var id="Grasseff" displayName="Grass efficiency" displayType="OPTIONS" tags="refreshEngine;customNames;nonLocalized;customDisplayName">
+				<OptionsArray>
+					<Option id="0" displayName="0.5">
+						<Entry overrideGroup="Rendering/SpeedTree" varId="GrassGenerationEfficiency" 	value="0.5"/>
+					</Option>
+					<Option id="1" displayName="0.075">
+						<Entry overrideGroup="Rendering/SpeedTree" varId="GrassGenerationEfficiency" 	value="0.075"/>
+					</Option>
+					<Option id="2" displayName="0.001">
+						<Entry overrideGroup="Rendering/SpeedTree" varId="GrassGenerationEfficiency" 	value="0.001"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+				<Var id="GrasRing" displayName="grass Ringsize				<u>distance of dense grass spawning</u>" displayType="OPTIONS" tags="refreshEngine;customNames;nonLocalized;customDisplayName">
+				<OptionsArray>
+					<Option id="0" displayName="2097152">
+						<Entry overrideGroup="Rendering/SpeedTree" varId="GrassRingSize" 	value="131072"/>
+					</Option>
+					<Option id="1" displayName="2097152">
+						<Entry overrideGroup="Rendering/SpeedTree" varId="GrassRingSize" 	value="262144"/>
+					</Option>
+					<Option id="2" displayName="2097152">
+						<Entry overrideGroup="Rendering/SpeedTree" varId="GrassRingSize" 	value="524288"/>
+					</Option>
+					<Option id="3" displayName="2097152">
+						<Entry overrideGroup="Rendering/SpeedTree" varId="GrassRingSize" 	value="1048576"/>
+					</Option>
+					<Option id="4" displayName="2097152">
+						<Entry overrideGroup="Rendering/SpeedTree" varId="GrassRingSize" 	value="2097152"/>
+					</Option>
+					<Option id="5" displayName="4194304">
+						<Entry overrideGroup="Rendering/SpeedTree" varId="GrassRingSize" 	value="4194304"/>
+					</Option>
+					<Option id="6" displayName="8388608">
+						<Entry overrideGroup="Rendering/SpeedTree" varId="GrassRingSize" 	value="8388608"/>
+					</Option>
+					<Option id="7" displayName="16777216">
+						<Entry overrideGroup="Rendering/SpeedTree" varId="GrassRingSize" 	value="16777216"/>
+					</Option>
+					<Option id="8" displayName="33554432">
+						<Entry overrideGroup="Rendering/SpeedTree" varId="GrassRingSize" 	value="33554432"/>
+					</Option>
+					<Option id="9" displayName="67108864">
+						<Entry overrideGroup="Rendering/SpeedTree" varId="GrassRingSize" 	value="67108864"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+			<Var id="Trees text" displayName="<u>						TREES & BUSHES							<u>" displayType="OPTIONS" tags="refreshEngine;customNames;nonLocalized;customDisplayName">
+				<OptionsArray>
+					<Option id="0" displayName="">
+						<Entry varId="" 	value=""/>
+					</Option>
+					<Option id="0" displayName="">
+						<Entry varId="" 	value=""/>
+					</Option>
+				</OptionsArray>
+			</Var>
+			<Var id="FoliageDepth" displayName="MaxVisibilityDepth				<u>render distance of (lowpoly) trees" displayType="OPTIONS" tags="refreshEngine;customNames;nonLocalized;customDisplayName">
+				<OptionsArray>
+					<Option id="0" displayName="0.1">
+						<Entry overrideGroup="Foliage" varId="MaxVisibilityDepth" value="0.1"/>
+					</Option>
+					<Option id="1" displayName="2">
+						<Entry overrideGroup="Foliage" varId="MaxVisibilityDepth" value="2"/>
+					</Option>
+					<Option id="2" displayName="4">
+						<Entry overrideGroup="Foliage" varId="MaxVisibilityDepth" value="4"/>
+					</Option>
+					<Option id="3" displayName="8">
+						<Entry overrideGroup="Foliage" varId="MaxVisibilityDepth" value="8"/>
+					</Option>
+					<Option id="4" displayName="12">
+						<Entry overrideGroup="Foliage" varId="MaxVisibilityDepth" value="12"/>
+					</Option>
+					<Option id="5" displayName="24">
+						<Entry overrideGroup="Foliage" varId="MaxVisibilityDepth" value="24"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+			<Var overrideGroup="Rendering/SpeedTree" id="FoliageDistanceScale" displayName="FoliageDistanceScale			<u>render distance of high poly trees<u>" displayType="SLIDER;0.2;5.0;24" tags="refreshEngine;customNames;nonLocalized;customDisplayName"/>
+			<Var overrideGroup="Rendering/SpeedTree" id="FoliageShadowDistanceScale" displayName="FoliageShadowDistanceScale		<u>shadow distance of trees<u>" displayType="SLIDER;1;64.0;63" tags="refreshEngine;customNames;nonLocalized;customDisplayName"/>
+		</VisibleVars>
+	</Group>	
+</UserConfig>
+
+cvMaxAllowedSpeedTree=5000
